@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/QuestDefinition.xsd">
-  
-  
-  <QuestDefinition Name="SophonsQuest-Chapter00" Category="MajorQuest" SubCategory="Sophons">      
+
+
+  <QuestDefinition Name="SophonsQuest-Chapter00" Category="MajorQuest" SubCategory="Sophons">
 
         <!--============ TAGS ============-->
-        
-        <Tags>BeginTurn,Hidden</Tags>        
+
+        <Tags>BeginTurn,Hidden</Tags>
 
         <!--============ CONTEXT ============-->
 
@@ -22,7 +22,7 @@
             <Var VarName="$CurrentEmpire">
         <From Source="$Empire"/>
       </Var>
-           
+
             <Var VarName="$HomeSystem">
         <From Source="$CurrentEmpire.$StartingNode"/>
       </Var>
@@ -53,7 +53,7 @@
                 <Input_System VarName="$HomeSystem"/>
                 <Input_Amount VarName="$Amount"/>
                 <Input_PopulationAffinity VarName="$PopulationAffinity"/>
-              </Action_SpawnPopulation>  
+              </Action_SpawnPopulation>
                             <Action_SpawnPopulation>
                 <Input_Empire VarName="$CurrentEmpire"/>
                 <Input_System VarName="$HomeSystem"/>
@@ -79,7 +79,7 @@
       </Step>
     </Steps>
   </QuestDefinition>
-  
+
   <QuestDefinition Name="SophonsQuest-Chapter01" Category="MajorQuest" SubCategory="Sophons">
 
         <Tags>SophonsQuest-Chapter01, Hidden</Tags>
@@ -88,13 +88,13 @@
 
     <RepetitionRules NumberOfOccurrencesPerGame="0"
       NumberOfOccurrencesPerEmpire="1"
-      NumberOfConcurrentInstances="0"/> 
+      NumberOfConcurrentInstances="0"/>
 
         <Vars>
             <Var VarName="$CurrentEmpire">
         <From Source="$Empire"/>
       </Var>
-           
+
             <Var VarName="$HomeSystem">
         <From Source="$CurrentEmpire.$StartingNode"/>
       </Var>
@@ -130,17 +130,17 @@
                             <Action_Colonize>
                 <Input_Empire VarName="$CurrentEmpire"/>
                 <Input_Planet VarName="$HomePlanet"/>
-              </Action_Colonize>  
+              </Action_Colonize>
                             <!--<Decorator_EntityCreated>
                                 <Input_GUID VarName="$NewHomeGUID"/>
                                 <Output_Entity VarName="$NewHome"/>
-                            </Decorator_EntityCreated>   -->                     
+                            </Decorator_EntityCreated>   -->
                             <Action_SpawnPopulation>
                 <Input_Empire VarName="$CurrentEmpire"/>
                 <Input_System VarName="$HomeSystem"/>
                 <Input_Amount VarName="$Amount01"/>
                 <Input_PopulationAffinity VarName="$PopulationAffinity"/>
-              </Action_SpawnPopulation>   
+              </Action_SpawnPopulation>
                             <Action_SpawnPopulation>
                 <Input_Empire VarName="$CurrentEmpire"/>
                 <Input_System VarName="$HomeSystem"/>
@@ -155,10 +155,10 @@
 
 
   </QuestDefinition>
-  
-  
-  
-  
+
+
+
+
   <!-- ####################################### -->
   <!--                SOPHONS QUEST            -->
   <!-- ####################################### -->
@@ -199,7 +199,7 @@
       <Var VarName="$OtherConstellationNodes">
         <From Source="$AnotherConstellation.$GameNodes"/>
       </Var>
-      
+
       <!--All Systems in all Constellation except mine-->
       <Var VarName="$AnotherSystems">
         <From Source="$AnotherConstellation.$StarSystems"></From>
@@ -856,7 +856,7 @@
       <Var IsGlobal="true" VarName="$Marker02"/>
       <!-- POLITICAL EFFECT  -->
       <Var VarName="$PoliticalEffectScience" StringValue="PopulationEventSophons02.3Science"/>
-      <Var VarName="$Path" StringValue="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip/ClassSectionCore/ClassModuleSupportExplorationQuestSophons"/>
+      <Var VarName="$Path" StringValue="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,QuestShipENFER"/>
     </Vars>
     <!-- ============ PREREQUISITES ============ -->
     <!-- ============ STEPS ============ -->

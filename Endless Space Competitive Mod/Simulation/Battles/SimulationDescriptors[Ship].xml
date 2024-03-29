@@ -427,7 +427,7 @@
     <BinaryModifier TargetProperty="TradeValue" Operation="Addition" Left="$(TotalStrategic5Cost)" BinaryOperation="Multiplication" Right="$(Strategic5Price)" Path="ClassShip,!ShipSizeJuggernaut"/>
     <BinaryModifier TargetProperty="TradeValue" Operation="Addition" Left="$(TotalStrategic6Cost)" BinaryOperation="Multiplication" Right="$(Strategic6Price)" Path="ClassShip,!ShipSizeJuggernaut"/>
     <BinaryModifier TargetProperty="TradeValue" Operation="Addition" Left="$(TotalStrategic6Cost)" BinaryOperation="Multiplication" Right="$(Strategic6Price)" Path="ClassShip,!ShipSizeJuggernaut"/>
-    
+
     <!--Adjust for stupid Market shenanigans -->
     <BinaryModifier TargetProperty="TradeValue" Operation="Multiplication" Left="1" BinaryOperation="Subtraction" Right="$(ShipBuyoutReduction)"  Path="ClassShip"/>
     <Modifier       TargetProperty="TradeValue" Operation="Multiplication" Value="1"                                                              Path="ClassShip,!ShipSizeJuggernaut"/>
@@ -437,7 +437,7 @@
 
     <!-- 2023 PATCH -->
     <!--<Modifier       TargetProperty="Evasion"        Operation="Multiplication"   Value="2"              Path="ClassShip" Priority="1"/>
-    Due accuracy correction algorithm evasion counts as half, this fixes it in the simplest form 
+    Due accuracy correction algorithm evasion counts as half, this fixes it in the simplest form
     Deprecated since ESG already accounts for accuracy correction elsewhere and this would double-count the bonus -->
 
   </SimulationDescriptor>
@@ -776,10 +776,12 @@
   <SimulationDescriptor Name="ClassModuleNegatesDecloaking" Type="ClassModuleNegatesDecloaking"/>
   <SimulationDescriptor Name="ModuleReducedCost" Type="ModuleReducedCost"/>
 
-
-
   <SimulationDescriptor Name="ShipRoleColonizer"      Type="ShipRole">
     <Modifier TargetProperty="ScrapPriority"        Operation="Subtraction" Value="5"     Path="ClassShip"/>
     <Modifier TargetProperty="ColonizerCount"       Operation="Addition" Value="1" Path="../ClassEmpire"/>
   </SimulationDescriptor>
+
+  <!-- Quest Ship -->
+  <SimulationDescriptor Name="QuestShipENFER"/>
+  <SimulationDescriptor Name="QuestShipCravers"/>
 </Datatable>

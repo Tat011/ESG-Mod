@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/QuestDefinition.xsd">
 
-  <QuestDefinition Name="CraverQuest-Chapter00" Category="MajorQuest" SubCategory="Craver">      
+  <QuestDefinition Name="CraverQuest-Chapter00" Category="MajorQuest" SubCategory="Craver">
 
         <!--============ TAGS ============-->
-        
-        <Tags>BeginTurn,Hidden</Tags>        
+
+        <Tags>BeginTurn,Hidden</Tags>
 
         <!--============ CONTEXT ============-->
-        
+
         <QuestContextSolo/>
 
         <!--============ OCCURRENCE RULES ============-->
@@ -21,16 +21,16 @@
             <Var VarName="$CurrentEmpire">
                 <From Source="$Empire"/>
             </Var>
-           
+
             <Var VarName="$HomeSystem">
                 <From Source="$CurrentEmpire.$StartingNode"/>
             </Var>
-            
-            <Var VarName="$DefinitionName1" StringValue="BalancedStartCraver"/>     
-            <Var VarName="$PopulationAffinity" StringValue="AffinityCravers"/> 
-            <Var VarName="$PopulationAffinity2" StringValue="AffinityHaroshems"/> 
-            <Var VarName="$Amount" IntValue="-2"/> 
-            <Var VarName="$Amount2" IntValue="-1"/> 
+
+            <Var VarName="$DefinitionName1" StringValue="BalancedStartCraver"/>
+            <Var VarName="$PopulationAffinity" StringValue="AffinityCravers"/>
+            <Var VarName="$PopulationAffinity2" StringValue="AffinityHaroshems"/>
+            <Var VarName="$Amount" IntValue="-2"/>
+            <Var VarName="$Amount2" IntValue="-1"/>
         </Vars>
 
         <!--============ PREREQUISITES ============-->
@@ -52,7 +52,7 @@
                                 <Input_System VarName="$HomeSystem"/>
                                 <Input_Amount VarName="$Amount"/>
                                 <Input_PopulationAffinity VarName="$PopulationAffinity"/>
-                            </Action_SpawnPopulation>  
+                            </Action_SpawnPopulation>
                             <Action_SpawnPopulation>
                                 <Input_Empire VarName="$CurrentEmpire"/>
                                 <Input_System VarName="$HomeSystem"/>
@@ -62,8 +62,8 @@
                             <Action_ApplyStarSystemDefinition>
                                 <Input_DefinitionName VarName="$DefinitionName1"/>
                                 <Input_StarSystemNode VarName="$HomeSystem"/>
-                            </Action_ApplyStarSystemDefinition>        
-                            <Action_ChooseOutcome Name="Outcome1"/>                 
+                            </Action_ApplyStarSystemDefinition>
+                            <Action_ChooseOutcome Name="Outcome1"/>
                         </Sequence>
                         <Outcome Name="Outcome1">
                             <Triggers Weight="1">
@@ -78,22 +78,22 @@
             </Step>
         </Steps>
     </QuestDefinition>
-  
+
   <QuestDefinition Name="CraverQuest-Chapter01" Category="MajorQuest" SubCategory="Craver">
 
-        <Tags>CraverQuest-Chapter01, Hidden</Tags> 
+        <Tags>CraverQuest-Chapter01, Hidden</Tags>
 
-        <QuestContextSolo/>  
+        <QuestContextSolo/>
 
         <RepetitionRules  NumberOfOccurrencesPerGame="0"
                             NumberOfOccurrencesPerEmpire="1"
-                            NumberOfConcurrentInstances="0"/> 
+                            NumberOfConcurrentInstances="0"/>
 
         <Vars>
             <Var VarName="$CurrentEmpire">
                 <From Source="$Empire"/>
             </Var>
-           
+
             <Var VarName="$HomeSystem">
                 <From Source="$CurrentEmpire.$StartingNode"/>
             </Var>
@@ -106,12 +106,12 @@
                         </Where>
                     </From>
                 </Any>
-            </Var> 
+            </Var>
 
-            <Var VarName="$Amount01" IntValue="2"/> 
-            <Var VarName="$Amount02" IntValue="1"/> 
-            <Var VarName="$PopulationAffinity" StringValue="AffinityCravers"/> 
-            <Var VarName="$PopulationAffinity2" StringValue="AffinityHaroshems"/> 
+            <Var VarName="$Amount01" IntValue="2"/>
+            <Var VarName="$Amount02" IntValue="1"/>
+            <Var VarName="$PopulationAffinity" StringValue="AffinityCravers"/>
+            <Var VarName="$PopulationAffinity2" StringValue="AffinityHaroshems"/>
         </Vars>
 
         <Prerequisites Target="$(Empire)">
@@ -129,33 +129,126 @@
                             <Action_Colonize>
                                 <Input_Empire VarName="$CurrentEmpire"/>
                                 <Input_Planet VarName="$HomePlanet"/>
-                            </Action_Colonize>  
+                            </Action_Colonize>
                             <!--<Decorator_EntityCreated>
                                 <Input_GUID VarName="$NewHomeGUID"/>
                                 <Output_Entity VarName="$NewHome"/>
-                            </Decorator_EntityCreated>   -->                     
+                            </Decorator_EntityCreated>   -->
                             <Action_SpawnPopulation>
                                 <Input_Empire VarName="$CurrentEmpire"/>
                                 <Input_System VarName="$HomeSystem"/>
                                 <Input_Amount VarName="$Amount01"/>
                                 <Input_PopulationAffinity VarName="$PopulationAffinity"/>
-                            </Action_SpawnPopulation>   
+                            </Action_SpawnPopulation>
                             <Action_SpawnPopulation>
                                 <Input_Empire VarName="$CurrentEmpire"/>
                                 <Input_System VarName="$HomeSystem"/>
                                 <Input_Amount VarName="$Amount02"/>
                                 <Input_PopulationAffinity VarName="$PopulationAffinity2"/>
-                            </Action_SpawnPopulation>               
+                            </Action_SpawnPopulation>
                         </Sequence>
                     </Objective>
                 </ObjectiveSet>
             </Step>
         </Steps>
 
-        
+
     </QuestDefinition>
-  
-  
+
+  <!-- ################################################ -->
+  <!--          CRAVERS QUEST - Religious Chapter1.2    -->
+  <!-- ################################################ -->
+
+  <QuestDefinition Name="CraversQuest-Chapter1.2" Category="MajorQuest" SubCategory="Cravers">
+
+    <!--============ TAGS ============-->
+    <Tags>CraversChapter1.1-Religious</Tags>
+
+    <QuestContextSolo/>
+
+
+    <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                      NumberOfOccurrencesPerEmpire="1"
+                      NumberOfConcurrentInstances="0"/>
+
+    <!--============ VARIABLES ============-->
+    <Vars>
+
+      <Var VarName="$CurrentEmpire">
+        <From Source="$Empire"/>
+      </Var>
+      <Var VarName="$AllMySystems">
+        <From Source="$CurrentEmpire.$ColonizedStarSystems.$Hangar"/>
+      </Var>
+      <Var VarName="$Expression01" StringValue="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,QuestShipCravers"/>
+      <Var VarName="$QuestFleetGUID" IsGlobal="true"/>
+      <Var VarName="$Amount" IntValue="1"/>
+      <!--POLITICAL EFFECT LAUNCHED FROM THE BEGINNING-->
+      <Var VarName="$PoliticalEffectReligious" StringValue="PopulationEventCravers01.1Religious"/>
+    </Vars>
+
+    <!--============ PREREQUISITES ============-->
+
+    <!--============ STEPS ============-->
+
+    <Steps>
+      <!--============ STEP 1 ============-->
+      <Step Name="Step1">
+        <ObjectiveSet>
+          <StartActions>
+            <Action_TriggerPopulationEvent>
+              <Input_Empire VarName="$CurrentEmpire"/>
+              <Input_Target VarName="$CurrentEmpire"/>
+              <Input_PopulationEventDefinition VarName="$PoliticalEffectReligious"/>
+            </Action_TriggerPopulationEvent>
+          </StartActions>
+          <Objective Name="Step1_Objective1">
+            <!-- Bring the renegade ship back to the home system and put it in the hangar -->
+            <AIHint Category="ReturnToBase" Motivation="1">
+              <Input_Var VarName="$QuestFleetGUID"/>
+            </AIHint>
+            <Sequence>
+              <Parallel CompletionPolicy="Any">
+                <Sequence>
+                  <Decorator_ShipDisbanded>
+                    <Input_FleetGUID VarName="$QuestFleetGUID"/>
+                  </Decorator_ShipDisbanded>
+                </Sequence>
+                <Sequence>
+                  <Decorator_ShipDisbanded>
+                    <Condition_CheckPath>
+                      <Input_SimulationObject VarName="$CurrentEmpire"/>
+                      <Input_Path VarName="$Expression01"/>
+                    </Condition_CheckPath>
+                  </Decorator_ShipDisbanded>
+                </Sequence>
+                <Sequence>
+                  <Decorator_BeginTurn>
+                    <Condition_CheckPath>
+                      <Input_SimulationObject VarName="$CurrentEmpire"/>
+                      <Input_Path VarName="$Expression01"/>
+                    </Condition_CheckPath>
+                  </Decorator_BeginTurn>
+                </Sequence>
+              </Parallel>
+              <Action_ChooseOutcome Name="Outcome1"/>
+            </Sequence>
+            <Outcome Name="Outcome1">
+              <Triggers Weight="1">
+                <QuestTrigger>
+                  <Tags>CraversChapter2-Religious</Tags>
+                  <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                </QuestTrigger>
+              </Triggers>
+            </Outcome>
+          </Objective>
+        </ObjectiveSet>
+        <Reward Droplist="DroplistCraversReward02" Picks="1"/>
+      </Step>
+    </Steps>
+  </QuestDefinition>
+
+
   <!-- #############################################-->
   <!--          CRAVERS QUEST Chapter2 - Industry   -->
   <!-- #############################################-->
@@ -334,7 +427,7 @@
       </Step>
     </Steps>
   </QuestDefinition>
-  
+
   <!--  ############################################# -->
   <!--           CRAVERS QUEST Chapter2 - Religious    -->
   <!--  ############################################# -->
@@ -505,7 +598,7 @@
   <!-- ####################################### -->
   <!--    CRAVERS QUEST Chapter3 Industry      -->
   <!-- ####################################### -->
-  
+
   <QuestDefinition Name="CraversQuest-Chapter3-Industry" Category="MajorQuest" SubCategory="Cravers" MinimumTurn="1">
 
     <!--============ TAGS ============-->
@@ -795,7 +888,7 @@
   <!-- ####################################### -->
   <!--  CRAVERS QUEST Chapter3 Religious       -->
   <!-- ####################################### -->
-  
+
   <QuestDefinition Name="CraversQuest-Chapter3-Religious" Category="MajorQuest" SubCategory="Cravers" MinimumTurn="1">
 
     <!--============ TAGS ============-->
@@ -1083,5 +1176,5 @@
       </Step>
     </Steps>
   </QuestDefinition>
-  
+
 </Datatable>
