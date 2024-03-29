@@ -383,4 +383,41 @@
   <LoadingTipGuiElement Name="LoadingTip128">
     <Title>%LoadingTip128Title</Title>
   </LoadingTipGuiElement>
+
+<!--New-->
+  <LoadingTipGuiElement Name="LoadingTip129">
+    <Title>%LoadingTip129Title</Title>
+  </LoadingTipGuiElement>
+
+  <LoadingTipGuiElement Name="LoadingTip130">
+    <Title>%LoadingTip130Title</Title>
+  </LoadingTipGuiElement>
+
+  <LoadingTipGuiElement Name="LoadingTip131">
+    <Title>%LoadingTip131Title</Title>
+  </LoadingTipGuiElement>
+  
+    <LoadingTipGuiElement Name="LoadingTip132">
+    <Title>%LoadingTip132Title</Title>
+  </LoadingTipGuiElement>
+
+  <LoadingTipGuiElement Name="LoadingTip133">
+    <Title>%LoadingTip133Title</Title>
+  </LoadingTipGuiElement>
+
+  <LoadingTipGuiElement Name="LoadingTip134">
+    <Title>%LoadingTip134Title</Title>
+  </LoadingTipGuiElement>
+
+  <LoadingTipGuiElement Name="LoadingTip135">
+    <Title>%LoadingTip135Title</Title>
+  </LoadingTipGuiElement>
+
+  <LoadingTipGuiElement Name="LoadingTip136">
+    <Title>%LoadingTip136Title</Title>
+  </LoadingTipGuiElement>
+
+  <LoadingTipGuiElement Name="LoadingTip137">
+    <Title>%LoadingTip137Title</Title>
+  </LoadingTipGuiElement>
 </Datatable>
