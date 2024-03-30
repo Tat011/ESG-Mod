@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
+<!--Constellations-->
+<!--Famous characters-->
+  <LocalizationPair Name="%CharacterConstellationName1">Olivaw</LocalizationPair> <!--R. Daneel Olivaw, Isaac Asimov character-->
+  <LocalizationPair Name="%CharacterConstellationName2">Montag</LocalizationPair> <!--Guy Montag, protagonist of Fahrenheit 451-->
+  <LocalizationPair Name="%CharacterConstellationName3">Muad'Dib</LocalizationPair> <!--Pseudonym of Paul Atreides, Dune protagonist-->
+
+<!--Famous people-->
+  <LocalizationPair Name="%PeopleConstellationName1">Heinlein</LocalizationPair> <!--Robert A. Heinlein, science fiction writer-->
+  <LocalizationPair Name="%PeopleConstellationName2">Asimov</LocalizationPair> <!--Isaac Asimov, science fiction writer-->
+  <LocalizationPair Name="%PeopleConstellationName3">Scalzi</LocalizationPair> <!--John Scalzi, science fiction writer-->
+  <LocalizationPair Name="%PeopleConstellationName4">Le'Guin</LocalizationPair> <!--Ursula K. Le Guin, speculative fiction writer-->
+  <LocalizationPair Name="%PeopleConstellationName5">McQuay</LocalizationPair> <!--Mike McQuay, science fiction writer (someone really likes their sci fi novels)-->
+  <LocalizationPair Name="%PeopleConstellationName6">Niven</LocalizationPair> <!--David Niven, did a whole bunch of stuff-->
+  <LocalizationPair Name="%PeopleConstellationName7">Clarke</LocalizationPair> <!--Pretty common sirname so idk who this is specifically-->
+  <LocalizationPair Name="%PeopleConstellationName8">Verne</LocalizationPair> <!--Jules Verne, science fiction writer-->
+  <LocalizationPair Name="%PeopleConstellationName9">Orwell</LocalizationPair> <!--Have you heard of Among Us Greggory?-->
+  <LocalizationPair Name="%PeopleConstellationName10">Vinge</LocalizationPair> <!--Vernor Vinge, science fiction writer-->
+  <LocalizationPair Name="%PeopleConstellationName11">Huxley</LocalizationPair> <!--Aldous Huxley, writer-->
+
+<!--irl constelations-->
+  <LocalizationPair Name="%ConstellationConstellationName1">Vulpecula</LocalizationPair><!--constelation-->
+  <LocalizationPair Name="%ConstellationConstellationName2">Krios</LocalizationPair><!--Zodiac constelation in greek-->
+  <LocalizationPair Name="%ConstellationConstellationName3">Didymoi</LocalizationPair><!--Zodiac constelation in greek-->
+  <LocalizationPair Name="%ConstellationConstellationName4">Karkinos</LocalizationPair><!--Zodiac constelation in greek-->
+  <LocalizationPair Name="%ConstellationConstellationName5">Parthenos</LocalizationPair><!--Zodiac constelation in greek-->
+  <LocalizationPair Name="%ConstellationConstellationName6">Zygos</LocalizationPair><!--Zodiac constelation in greek-->
+  <LocalizationPair Name="%ConstellationConstellationName7">Toxotēs</LocalizationPair><!--Zodiac constelation in greek-->
+  <LocalizationPair Name="%ConstellationConstellationName8">Aigokerōs</LocalizationPair><!--Zodiac constelation in greek-->
+  <LocalizationPair Name="%ConstellationConstellationName9">Hydrokhoos</LocalizationPair><!--Zodiac constelation in greek-->
+  <LocalizationPair Name="%ConstellationConstellationName10">Ikhthyes</LocalizationPair><!--Zodiac constelation in greek-->
+  <LocalizationPair Name="%ConstellationConstellationName11">Cassiopeia</LocalizationPair><!--Zodiac constelation in greek-->
+
+<!--US States (you asked for this)-->
+  <LocalizationPair Name="%ConstellationName93">Idaho</LocalizationPair>
+  <LocalizationPair Name="%ConstellationName93">Ohio</LocalizationPair>
+  <LocalizationPair Name="%ConstellationName93">Iowa</LocalizationPair>
+  <LocalizationPair Name="%ConstellationName93">Utah</LocalizationPair>
+
+<!--Misc-->
+  <LocalizationPair Name="%ConstellationName90">Gesserit</LocalizationPair> <!--Bene Gesserit, Dune faction-->
+  <LocalizationPair Name="%ConstellationName94">Gibson</LocalizationPair> <!--Guitar brand???-->
+  <LocalizationPair Name="%ConstellationName95">Card</LocalizationPair> <!--as in playing cards or what?-->
+
+<!-- Special Nodes -->
+<!--Misc-->
+  <LocalizationPair Name="%ESGSpecialNodeName1">NGC 253</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName2">SS 433</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName3">V404 Cyg</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName4">M33 X-7</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName5">Messier 9</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName6">Messier 15</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName7">QSO 1548+12</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName8">QQ2341+009</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName9">3C 279</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName10">3C 180</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName11">4C 380</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName12">Webster 4</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName13">Ceres A2</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName14">Pallas Minor</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName15">Pallas Major</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName16">Hygiea 9</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName17">Vesta L390</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName18">Davida 332</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName19">Sylvia 87</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName20">Euphrosyne 31</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName21">Patientia 451</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName22">Copernicus 3</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName23">Herschel's Star</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName24">GX930</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName25">Huygens Anomaly</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName26">Astral Lagoon</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName27">Cat's Eye</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName28">Stellar Veil</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName29">Tarantula Nebula</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName30">Eagle Nebula</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName31">NGC 6302</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName32">NGC 6210</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName33">Mz 3</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName34">Little Dumbbell</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName35">Red Square Nebula</LocalizationPair>
+
+<!--New-->
+  <LocalizationPair Name="%TatSpecialNodeName1">Herschel's Node</LocalizationPair>
+  <LocalizationPair Name="%TatSpecialNodeName2">Pilgrim’s Path</LocalizationPair>
+  <LocalizationPair Name="%TatSpecialNodeName3">Drifter's Path</LocalizationPair>
+  <LocalizationPair Name="%TatSpecialNodeName4">The Eagle</LocalizationPair>
+  <LocalizationPair Name="%TatSpecialNodeName5">Zizi's Bell</LocalizationPair>
+  <LocalizationPair Name="%TatSpecialNodeName6">The Red Square</LocalizationPair>
+  <LocalizationPair Name="%TatSpecialNodeName7">Laster's Curiosity</LocalizationPair>
+
+<!--Starsector-->
+  <LocalizationPair Name="%SpecialNodeStarsector1">Paladin's Bridge</LocalizationPair>
+  <LocalizationPair Name="%SpecialNodeStarsector2">Utgarda's Wall</LocalizationPair>
+  <LocalizationPair Name="%SpecialNodeStarsector3">Guayota's Disk</LocalizationPair>
+  <LocalizationPair Name="%SpecialNodeStarsector4">Canaria</LocalizationPair>
+
+<!--Systems-->
+<!--Dune-->
+  <LocalizationPair Name="%DuneStarName1">Ix</LocalizationPair>
+  <LocalizationPair Name="%DuneStarName2">Tleilaxu</LocalizationPair>
+  <LocalizationPair Name="%DuneStarName3">Caladan</LocalizationPair>
+  <LocalizationPair Name="%DuneStarName4">Giedi</LocalizationPair>
+  <LocalizationPair Name="%DuneStarName5">Corrino</LocalizationPair>
+  <LocalizationPair Name="%DuneStarName6">Salusa</LocalizationPair>
+  <LocalizationPair Name="%DuneStarName7">Secundus</LocalizationPair>
+  <LocalizationPair Name="%DuneStarName8">Padishah</LocalizationPair>
+  <LocalizationPair Name="%DuneStarName9">Atreides</LocalizationPair>
+  <LocalizationPair Name="%DuneStarName10">Harkonnen</LocalizationPair>
+  <LocalizationPair Name="%DuneStarName11">Kalir</LocalizationPair>
+
+<!--Fire Among the Deep-->
+  <LocalizationPair Name="%FAtDStarName1">Tine</LocalizationPair>
+  <LocalizationPair Name="%FAtDStarName2">Skroder</LocalizationPair>
+  <LocalizationPair Name="%FAtDStarName3">Dirokime</LocalizationPair>
+  <LocalizationPair Name="%FAtDStarName4">Aphrahanti</LocalizationPair>
+
+<!--Battlestar Galactica-->
+  <LocalizationPair Name="%BGStarName1">Cyrannus</LocalizationPair>
+  <LocalizationPair Name="%BGStarName2">Kobol</LocalizationPair>
+
+<!--EVE-->
+  <LocalizationPair Name="%EVEStarName1">Damar</LocalizationPair>
+  <LocalizationPair Name="%EVEStarName2">Arzad</LocalizationPair>
+  <LocalizationPair Name="%EVEStarName3">Ezzara</LocalizationPair>
+  <LocalizationPair Name="%EVEStarName4">Pator</LocalizationPair>
+  <LocalizationPair Name="%EVEStarName5">Damius</LocalizationPair>
+
+<!--Star Craft-->
+  <LocalizationPair Name="%SCStarName1">Tarsonis</LocalizationPair>
+  <LocalizationPair Name="%SCStarName2">Mackan</LocalizationPair>
+  <LocalizationPair Name="%SCStarName3">Antiga</LocalizationPair>
+  <LocalizationPair Name="%SCStarName4">Bukari</LocalizationPair>
+  <LocalizationPair Name="%SCStarName5">Brontes</LocalizationPair>
+  <LocalizationPair Name="%SCStarName6">Dylar</LocalizationPair>
+  <LocalizationPair Name="%SCStarName7">Sara</LocalizationPair>
+  <LocalizationPair Name="%SCStarName8">Zerus</LocalizationPair>
+  <LocalizationPair Name="%SCStarName9">Koprulu</LocalizationPair>
+  <LocalizationPair Name="%SCStarName10">Atrias</LocalizationPair>
+  <LocalizationPair Name="%SCStarName11">Korhal</LocalizationPair>
+
+<!--As a way of thanking these people-->
+  <LocalizationPair Name="%ESGStarName1">Selor</LocalizationPair>
+  <LocalizationPair Name="%ESGStarName2">Jetrel</LocalizationPair>
+  <LocalizationPair Name="%ESGStarName3">Idrinth</LocalizationPair>
+  <LocalizationPair Name="%ESGStarName4">Corusant</LocalizationPair>
+  <LocalizationPair Name="%ESGStarName5">Cyrob</LocalizationPair>
+  <LocalizationPair Name="%ESGStarName6">Cobbs</LocalizationPair>
+  <LocalizationPair Name="%ESGStarName7">Chaos</LocalizationPair>
+  <LocalizationPair Name="%ESGStarName8">Frost</LocalizationPair>
+
+<!--Hitchhikers Guide to the Galaxy-->
+  <LocalizationPair Name="%HGttGStarName1">Brontitall</LocalizationPair>
+  <LocalizationPair Name="%HGttGStarName2">Krikkit</LocalizationPair>
+  <LocalizationPair Name="%HGttGStarName3">Milliways</LocalizationPair>
+  <LocalizationPair Name="%HGttGStarName4">Magrathea</LocalizationPair>
+
+<!--W40K-->
+  <LocalizationPair Name="%W40KStarName1">Aethon</LocalizationPair>
+  <LocalizationPair Name="%W40KStarName2">Cryptus</LocalizationPair>
+  <LocalizationPair Name="%W40KStarName3">Tarsis</LocalizationPair>
+  <LocalizationPair Name="%W40KStarName4">Dagnor</LocalizationPair>
+  <LocalizationPair Name="%W40KStarName5">Nereus</LocalizationPair>
+  <LocalizationPair Name="%W40KStarName6">Nachmund</LocalizationPair>
+  <LocalizationPair Name="%W40KStarName7">Gilead</LocalizationPair>
+  <LocalizationPair Name="%W40KStarName8">Cadian</LocalizationPair>
+  <LocalizationPair Name="%W40KStarName9">Brakatoa</LocalizationPair>
+
+<!--Greek Letters-->
+  <LocalizationPair Name="%LetterStarName1">Alpha</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName2">Beta</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName3">Gamma</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName4">Delta</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName5">Epsilon</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName6">Zeta</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName7">Eta</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName8">Theta</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName9">Iota</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName10">Kappa</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName11">Lambda</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName12">Mu</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName13">Nu</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName14">Xi</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName15">Omicron</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName16">Pi</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName17">Rho</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName18">Sigma</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName19">Tau</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName20">Upsilon</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName21">Phi</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName22">Chi</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName23">Psi</LocalizationPair>
+  <LocalizationPair Name="%LetterStarName24">Omega</LocalizationPair>
+
+<!--Egyptian mythology-->
+  <LocalizationPair Name="%StarNameEgypt1">Cartouche</LocalizationPair>
+  <LocalizationPair Name="%StarNameEgypt2">Thoth</LocalizationPair>
+  <LocalizationPair Name="%StarNameEgypt3">Sobek</LocalizationPair>
+  <LocalizationPair Name="%StarNameEgypt4">Osiris</LocalizationPair>
+  <LocalizationPair Name="%StarNameEgypt5">Horus</LocalizationPair>
+  <LocalizationPair Name="%StarNameEgypt6">Nephthys</LocalizationPair>
+  <LocalizationPair Name="%StarNameEgypt7">Bastet</LocalizationPair>
+  <LocalizationPair Name="%StarNameEgypt8">Neferu</LocalizationPair>
+  <LocalizationPair Name="%StarNameEgypt9">Sekhmet</LocalizationPair>
+  <LocalizationPair Name="%StarNameEgypt10">Ouroboros</LocalizationPair>
+  <LocalizationPair Name="%StarNameEgypt11">Ankh</LocalizationPair>
+
+<!--Norse mythology-->
+  <LocalizationPair Name="%StarNameNorse1">Valkyries</LocalizationPair>
+  <LocalizationPair Name="%StarNameNorse2">Yggdrasil</LocalizationPair>
+  <LocalizationPair Name="%StarNameNorse3">Nidhogg</LocalizationPair>
+  <LocalizationPair Name="%StarNameNorse4">Raesvelg</LocalizationPair>
+  <LocalizationPair Name="%StarNameNorse5">Ratatosk</LocalizationPair>
+  <LocalizationPair Name="%StarNameNorse6">Niflheim</LocalizationPair>
+  <LocalizationPair Name="%StarNameNorse7">Mimir</LocalizationPair>
+  <LocalizationPair Name="%StarNameNorse8">Lothbrok</LocalizationPair>
+
+<!--Greek mythology-->
+  <LocalizationPair Name="%StarNameGreek1">Ithaca</LocalizationPair>
+  <LocalizationPair Name="%StarNameGreek2">Ogygia</LocalizationPair>
+  <LocalizationPair Name="%StarNameGreek3">Aeolus</LocalizationPair>
+  <LocalizationPair Name="%StarNameGreek4">Dorus</LocalizationPair>
+  <LocalizationPair Name="%StarNameGreek5">Telepylus</LocalizationPair>
+  <LocalizationPair Name="%StarNameGreek6">Xuthus</LocalizationPair>
+  <LocalizationPair Name="%StarNameGreek7">Ismara</LocalizationPair>
+  <LocalizationPair Name="%StarNameGreek8">Thrinakia</LocalizationPair>
+  <LocalizationPair Name="%StarNameGreek9">Atlas</LocalizationPair>
+
+<!--Starsector-->
+  <LocalizationPair Name="%StarNameStarsectorStar1">Al Gebbar</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorStar2">Arcadia</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorStar3">Askonia</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorStar4">Aztlan</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorStar5">Canaan</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorStar6">Corvus</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorStar7">Duzahk</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorStar8">Hybrasil</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorStar9">Isirah</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorStar10">Mayasura</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorStar11">Samarra</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorStar12">Thule</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorStar13">Mayasura</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorStar14">Naraka</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorStar15">Galatia</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorStar16">Penelope's Star</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet1">Kolasis</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet2">Basanizo</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet3">Epiphany</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet4">Custodes</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet5">Loutron</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet6">Nomios</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet7">Syrinx</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet8">Agreus</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet9">Salamanca</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet10">Sindria</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet11">Salus</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet12">Cruor</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet13">Opis</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet14">Volturn</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet15">Nortia</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet16">Umbra</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet17">Xolotl</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet18">Ciltetl</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet19">Chicomoztoc</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet20">Zorrah</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet21">Coatl</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet22">Tlalocan</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet23">Athulf</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet24">Gilead</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet25">Asher</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet26">Asharu</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet27">Jangala</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet28">Nemo</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet29">Barad</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet30">Garnir</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet31">Warion</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet32">Aka Mainyu</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet33">Daevas</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet34">Druj</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet35">Phaosphoros</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet36">Tartessus</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet37">Baetis</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet38">Ceyx</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet39">Daedaleon</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet40">Hesperus</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet41">Geburah</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet42">Mazalot</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet43">Tiferet</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet44">Melikah</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet45">Hikmah</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet46">Fikenhild</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet47">Yesod</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet48">Ancyra</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet49">Pontus</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet50">Derinkuyu</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet51">Tetra</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet52">Culann</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet53">Elada</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet54">Eochu Bres</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet55">Ogma</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet56">Balar</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet57">Cethlenn</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet58">Birog</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet59">Ciann</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet60">Surtr</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet61">Gilling</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet62">Fjalar</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet63">Kapteyn</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet64">Laicaille</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet65">Norvia</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet66">Groombridge</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet67">Kumari</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet68">Makal</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet69">Kulantai</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet70">Chalcedon</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet71">Kaykos</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet72">Olinadu</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet73">Kanni</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet74">Chaxiraxi</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet75">Maxios</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet76">Achaman</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet77">Tibicena</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet78">Kasyapa</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet79">Gelan</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet80">Mairaath</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet81">Yamuna</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet82">Nachiketa</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet83">Chitagupta</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet84">Eventide</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet85">Samarra</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet86">Typhon</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet87">Kazeron</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet88">Garmund</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet89">Satanazes</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet90">Cibola</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet91">Glasnir</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet92">Rymenhild</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorPlanet93">Ailmar</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip1">Gladius</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip2">Khopesh</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip3">Talon</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip4">Warthog</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip5">Xyphos</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip6">Centurion</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip7">Dram</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip8">Tempest</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip9">Manticore</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip10">Sunder</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip11">Apogee</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip12">Aurora</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip13">Gryphon</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip14">Heron</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip15">Astral</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip16">Paragon</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip17">Prometheus</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip18">Scintilla</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorShip19">Ziggurat</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorNPC1">Kanta</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorNPC2">Gargoyle</LocalizationPair>
+  <LocalizationPair Name="%StarNameStarsectorNPC3">Coureuse</LocalizationPair>
+
+<!--Into The Breach-->
+  <LocalizationPair Name="%StarNameITB1">Psion</LocalizationPair>
+  <LocalizationPair Name="%StarNameITB2">Plasmodia</LocalizationPair>
+  <LocalizationPair Name="%StarNameITB3">Prospero</LocalizationPair>
+  <LocalizationPair Name="%StarNameITB4">Silica</LocalizationPair>
+  <LocalizationPair Name="%StarNameITB5">Archimedes</LocalizationPair>
+  <LocalizationPair Name="%StarNameITB6">Lejeune</LocalizationPair>
+  <LocalizationPair Name="%StarNameITB7">Zenith</LocalizationPair>
+
+<!--Rain World-->
+  <LocalizationPair Name="%StarNameRW1">Pebbles</LocalizationPair>
+  <LocalizationPair Name="%StarNameRW3">Miros</LocalizationPair>
+  <LocalizationPair Name="%StarNameRW4">Hazer</LocalizationPair>
+  <LocalizationPair Name="%StarNameRW5">Underhang</LocalizationPair>
+  <LocalizationPair Name="%StarNameRW6">Brackets</LocalizationPair>
+  <LocalizationPair Name="%StarNameRW7">Straw</LocalizationPair>
+  <LocalizationPair Name="%StarNameRW8">Sprout</LocalizationPair>
+  <LocalizationPair Name="%StarNameRW9">Beads</LocalizationPair>
+
+  <!--FTL-->
+  <LocalizationPair Name="%StarNameFTL1">Zoltan</LocalizationPair>
+  <LocalizationPair Name="%StarNameFTL2">Lanius</LocalizationPair>
+  <LocalizationPair Name="%StarNameFTL3">Kestrel</LocalizationPair>
+  <LocalizationPair Name="%StarNameFTL4">Osprey</LocalizationPair>
+  <LocalizationPair Name="%StarNameFTL5">Tetragon</LocalizationPair>
+  <LocalizationPair Name="%StarNameFTL6">Cerenkov</LocalizationPair>
+  <LocalizationPair Name="%StarNameFTL7">Ariolimax</LocalizationPair>
+  <LocalizationPair Name="%StarNameFTL8">Shrike</LocalizationPair>
+  <LocalizationPair Name="%StarNameFTL9">Carnelian</LocalizationPair>
+  <LocalizationPair Name="%StarNameFTL10">Bulwark</LocalizationPair>
+  <LocalizationPair Name="%StarNameFTL11">Nesasio</LocalizationPair>
+  <LocalizationPair Name="%StarNameFTL12">Noether</LocalizationPair>
+  <LocalizationPair Name="%StarNameFTL13">Bravais</LocalizationPair>
+
+<!--Enter The Gungeon-->
+  <LocalizationPair Name="%StarNameETG1">Winchester</LocalizationPair>
+  <LocalizationPair Name="%StarNameETG2">Agunim</LocalizationPair>
+  <LocalizationPair Name="%StarNameETG3">Oubliette</LocalizationPair>
+  <LocalizationPair Name="%StarNameETG4">Killithid</LocalizationPair>
+
+<!--Outer Wilds-->
+  <LocalizationPair Name="%StarNameOW1">Interloper</LocalizationPair>
+  <LocalizationPair Name="%StarNameOW2">Chert</LocalizationPair>
+  <LocalizationPair Name="%StarNameOW3">Escall</LocalizationPair>
+  <LocalizationPair Name="%StarNameOW4">Feldspar</LocalizationPair>
+  <LocalizationPair Name="%StarNameOW5">Gabbro</LocalizationPair>
+  <LocalizationPair Name="%StarNameOW6">Yarrow</LocalizationPair>
+  <LocalizationPair Name="%StarNameOW7">Thatch</LocalizationPair>
+  <LocalizationPair Name="%StarNameOW8">Solanum</LocalizationPair>
+  <LocalizationPair Name="%StarNameOW9">Riebeck</LocalizationPair>
+
+<!--Actual stars-->
+Absolutno
+Achernar
+Achird
+Acrab
+Acrux
+Acubens
+Adhafera
+Adhara
+Adhil
+Ain
+Ainalrami
+Aiolos
+Aladfar
+Alasia
+Alathfar
+Albaldah
+Albali
+Albireo
+Alchiba
+Alcor
+Alderamin
+Aldhanab
+Aldhibah
+Aldulfin
+Alfirk
+Algedi
+Algenib
+Algieba
+Algol
+Algorab
+Alhena
+Aljanah
+Alkaid
+Alkalurops
+Alkaphrah
+Alkarab
+Alkes
+Almaaz
+Almach
+Al Minliar al Asad
+Alnair
+Alnasl
+Alnilam
+Alnitak
+Alniyat
+Alphard
+Alphecca
+Alpheratz
+Alpherg
+Alrakis
+Alrescha
+Alruba
+Alsafi
+Alsciaukat
+Alsephina
+Alshain
+Alshat
+Altais
+Alterf
+Aludra
+Alula Australis
+Alula Borealis
+Alya
+Alzirr
+Amadioha
+Amansinaya
+Anadolu
+Añañuca
+Ancha
+Angetenar
+Aniara
+Ankaa
+Anser
+Arcalís
+Arkab Posterior
+Arkab Prior
+Arneb
+Ascella
+Ashlesha
+Aspidiske
+Asterope
+Atakoraka
+Athebyne
+Atik
+Avior
+Axólotl
+Ayeyarwady
+Azelfafage
+Azha
+Azmidi
+
+Baekdu
+Barnard's Star
+Kaitos
+Batsũ̀
+Beemim
+Beid
+Belel
+Bélénos
+Berehynia
+Betelgeuse
+Bharani
+Bibhā
+Biham
+Bosona
+Botein
+Brachium
+Bubup
+Buna
+Bunda
+
+Canopus
+Capella
+Caph
+Castor
+Castula
+Cebalrai
+Ceibo
+Celaeno
+Cervantes
+Chalawan
+Chamukuy
+Chaophraya
+Chara
+Chasoň
+Chechia
+Chertan
+Citadelle
+Citalá
+Cocibolca
+Cor Caroli
+Cujam
+Cursa
+
+Dabih
+Dalim
+Danfeng
+Denebola
+Diadem
+Dilmun
+Dingolay
+Diphda
+Dìwö
+Diya
+Dofida
+Dombay
+Dschubba
+Dubhe
+Dziban
+
+Ebla
+Edasich
+Elgafar
+Elkurud
+Elnath
+Eltanin
+Emiw
+Enif
+Errai
+
+Fafnir
+Fang
+Fawaris
+Felis
+Felixvarela
+Filetdor
+Flegetonte
+Fomalhaut
+Formosa
+Franz
+Fulu
+Fumalsamakah
+Funi
+Furud
+Fuyue
+
+Gacrux
+Gakyid
+Garnet
+Geminga
+Giausar
+Ginan
+Gloas
+Gnomon
+Gomeisa
+Guahayona
+Grumium
+Gudja
+Gumala
+Guniibuu
+
+Haedus
+Hassaleh
+Hatysa
+Helvetios
+Hoggar
+Homam
+Horna
+Hunahpú
+Hunor
+
+Iklil
+Illyrian
+
+
+Markab
+Mimosa
+Miaplacidus
+Mirfak
+Menkalinan
+Mirzam
+Menkent
+Mirach
+Muhlifain
+Markeb
+
+Navi
+Nunki
+
+Rigil Kentaurus
+Regor
+Rasalhague
+
+Shaula
+Sargas
+Scheat
+Sabik
+Sadr
+
+Toliman
+Tiaki
+
+Vega
+Wezen
+Kaus Australis
+
+Peacock
+
+
+Suhail
+
+
+Eltanin
+Schedar
+Caph
+Dschubba
+Larawag
+Merak
+
+Girtab
+
+Phecda
+
+
+
+
+
+
+
+
+
+
+
+
