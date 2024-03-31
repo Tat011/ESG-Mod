@@ -1012,7 +1012,6 @@
     </GalaxyGeneratorWeightTable>
 
     <GalaxyGeneratorWeightTable Name="FactionTemplars_StarTypes">
-      <Entry Tag="StarTypeTemplars"            Weight="1"/>
       <Entry Tag="StarTypeBlue"                Weight="1"/>
       <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
       <Entry Tag="StarTypeWhite"               Weight="1"/>
