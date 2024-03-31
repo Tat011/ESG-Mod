@@ -81,7 +81,6 @@
   <LocalizationPair Name="%ESGSpecialNodeName32">Mz 3</LocalizationPair>
   <LocalizationPair Name="%ESGSpecialNodeName33">Little Dumbbell</LocalizationPair>
   <LocalizationPair Name="%ESGSpecialNodeName34">Red Square Node</LocalizationPair>
-  <LocalizationPair Name="%ESGSpecialNodeName35">The Lich</LocalizationPair> <!--Based on the name of an actual pulsar-->
 
 <!--New-->
   <LocalizationPair Name="%SpecialNodeName68">Herschel's Node</LocalizationPair>
@@ -95,6 +94,12 @@
   <LocalizationPair Name="%TatSpecialNodeName8">Blue Circuit</LocalizationPair>
   <LocalizationPair Name="%TatSpecialNodeName9">Horratis</LocalizationPair>
   <LocalizationPair Name="%TatSpecialNodeName10">Sectorian</LocalizationPair>
+  <LocalizationPair Name="%TatSpecialNodeName11">The Lich</LocalizationPair><!--Based on the name of an actual pulsar-->
+  <LocalizationPair Name="%TatSpecialNodeName12">PSR B1257+12</LocalizationPair><!--Same pulsar-->
+  <LocalizationPair Name="%TatSpecialNodeName13">Zelevas' Chosen</LocalizationPair>
+  <LocalizationPair Name="%TatSpecialNodeName14">Horatio's Excellence</LocalizationPair>
+  <LocalizationPair Name="%TatSpecialNodeName15">Isyara's Anointed</LocalizationPair>
+  <LocalizationPair Name="%TatSpecialNodeName16">Jenestra's Bridge</LocalizationPair>
 
 <!--Starsector-->
   <LocalizationPair Name="%SpecialNodeStarsector1">Paladin's Bridge</LocalizationPair>
@@ -549,7 +554,7 @@
   <LocalizationPair Name="%ActualStarName128">Cocibolca</LocalizationPair>
   <LocalizationPair Name="%ActualStarName129">Cor Caroli</LocalizationPair>
   <LocalizationPair Name="%ActualStarName130">Cujam</LocalizationPair>
-  <LocalizationPair Name="%ActualStarName131`">Cursa</LocalizationPair>
+  <LocalizationPair Name="%ActualStarName131">Cursa</LocalizationPair>
 
   <LocalizationPair Name="%ActualStarName132">Dabih</LocalizationPair>
   <LocalizationPair Name="%ActualStarName133">Dalim</LocalizationPair>
