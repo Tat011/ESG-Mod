@@ -892,6 +892,138 @@
      <Entry Tag="PlanetTypeTerran"                 Weight="3"/>
      <Entry Tag="PlanetTypeAtoll"                  Weight="3"/>
     </GalaxyGeneratorWeightTable>
+
+<!--Mayor faction star types (don't ever add the "none" star type here, it can't be obliterated and so that'd be very sussy) (also this very likely doesn't work with balanced start)-->
+   <GalaxyGeneratorWeightTable Name="FactionSophons_StarTypes">
+      <Entry Tag="StarTypeBlue"                Weight="1"/>
+      <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+      <Entry Tag="StarTypeWhite"               Weight="1"/>
+      <Entry Tag="StarTypeYellow"              Weight="1"/>
+      <Entry Tag="StarTypeProtostar"           Weight="1"/>
+      <Entry Tag="StarTypeDouble"              Weight="1"/>
+      <Entry Tag="StarTypeRedDwarf"            Weight="6"/>
+      <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+      <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+      <Entry Tag="StarTypeArtificial"          Weight="1"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="FactionCravers_StarTypes">
+      <Entry Tag="StarTypeBlue"                Weight="1"/>
+      <Entry Tag="StarTypeRedSupergiant"       Weight="6"/>
+      <Entry Tag="StarTypeWhite"               Weight="1"/>
+      <Entry Tag="StarTypeYellow"              Weight="1"/>
+      <Entry Tag="StarTypeProtostar"           Weight="1"/>
+      <Entry Tag="StarTypeDouble"              Weight="1"/>
+      <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+      <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+      <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+      <Entry Tag="StarTypeArtificial"          Weight="1"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="FactionVenetians_StarTypes">
+      <Entry Tag="StarTypeBlue"                Weight="1"/>
+      <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+      <Entry Tag="StarTypeWhite"               Weight="6"/>
+      <Entry Tag="StarTypeYellow"              Weight="1"/>
+      <Entry Tag="StarTypeProtostar"           Weight="1"/>
+      <Entry Tag="StarTypeDouble"              Weight="1"/>
+      <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+      <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+      <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+      <Entry Tag="StarTypeArtificial"          Weight="1"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="FactionUnfallen_StarTypes">
+      <Entry Tag="StarTypeBlue"                Weight="1"/>
+      <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+      <Entry Tag="StarTypeWhite"               Weight="6"/>
+      <Entry Tag="StarTypeYellow"              Weight="1"/>
+      <Entry Tag="StarTypeProtostar"           Weight="1"/>
+      <Entry Tag="StarTypeDouble"              Weight="1"/>
+      <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+      <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+      <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+      <Entry Tag="StarTypeArtificial"          Weight="1"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="FactionVampirilis_StarTypes">
+      <Entry Tag="StarTypeBlue"                Weight="1"/>
+      <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+      <Entry Tag="StarTypeWhite"               Weight="1"/>
+      <Entry Tag="StarTypeYellow"              Weight="6"/>
+      <Entry Tag="StarTypeProtostar"           Weight="1"/>
+      <Entry Tag="StarTypeDouble"              Weight="1"/>
+      <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+      <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+      <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+      <Entry Tag="StarTypeArtificial"          Weight="1"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="FactionTerrans_StarTypes">
+      <Entry Tag="StarTypeBlue"                Weight="6"/>
+      <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+      <Entry Tag="StarTypeWhite"               Weight="1"/>
+      <Entry Tag="StarTypeYellow"              Weight="1"/>
+      <Entry Tag="StarTypeProtostar"           Weight="1"/>
+      <Entry Tag="StarTypeDouble"              Weight="1"/>
+      <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+      <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+      <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+      <Entry Tag="StarTypeArtificial"          Weight="1"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="FactionTimeLords_StarTypes">
+      <Entry Tag="StarTypeBlue"                Weight="1"/>
+      <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+      <Entry Tag="StarTypeWhite"               Weight="1"/>
+      <Entry Tag="StarTypeYellow"              Weight="1"/>
+      <Entry Tag="StarTypeProtostar"           Weight="1"/>
+      <Entry Tag="StarTypeDouble"              Weight="1"/>
+      <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+      <Entry Tag="StarTypeWhiteDwarf"          Weight="6"/>
+      <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+      <Entry Tag="StarTypeArtificial"          Weight="1"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="FactionHoratio_StarTypes">
+      <Entry Tag="StarTypeBlue"                Weight="6"/>
+      <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+      <Entry Tag="StarTypeWhite"               Weight="1"/>
+      <Entry Tag="StarTypeYellow"              Weight="1"/>
+      <Entry Tag="StarTypeProtostar"           Weight="1"/>
+      <Entry Tag="StarTypeDouble"              Weight="1"/>
+      <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+      <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+      <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+      <Entry Tag="StarTypeArtificial"          Weight="1"/>
+    </GalaxyGeneratorWeightTable>
+  
+    <GalaxyGeneratorWeightTable Name="FactionMajorHisshos_StarTypes">
+      <Entry Tag="StarTypeBlue"                Weight="1"/>
+      <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+      <Entry Tag="StarTypeWhite"               Weight="1"/>
+      <Entry Tag="StarTypeYellow"              Weight="1"/>
+      <Entry Tag="StarTypeProtostar"           Weight="1"/>
+      <Entry Tag="StarTypeDouble"              Weight="1"/>
+      <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+      <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+      <Entry Tag="StarTypeDysonSphere"         Weight="6"/>
+      <Entry Tag="StarTypeArtificial"          Weight="1"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="FactionTemplars_StarTypes">
+      <Entry Tag="StarTypeTemplars"            Weight="1"/>
+      <Entry Tag="StarTypeBlue"                Weight="1"/>
+      <Entry Tag="StarTypeRedSupergiant"       Weight="1"/>
+      <Entry Tag="StarTypeWhite"               Weight="1"/>
+      <Entry Tag="StarTypeYellow"              Weight="1"/>
+      <Entry Tag="StarTypeProtostar"           Weight="1"/>
+      <Entry Tag="StarTypeDouble"              Weight="1"/>
+      <Entry Tag="StarTypeRedDwarf"            Weight="1"/>
+      <Entry Tag="StarTypeWhiteDwarf"          Weight="1"/>
+      <Entry Tag="StarTypeDysonSphere"         Weight="1"/>
+      <Entry Tag="StarTypeArtificial"          Weight="6"/>
+    </GalaxyGeneratorWeightTable>
   
 <!-- Star names -->
   <GalaxyGeneratorWeightTable Name="StarSystemNames">
