@@ -2004,14 +2004,14 @@
     <Entry Tag="%ConstellationConstellationName12"         Weight="1"/>
     <Entry Tag="%ConstellationConstellationName13"         Weight="1"/>
 <!--US States (you asked for this)-->
-    <Entry Tag="%ConstellationName93"         Weight="1"/>
-    <Entry Tag="%ConstellationName93"         Weight="1"/>
-    <Entry Tag="%ConstellationName93"         Weight="1"/>
-    <Entry Tag="%ConstellationName93"         Weight="1"/>>
+    <Entry Tag="%USConstellationName1"         Weight="1"/>
+    <Entry Tag="%USConstellationName2"         Weight="1"/>
+    <Entry Tag="%USConstellationName3"         Weight="1"/>
+    <Entry Tag="%USConstellationName4"         Weight="1"/>>
 <!--Misc-->
-    <Entry Tag="%ConstellationName90"         Weight="1"/>
-    <Entry Tag="%ConstellationName94"         Weight="1"/>
-    <Entry Tag="%ConstellationName95"         Weight="1"/>
+    <Entry Tag="%MiscConstellationName1"         Weight="1"/>
+    <Entry Tag="%MiscConstellationName2"         Weight="1"/>
+    <Entry Tag="%MiscConstellationName3"         Weight="1"/>
   </GalaxyGeneratorWeightTable>
 
   <GalaxyGeneratorWeightTable Name="SpecialNodeNames">
