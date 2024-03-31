@@ -72,8 +72,8 @@
   <LocalizationPair Name="%ESGSpecialNodeName25">Astral Lagoon</LocalizationPair>
   <LocalizationPair Name="%ESGSpecialNodeName26">Cat's Eye</LocalizationPair>
   <LocalizationPair Name="%ESGSpecialNodeName27">Stellar Veil</LocalizationPair>
-  <LocalizationPair Name="%ESGSpecialNodeName28">Tarantula Nebula</LocalizationPair>
-  <LocalizationPair Name="%ESGSpecialNodeName29">Eagle Nebula</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName28">Tarantula Sector</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName29">The Eagle</LocalizationPair>
   <LocalizationPair Name="%ESGSpecialNodeName30">NGC 6302</LocalizationPair>
   <LocalizationPair Name="%ESGSpecialNodeName31">NGC 6210</LocalizationPair>
   <LocalizationPair Name="%ESGSpecialNodeName32">Mz 3</LocalizationPair>
@@ -85,11 +85,14 @@
   <LocalizationPair Name="%SpecialNodeName68">Herschel's Node</LocalizationPair>
   <LocalizationPair Name="%TatSpecialNodeName1">Pilgrim’s Path</LocalizationPair>
   <LocalizationPair Name="%TatSpecialNodeName2">Drifter's Path</LocalizationPair>
-  <LocalizationPair Name="%TatSpecialNodeName3">The Eagle</LocalizationPair>
+  <LocalizationPair Name="%TatSpecialNodeName3">Magician's Trick</LocalizationPair>
   <LocalizationPair Name="%TatSpecialNodeName4">Zizi's Bell</LocalizationPair>
   <LocalizationPair Name="%TatSpecialNodeName5">The Red Square</LocalizationPair>
   <LocalizationPair Name="%TatSpecialNodeName6">Laster's Curiosity</LocalizationPair>
   <LocalizationPair Name="%TatSpecialNodeName7">SIU 11037</LocalizationPair>
+  <LocalizationPair Name="%TatSpecialNodeName8">Blue Circuit</LocalizationPair>
+  <LocalizationPair Name="%TatSpecialNodeName9">Horratis</LocalizationPair>
+  <LocalizationPair Name="%TatSpecialNodeName10">Sectorian</LocalizationPair>
 
 <!--Starsector-->
   <LocalizationPair Name="%SpecialNodeStarsector1">Paladin's Bridge</LocalizationPair>
