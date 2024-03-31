@@ -35,15 +35,15 @@
   <LocalizationPair Name="%ConstellationConstellationName13">Skorpios</LocalizationPair><!--Zodiac constelation in greek-->
 
 <!--US States (you asked for this)-->
-  <LocalizationPair Name="%ConstellationName93">Idaho</LocalizationPair>
-  <LocalizationPair Name="%ConstellationName93">Ohio</LocalizationPair>
-  <LocalizationPair Name="%ConstellationName93">Iowa</LocalizationPair>
-  <LocalizationPair Name="%ConstellationName93">Utah</LocalizationPair>
+  <LocalizationPair Name="%USConstellationName1">Idaho</LocalizationPair>
+  <LocalizationPair Name="%USConstellationName2">Ohio</LocalizationPair>
+  <LocalizationPair Name="%USConstellationName3">Iowa</LocalizationPair>
+  <LocalizationPair Name="%USConstellationName4">Utah</LocalizationPair>
 
 <!--Misc-->
-  <LocalizationPair Name="%ConstellationName90">Gesserit</LocalizationPair> <!--Bene Gesserit, Dune faction-->
-  <LocalizationPair Name="%ConstellationName94">Gibson</LocalizationPair> <!--Guitar brand???-->
-  <LocalizationPair Name="%ConstellationName95">Card</LocalizationPair> <!--as in playing cards or what?-->
+  <LocalizationPair Name="%MiscConstellationName1">Gesserit</LocalizationPair> <!--Bene Gesserit, Dune faction-->
+  <LocalizationPair Name="%MiscConstellationName2">Gibson</LocalizationPair> <!--Guitar brand???-->
+  <LocalizationPair Name="%MiscConstellationName3">Card</LocalizationPair> <!--as in playing cards or what?-->
 
 <!-- Special Nodes -->
 <!--Misc-->
