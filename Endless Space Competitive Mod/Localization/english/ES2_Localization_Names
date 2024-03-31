@@ -20,7 +20,7 @@
   <LocalizationPair Name="%PeopleConstellationName11">Huxley</LocalizationPair> <!--Aldous Huxley, writer-->
 
 <!--irl constelations-->
-  <LocalizationPair Name="%ConstellationConstellationName1">Vulpecula</LocalizationPair><!--constelation-->
+  <LocalizationPair Name="%ConstellationConstellationName1">Tauros</LocalizationPair><!--Zodiac constelation in greek-->
   <LocalizationPair Name="%ConstellationConstellationName2">Krios</LocalizationPair><!--Zodiac constelation in greek-->
   <LocalizationPair Name="%ConstellationConstellationName3">Didymoi</LocalizationPair><!--Zodiac constelation in greek-->
   <LocalizationPair Name="%ConstellationConstellationName4">Karkinos</LocalizationPair><!--Zodiac constelation in greek-->
@@ -31,6 +31,8 @@
   <LocalizationPair Name="%ConstellationConstellationName9">Hydrokhoos</LocalizationPair><!--Zodiac constelation in greek-->
   <LocalizationPair Name="%ConstellationConstellationName10">Ikhthyes</LocalizationPair><!--Zodiac constelation in greek-->
   <LocalizationPair Name="%ConstellationConstellationName11">Cassiopeia</LocalizationPair><!--Zodiac constelation in greek-->
+  <LocalizationPair Name="%ConstellationConstellationName12">Leōn</LocalizationPair><!--Zodiac constelation in greek-->
+  <LocalizationPair Name="%ConstellationConstellationName13">Skorpios</LocalizationPair><!--Zodiac constelation in greek-->
 
 <!--US States (you asked for this)-->
   <LocalizationPair Name="%ConstellationName93">Idaho</LocalizationPair>
