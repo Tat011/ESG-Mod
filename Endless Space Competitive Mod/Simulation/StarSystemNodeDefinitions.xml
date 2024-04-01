@@ -6,6 +6,24 @@
   <StarSystemNodeDefinition Name="QuestNodeENFER">
     <SimulationDescriptorReference Name="StarTypeWhite"/>
     <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeAsh"/>
+      <AnomalyReference Name="PlanetAnomaly13"/>
+      <AnomalyReference Name="PlanetAnomaly21"/>
+      <ResourceDeposit>
+        <DefinitionReference Name="StrategicDeposit3"/>
+        <SizeDescriptorReference Name="DepositSizePoor"/>
+      </ResourceDeposit>
+    </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+      <SimulationDescriptorReference Name="PlanetSizeHuge"/>
+      <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
+      <AnomalyReference Name="PlanetAnomaly07"/>
+    </PlanetDefinition>
+    <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
@@ -15,12 +33,6 @@
         <DefinitionReference Name="StrategicDeposit1"/>
         <SizeDescriptorReference Name="DepositSizeAbundant"/>
       </ResourceDeposit>
-    </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-      <SimulationDescriptorReference Name="PlanetSizeHuge"/>
-      <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
-      <AnomalyReference Name="PlanetAnomaly07"/>
     </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
@@ -34,40 +46,11 @@
         <SizeDescriptorReference Name="DepositSizeAverage"/>
       </ResourceDeposit>
     </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeAsh"/>
-      <AnomalyReference Name="PlanetAnomaly13"/>
-      <AnomalyReference Name="PlanetAnomaly21"/>
-      <ResourceDeposit>
-        <DefinitionReference Name="StrategicDeposit3"/>
-        <SizeDescriptorReference Name="DepositSizePoor"/>
-      </ResourceDeposit>
-    </PlanetDefinition>
   </StarSystemNodeDefinition>
 
   <!--UNFALLEN EMPIRE-->
   <StarSystemNodeDefinition Name="QuestNodeUnfallen">
-    <SimulationDescriptorReference Name="StarTypeWhite"/>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeBoreal"/>
-      <AnomalyReference Name="PlanetAnomaly42"/>
-      <ResourceDeposit>
-        <DefinitionReference Name="StrategicDeposit1"/>
-        <SizeDescriptorReference Name="DepositSizeAbundant"/>
-      </ResourceDeposit>
-    </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-      <SimulationDescriptorReference Name="PlanetSizeHuge"/>
-      <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
-      <AnomalyReference Name="PlanetAnomaly07"/>
-    </PlanetDefinition>
+    <SimulationDescriptorReference Name="StarTypeYellow"/>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
@@ -92,11 +75,28 @@
         <SizeDescriptorReference Name="DepositSizePoor"/>
       </ResourceDeposit>
     </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+      <SimulationDescriptorReference Name="PlanetSizeHuge"/>
+      <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
+      <AnomalyReference Name="PlanetAnomaly07"/>
+    </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeBoreal"/>
+      <AnomalyReference Name="PlanetAnomaly42"/>
+      <ResourceDeposit>
+        <DefinitionReference Name="StrategicDeposit1"/>
+        <SizeDescriptorReference Name="DepositSizeAbundant"/>
+      </ResourceDeposit>
+    </PlanetDefinition>
   </StarSystemNodeDefinition>
 
   <!--CRAVERS EMPIRE-->
   <StarSystemNodeDefinition Name="QuestNodeCravers">
-    <SimulationDescriptorReference Name="StarTypeWhite"/>
+    <SimulationDescriptorReference Name="StarTypeDysonSphere"/>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -106,10 +106,24 @@
         <DefinitionReference Name="StrategicDeposit1"/>
         <SizeDescriptorReference Name="DepositSizePoor"/>
       </ResourceDeposit>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeTerran"/>
+      <AnomalyReference Name="PlanetAnomaly11"/>
+    </PlanetDefinition>
       <ResourceDeposit>
         <DefinitionReference Name="StrategicDeposit2"/>
         <SizeDescriptorReference Name="DepositSizePoor"/>
       </ResourceDeposit>
+    </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeArctic"/>
+      <AnomalyReference Name="PlanetAnomaly06"/>
     </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
@@ -122,25 +136,18 @@
         <SizeDescriptorReference Name="DepositSizeAverage"/>
       </ResourceDeposit>
     </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeTerran"/>
-      <AnomalyReference Name="PlanetAnomaly11"/>
-    </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeArctic"/>
-      <AnomalyReference Name="PlanetAnomaly06"/>
-    </PlanetDefinition>
   </StarSystemNodeDefinition>
 
   <!--UNITED EMPIRE-->
   <StarSystemNodeDefinition Name="QuestNodeRebel">
     <SimulationDescriptorReference Name="StarTypeDouble"/>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+      <SimulationDescriptorReference Name="PlanetSizeSmall"/>
+      <SimulationDescriptorReference Name="PlanetTypeJungle"/>
+      <AnomalyReference Name="PlanetAnomaly28"/>
+    </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -163,16 +170,9 @@
         <SizeDescriptorReference Name="DepositSizePoor"/>
       </ResourceDeposit>
     </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
-      <SimulationDescriptorReference Name="PlanetSizeSmall"/>
-      <SimulationDescriptorReference Name="PlanetTypeJungle"/>
-      <AnomalyReference Name="PlanetAnomaly28"/>
-    </PlanetDefinition>
   </StarSystemNodeDefinition>
 
-  <!-- HORATIO EMPIRE -->
+  <!--HORATIO EMPIRE-->
   <StarSystemNodeDefinition Name="QuestNodeHoratio">
     <SimulationDescriptorReference Name="StarTypeYellow"/>
     <PlanetDefinition>
@@ -209,17 +209,18 @@
     </PlanetDefinition>
   </StarSystemNodeDefinition>
 
-  <!--Vaulters-->
+  <!--Vaulter Quest-->
   <StarSystemNodeDefinition Name="QuestNodeVaulters">
     <SimulationDescriptorReference Name="StarTypeRedDwarf"/>
     <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeArctic"/>
+      <SimulationDescriptorReference Name="PlanetTypeTerran"/>
+      <AnomalyReference Name="PlanetAnomaly13"/>
       <ResourceDeposit>
-        <DefinitionReference Name="StrategicDeposit5"/>
-        <SizeDescriptorReference Name="DepositSizeAbundant"/>
+        <DefinitionReference Name="StrategicDeposit2"/>
+        <SizeDescriptorReference Name="DepositSizeAverage"/>
       </ResourceDeposit>
     </PlanetDefinition>
     <PlanetDefinition>
@@ -244,14 +245,13 @@
       </ResourceDeposit>
     </PlanetDefinition>
     <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeTerran"/>
-      <AnomalyReference Name="PlanetAnomaly13"/>
+      <SimulationDescriptorReference Name="PlanetTypeArctic"/>
       <ResourceDeposit>
-        <DefinitionReference Name="StrategicDeposit2"/>
-        <SizeDescriptorReference Name="DepositSizeAverage"/>
+        <DefinitionReference Name="StrategicDeposit5"/>
+        <SizeDescriptorReference Name="DepositSizeAbundant"/>
       </ResourceDeposit>
     </PlanetDefinition>
   </StarSystemNodeDefinition>
@@ -268,19 +268,19 @@
     </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
-      <CuriosityReference Name="Curiosity_PlanetResource_Strategic03"/>
-      <CuriosityReference Name="Curiosity_PlanetAnomaly10"/>
-    </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeForest"/>
       <CuriosityReference Name="Curiosity_PlanetResource_Strategic01"/>
       <CuriosityReference Name="Curiosity_Loot_Signal_Era4"/>
       <CuriosityReference Name="Curiosity_PlanetAnomaly02"/>
+    </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
+      <CuriosityReference Name="Curiosity_PlanetResource_Strategic03"/>
+      <CuriosityReference Name="Curiosity_PlanetAnomaly10"/>
     </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="UniquePlanetVampirilis"/>
@@ -303,19 +303,19 @@
     </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
-      <CuriosityReference Name="Curiosity_PlanetResource_Strategic04"/>
-      <CuriosityReference Name="Curiosity_PlanetAnomaly11"/>
-    </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeAtoll"/>
       <CuriosityReference Name="Curiosity_PlanetResource_Strategic02"/>
       <CuriosityReference Name="Curiosity_Loot_Signal_Era3"/>
       <CuriosityReference Name="Curiosity_PlanetAnomaly03"/>
+    </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
+      <CuriosityReference Name="Curiosity_PlanetResource_Strategic04"/>
+      <CuriosityReference Name="Curiosity_PlanetAnomaly11"/>
     </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="UniquePlanetVampirilis"/>
@@ -330,20 +330,6 @@
   <StarSystemNodeDefinition Name="HomeNodeVampirilis3">
     <SimulationDescriptorReference Name="StarTypeYellow"/>
     <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeArctic"/>
-      <CuriosityReference Name="Curiosity_Loot_Ruins_Era3"/>
-    </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
-      <CuriosityReference Name="Curiosity_Loot_Signal_Era2"/>
-      <CuriosityReference Name="Curiosity_PlanetAnomaly12"/>
-    </PlanetDefinition>
-    <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
@@ -353,6 +339,13 @@
       <CuriosityReference Name="Curiosity_PlanetAnomaly04"/>
     </PlanetDefinition>
     <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
+      <CuriosityReference Name="Curiosity_Loot_Signal_Era2"/>
+      <CuriosityReference Name="Curiosity_PlanetAnomaly12"/>
+    </PlanetDefinition>
+    <PlanetDefinition>
       <SimulationDescriptorReference Name="UniquePlanetVampirilis"/>
       <SimulationDescriptorReference Name="HomePlanet"/>
       <SimulationDescriptorReference Name="IsUniquePlanet"/>
@@ -360,16 +353,24 @@
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeTundra"/>
     </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeArctic"/>
+      <CuriosityReference Name="Curiosity_Loot_Ruins_Era3"/>
+    </PlanetDefinition>
   </StarSystemNodeDefinition>
 
   <StarSystemNodeDefinition Name="HomeNodeVampirilis4">
     <SimulationDescriptorReference Name="StarTypeYellow"/>
     <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeIce"/>
-      <CuriosityReference Name="Curiosity_Loot_Ruins_Era4"/>
+      <SimulationDescriptorReference Name="PlanetTypeTerran"/>
+      <CuriosityReference Name="Curiosity_Loot_Signal_Era1"/>
+      <CuriosityReference Name="Curiosity_PlanetAnomaly05"/>
     </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
@@ -380,20 +381,19 @@
       <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
     </PlanetDefinition>
     <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeTerran"/>
-      <CuriosityReference Name="Curiosity_Loot_Signal_Era1"/>
-      <CuriosityReference Name="Curiosity_PlanetAnomaly05"/>
-    </PlanetDefinition>
-    <PlanetDefinition>
       <SimulationDescriptorReference Name="UniquePlanetVampirilis"/>
       <SimulationDescriptorReference Name="HomePlanet"/>
       <SimulationDescriptorReference Name="IsUniquePlanet"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeTundra"/>
+    </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeIce"/>
+      <CuriosityReference Name="Curiosity_Loot_Ruins_Era4"/>
     </PlanetDefinition>
   </StarSystemNodeDefinition>
 
@@ -471,13 +471,6 @@
   <StarSystemNodeDefinition Name="HomeNodeVampirilis7">
     <SimulationDescriptorReference Name="StarTypeYellow"/>
     <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeArctic"/>
-      <CuriosityReference Name="Curiosity_Loot_Signal_Era3"/>
-    </PlanetDefinition>
-    <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
@@ -502,17 +495,17 @@
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeTundra"/>
     </PlanetDefinition>
-  </StarSystemNodeDefinition>
-
-  <StarSystemNodeDefinition Name="HomeNodeVampirilis8">
-    <SimulationDescriptorReference Name="StarTypeYellow"/>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeIce"/>
-      <CuriosityReference Name="Curiosity_PlanetResource_Strategic05"/>
+      <SimulationDescriptorReference Name="PlanetTypeArctic"/>
+      <CuriosityReference Name="Curiosity_Loot_Signal_Era3"/>
     </PlanetDefinition>
+  </StarSystemNodeDefinition>
+
+  <StarSystemNodeDefinition Name="HomeNodeVampirilis8">
+    <SimulationDescriptorReference Name="StarTypeYellow"/>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
@@ -536,6 +529,13 @@
       <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeTundra"/>
+    </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeIce"/>
+      <CuriosityReference Name="Curiosity_PlanetResource_Strategic05"/>
     </PlanetDefinition>
   </StarSystemNodeDefinition>
 
@@ -581,17 +581,17 @@
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeDesert"/>
-      <CuriosityReference Name="Curiosity_Loot_Lifeform_Era2"/>
+      <SimulationDescriptorReference Name="PlanetTypeAsh"/>
+      <CuriosityReference Name="Curiosity_PlanetResource_Strategic04"/>
+      <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
+      <CuriosityReference Name="Curiosity_PlanetAnomaly39"/>
     </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeAsh"/>
-      <CuriosityReference Name="Curiosity_PlanetResource_Strategic04"/>
-      <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
-      <CuriosityReference Name="Curiosity_PlanetAnomaly39"/>
+      <SimulationDescriptorReference Name="PlanetTypeDesert"/>
+      <CuriosityReference Name="Curiosity_Loot_Lifeform_Era2"/>
     </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
@@ -613,14 +613,6 @@
 
   <StarSystemNodeDefinition Name="HomeNodeVampirilis11">
     <SimulationDescriptorReference Name="StarTypeYellow"/>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeArctic"/>
-      <CuriosityReference Name="Curiosity_Loot_Lifeform_Era3"/>
-      <CuriosityReference Name="Curiosity_PlanetAnomaly18"/>
-    </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
@@ -647,18 +639,18 @@
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeTundra"/>
     </PlanetDefinition>
-  </StarSystemNodeDefinition>
-
-  <StarSystemNodeDefinition Name="HomeNodeVampirilis12">
-    <SimulationDescriptorReference Name="StarTypeYellow"/>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeIce"/>
-      <CuriosityReference Name="Curiosity_PlanetResource_Strategic05"/>
-      <CuriosityReference Name="Curiosity_PlanetAnomaly20"/>
+      <SimulationDescriptorReference Name="PlanetTypeArctic"/>
+      <CuriosityReference Name="Curiosity_Loot_Lifeform_Era3"/>
+      <CuriosityReference Name="Curiosity_PlanetAnomaly18"/>
     </PlanetDefinition>
+  </StarSystemNodeDefinition>
+
+  <StarSystemNodeDefinition Name="HomeNodeVampirilis12">
+    <SimulationDescriptorReference Name="StarTypeYellow"/>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
@@ -684,6 +676,14 @@
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeTundra"/>
     </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeIce"/>
+      <CuriosityReference Name="Curiosity_PlanetResource_Strategic05"/>
+      <CuriosityReference Name="Curiosity_PlanetAnomaly20"/>
+    </PlanetDefinition>
   </StarSystemNodeDefinition>
 
   <StarSystemNodeDefinition Name="HomeNodeVampirilis13">
@@ -695,13 +695,6 @@
       <SimulationDescriptorReference Name="PlanetTypeLava"/>
       <CuriosityReference Name="Curiosity_PlanetResource_Strategic05"/>
       <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
-    </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeSnow"/>
-      <CuriosityReference Name="Curiosity_Loot_Underground_Era1"/>
-      <CuriosityReference Name="Curiosity_PlanetAnomaly38"/>
     </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
@@ -720,6 +713,13 @@
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeTundra"/>
     </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeSnow"/>
+      <CuriosityReference Name="Curiosity_Loot_Underground_Era1"/>
+      <CuriosityReference Name="Curiosity_PlanetAnomaly38"/>
+    </PlanetDefinition>
   </StarSystemNodeDefinition>
 
   <StarSystemNodeDefinition Name="HomeNodeVampirilis14">
@@ -731,14 +731,6 @@
       <SimulationDescriptorReference Name="PlanetTypeDesert"/>
       <CuriosityReference Name="Curiosity_Loot_Underground_Era2"/>
       <CuriosityReference Name="Curiosity_PlanetAnomaly22"/>
-    </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeSnow"/>
-      <CuriosityReference Name="Curiosity_PlanetResource_Strategic03"/>
-      <CuriosityReference Name="Curiosity_PlanetResource_Strategic04"/>
-      <CuriosityReference Name="Curiosity_PlanetAnomaly40"/>
     </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
@@ -757,26 +749,18 @@
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeTundra"/>
     </PlanetDefinition>
-  </StarSystemNodeDefinition>
-
-  <StarSystemNodeDefinition Name="HomeNodeVampirilis15">
-    <SimulationDescriptorReference Name="StarTypeYellow"/>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeArctic"/>
-      <CuriosityReference Name="Curiosity_PlanetResource_Strategic05"/>
-      <CuriosityReference Name="Curiosity_PlanetAnomaly43"/>
-    </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeSnow"/>
-      <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
-      <CuriosityReference Name="Curiosity_Loot_Ruins_Era2"/>
-      <CuriosityReference Name="Curiosity_PlanetAnomaly41"/>
+      <CuriosityReference Name="Curiosity_PlanetResource_Strategic03"/>
+      <CuriosityReference Name="Curiosity_PlanetResource_Strategic04"/>
+      <CuriosityReference Name="Curiosity_PlanetAnomaly40"/>
     </PlanetDefinition>
+  </StarSystemNodeDefinition>
+
+  <StarSystemNodeDefinition Name="HomeNodeVampirilis15">
+    <SimulationDescriptorReference Name="StarTypeYellow"/>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -794,27 +778,26 @@
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeTundra"/>
     </PlanetDefinition>
-  </StarSystemNodeDefinition>
-
-  <StarSystemNodeDefinition Name="HomeNodeVampirilis16">
-    <SimulationDescriptorReference Name="StarTypeYellow"/>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeIce"/>
-      <CuriosityReference Name="Curiosity_Loot_Underground_Era4"/>
-      <CuriosityReference Name="Curiosity_Loot_Ruins_Era1"/>
-      <CuriosityReference Name="Curiosity_PlanetAnomaly44"/>
-    </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeSnow"/>
-      <CuriosityReference Name="Curiosity_PlanetResource_Strategic03"/>
-      <CuriosityReference Name="Curiosity_PlanetResource_Strategic04"/>
-      <CuriosityReference Name="Curiosity_PlanetAnomaly42"/>
+      <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
+      <CuriosityReference Name="Curiosity_Loot_Ruins_Era2"/>
+      <CuriosityReference Name="Curiosity_PlanetAnomaly41"/>
     </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeArctic"/>
+      <CuriosityReference Name="Curiosity_PlanetResource_Strategic05"/>
+      <CuriosityReference Name="Curiosity_PlanetAnomaly43"/>
+    </PlanetDefinition>
+  </StarSystemNodeDefinition>
+
+  <StarSystemNodeDefinition Name="HomeNodeVampirilis16">
+    <SimulationDescriptorReference Name="StarTypeYellow"/>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -830,11 +813,41 @@
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeTundra"/>
     </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeSnow"/>
+      <CuriosityReference Name="Curiosity_PlanetResource_Strategic03"/>
+      <CuriosityReference Name="Curiosity_PlanetResource_Strategic04"/>
+      <CuriosityReference Name="Curiosity_PlanetAnomaly42"/>
+    </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeIce"/>
+      <CuriosityReference Name="Curiosity_Loot_Underground_Era4"/>
+      <CuriosityReference Name="Curiosity_Loot_Ruins_Era1"/>
+      <CuriosityReference Name="Curiosity_PlanetAnomaly44"/>
+    </PlanetDefinition>
   </StarSystemNodeDefinition>
 
-  <!-- United Empire -->
+  <!--United Empire-->
   <StarSystemNodeDefinition Name="BalancedStartUE">
     <SimulationDescriptorReference Name="StarTypeBlue"/>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeLava"/>
+      <CuriosityReference Name="Curiosity_Loot_Lifeform_Era3"/>
+    </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
+      <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
+    </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -853,33 +866,17 @@
       <CuriosityReference Name="Curiosity_PlanetAnomaly15"/>
       <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
     </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
-      <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
-    </PlanetDefinition>
+  </StarSystemNodeDefinition>
+
+  <!--Sophons-->
+  <StarSystemNodeDefinition Name="BalancedStartSophons">
+    <SimulationDescriptorReference Name="StarTypeRedDwarf"/>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeLava"/>
       <CuriosityReference Name="Curiosity_Loot_Lifeform_Era3"/>
-    </PlanetDefinition>
-  </StarSystemNodeDefinition>
-
-  <!-- Sophons -->
-  <StarSystemNodeDefinition Name="BalancedStartSophons">
-    <SimulationDescriptorReference Name="StarTypeBlue"/>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="HomePlanet"/>
-      <SimulationDescriptorReference Name="IsUniquePlanet"/>
-      <SimulationDescriptorReference Name="PlanetTypeBoreal"/>
-      <SimulationDescriptorReference Name="UniquePlanetSophons"/>
-      <AnomalyReference Name="PlanetAnomaly07"/>
     </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
@@ -891,10 +888,25 @@
     </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="HomePlanet"/>
+      <SimulationDescriptorReference Name="IsUniquePlanet"/>
+      <SimulationDescriptorReference Name="PlanetTypeBoreal"/>
+      <SimulationDescriptorReference Name="UniquePlanetSophons"/>
+      <AnomalyReference Name="PlanetAnomaly07"/>
+    </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
       <SimulationDescriptorReference Name="PlanetTypeSnow"/>
       <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
     </PlanetDefinition>
+  </StarSystemNodeDefinition>
+
+  <!--Lumeris-->
+  <StarSystemNodeDefinition Name="BalancedStartLumeris">
+    <SimulationDescriptorReference Name="StarTypeWhite"/>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
@@ -902,11 +914,6 @@
       <SimulationDescriptorReference Name="PlanetTypeLava"/>
       <CuriosityReference Name="Curiosity_Loot_Lifeform_Era3"/>
     </PlanetDefinition>
-  </StarSystemNodeDefinition>
-
-  <!--Lumeris-->
-  <StarSystemNodeDefinition Name="BalancedStartLumeris">
-    <SimulationDescriptorReference Name="StarTypeBlue"/>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -931,6 +938,11 @@
       <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
       <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
     </PlanetDefinition>
+  </StarSystemNodeDefinition>
+
+  <!--Horatio-->
+  <StarSystemNodeDefinition Name="BalancedStartHoratio">
+    <SimulationDescriptorReference Name="StarTypeBlue"/>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
@@ -938,12 +950,6 @@
       <SimulationDescriptorReference Name="PlanetTypeLava"/>
       <CuriosityReference Name="Curiosity_Loot_Lifeform_Era3"/>
     </PlanetDefinition>
-  </StarSystemNodeDefinition>
-
-
-  <!--Horatio-->
-  <StarSystemNodeDefinition Name="BalancedStartHoratio">
-    <SimulationDescriptorReference Name="StarTypeBlue"/>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
@@ -967,18 +973,32 @@
       <SimulationDescriptorReference Name="PlanetTypeSnow"/>
       <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
     </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeLava"/>
-      <CuriosityReference Name="Curiosity_Loot_Lifeform_Era3"/>
-    </PlanetDefinition>
   </StarSystemNodeDefinition>
 
   <!--Riftborn-->
   <StarSystemNodeDefinition Name="BalancedStartRiftborn">
-    <SimulationDescriptorReference Name="StarTypeBlue"/>
+    <SimulationDescriptorReference Name="StarTypeWhiteDwarf"/>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeAsh"/>
+      <CuriosityReference Name="Curiosity_PlanetAnomaly16"/>
+      <CuriosityReference Name="Curiosity_Loot_Ruins_Era2"/>
+    </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+      <SimulationDescriptorReference Name="PlanetSizeLarge"/>
+      <SimulationDescriptorReference Name="PlanetTypeForest"/>
+      <CuriosityReference Name="Curiosity_Loot_Lifeform_Era3"/>
+    </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeTundra"/>
+      <CuriosityReference Name="Curiosity_Loot_Ruins_Era1"/>
+    </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
@@ -996,32 +1016,17 @@
         <SizeDescriptorReference Name="DepositSizeAverage"/>
       </ResourceDeposit>
     </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeAsh"/>
-      <CuriosityReference Name="Curiosity_PlanetAnomaly16"/>
-      <CuriosityReference Name="Curiosity_Loot_Ruins_Era2"/>
-    </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeTundra"/>
-      <CuriosityReference Name="Curiosity_Loot_Ruins_Era1"/>
-    </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
-      <SimulationDescriptorReference Name="PlanetSizeLarge"/>
-      <SimulationDescriptorReference Name="PlanetTypeForest"/>
-      <CuriosityReference Name="Curiosity_Loot_Lifeform_Era3"/>
-    </PlanetDefinition>
   </StarSystemNodeDefinition>
 
   <!--Craver-->
   <StarSystemNodeDefinition Name="BalancedStartCraver">
-    <SimulationDescriptorReference Name="StarTypeBlue"/>
+    <SimulationDescriptorReference Name="StarTypeRedSupergiant"/>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeArid"/>
+      <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
+    </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -1041,12 +1046,6 @@
       <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
     </PlanetDefinition>
     <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeArid"/>
-      <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
-    </PlanetDefinition>
-    <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
       <SimulationDescriptorReference Name="PlanetSizeLarge"/>
@@ -1057,7 +1056,14 @@
 
   <!--Hissho-->
   <StarSystemNodeDefinition Name="BalancedStartHissho">
-    <SimulationDescriptorReference Name="StarTypeBlue"/>
+    <SimulationDescriptorReference Name="StarTypeDysonSphere"/>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeLava"/>
+      <CuriosityReference Name="Curiosity_Loot_Lifeform_Era3"/>
+    </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -1081,6 +1087,11 @@
       <SimulationDescriptorReference Name="PlanetTypeSnow"/>
       <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
     </PlanetDefinition>
+  </StarSystemNodeDefinition>
+
+  <!--Nakalim-->
+  <StarSystemNodeDefinition Name="BalancedStartNakalim">
+    <SimulationDescriptorReference Name="StarTypeArtificial"/>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
@@ -1088,11 +1099,6 @@
       <SimulationDescriptorReference Name="PlanetTypeLava"/>
       <CuriosityReference Name="Curiosity_Loot_Lifeform_Era3"/>
     </PlanetDefinition>
-  </StarSystemNodeDefinition>
-
-  <!--Nakalim-->
-  <StarSystemNodeDefinition Name="BalancedStartNakalim">
-    <SimulationDescriptorReference Name="StarTypeBlue"/>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
@@ -1116,25 +1122,11 @@
       <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
       <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
     </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeLava"/>
-      <CuriosityReference Name="Curiosity_Loot_Lifeform_Era3"/>
-    </PlanetDefinition>
   </StarSystemNodeDefinition>
-
 
   <!--Vaulters-->
   <StarSystemNodeDefinition Name="BalancedStartVaulter">
     <SimulationDescriptorReference Name="StarTypeBlue"/>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeForest"/>
-    </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
@@ -1147,16 +1139,10 @@
       </ResourceDeposit>
     </PlanetDefinition>
     <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
       <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeArctic"/>
-      <CuriosityReference Name="Curiosity_PlanetResource_Strategic02"/>
-      <CuriosityReference Name="Curiosity_PlanetAnomaly04"/>
-      <ResourceDeposit>
-        <DefinitionReference Name="StrategicDeposit2"/>
-        <SizeDescriptorReference Name="DepositSizePoor"/>
-      </ResourceDeposit>
+      <SimulationDescriptorReference Name="PlanetTypeForest"/>
     </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
@@ -1174,11 +1160,30 @@
         <SizeDescriptorReference Name="DepositSizeAverage"/>
       </ResourceDeposit>
     </PlanetDefinition>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeArctic"/>
+      <CuriosityReference Name="Curiosity_PlanetResource_Strategic02"/>
+      <CuriosityReference Name="Curiosity_PlanetAnomaly04"/>
+      <ResourceDeposit>
+        <DefinitionReference Name="StrategicDeposit2"/>
+        <SizeDescriptorReference Name="DepositSizePoor"/>
+      </ResourceDeposit>
+    </PlanetDefinition>
   </StarSystemNodeDefinition>
 
   <!--Unfallen-->
   <StarSystemNodeDefinition Name="BalancedStartUnfallen">
-    <SimulationDescriptorReference Name="StarTypeBlue"/>
+    <SimulationDescriptorReference Name="StarTypeWhite"/>
+    <PlanetDefinition>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+      <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+      <SimulationDescriptorReference Name="PlanetTypeLava"/>
+      <CuriosityReference Name="Curiosity_Loot_Lifeform_Era3"/>
+    </PlanetDefinition>
     <PlanetDefinition>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
       <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -1204,25 +1209,18 @@
       <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
       <CuriosityReference Name="Curiosity_Loot_Underground_Era3"/>
     </PlanetDefinition>
-    <PlanetDefinition>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-      <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-      <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-      <SimulationDescriptorReference Name="PlanetTypeLava"/>
-      <CuriosityReference Name="Curiosity_Loot_Lifeform_Era3"/>
-    </PlanetDefinition>
   </StarSystemNodeDefinition>
 
     <!--5 Planet Replacement Systems-->
     <StarSystemNodeDefinition Name="Replacement5pNode1">
       <SimulationDescriptorReference Name="StarTypeWhite"/>
       <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
         <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeBoreal"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly42"/>
-        <CuriosityReference Name="Curiosity_Loot_Underground_Era2"/>
+        <SimulationDescriptorReference Name="PlanetTypeAsh"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
       </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
@@ -1239,31 +1237,31 @@
       </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+        <SimulationDescriptorReference Name="PlanetTypeBoreal"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly42"/>
+        <CuriosityReference Name="Curiosity_Loot_Underground_Era2"/>
+      </PlanetDefinition>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
         <SimulationDescriptorReference Name="PlanetSizeMedium"/>
         <SimulationDescriptorReference Name="PlanetTypeArctic"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly09"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly18"/>
       </PlanetDefinition>
+    </StarSystemNodeDefinition>
+
+    <StarSystemNodeDefinition Name="Replacement5pNode2">
+      <SimulationDescriptorReference Name="StarTypeYellow"/>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
         <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeAsh"/>
+        <SimulationDescriptorReference Name="PlanetTypeLava"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
-      </PlanetDefinition>
-    </StarSystemNodeDefinition>
-
-    <StarSystemNodeDefinition Name="Replacement5pNode2">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
-        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeForest"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly42"/>
-        <CuriosityReference Name="Curiosity_Loot_Ruins_Era2"/>
       </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
@@ -1278,6 +1276,14 @@
         <CuriosityReference Name="Curiosity_PlanetAnomaly08"/>
       </PlanetDefinition>
       <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+        <SimulationDescriptorReference Name="PlanetTypeForest"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly42"/>
+        <CuriosityReference Name="Curiosity_Loot_Ruins_Era2"/>
+      </PlanetDefinition>
+      <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
         <SimulationDescriptorReference Name="PlanetSizeMedium"/>
@@ -1285,18 +1291,23 @@
         <CuriosityReference Name="Curiosity_PlanetAnomaly09"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly18"/>
       </PlanetDefinition>
+    </StarSystemNodeDefinition>
+
+    <StarSystemNodeDefinition Name="Replacement5pNode3">
+      <SimulationDescriptorReference Name="StarTypeArtificial"/>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
         <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeLava"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
+        <SimulationDescriptorReference Name="PlanetTypeDesert"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
       </PlanetDefinition>
-    </StarSystemNodeDefinition>
-
-    <StarSystemNodeDefinition Name="Replacement5pNode3">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
+        <SimulationDescriptorReference Name="PlanetTypeArid"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly07"/>
+      </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -1306,10 +1317,10 @@
         <CuriosityReference Name="Curiosity_Loot_Lifeform_Era2"/>
       </PlanetDefinition>
       <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
-        <SimulationDescriptorReference Name="PlanetTypeArid"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly07"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+        <SimulationDescriptorReference Name="PlanetTypeTundra"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
       </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
@@ -1318,19 +1329,6 @@
         <SimulationDescriptorReference Name="PlanetTypeIce"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly09"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly18"/>
-      </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeDesert"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
-      </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeTundra"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
       </PlanetDefinition>
     </StarSystemNodeDefinition>
 
@@ -1345,6 +1343,18 @@
         <CuriosityReference Name="Curiosity_Loot_Signal_Era2"/>
       </PlanetDefinition>
       <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+        <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
+      </PlanetDefinition>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+        <SimulationDescriptorReference Name="PlanetTypeMonsoon"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
+      </PlanetDefinition>
+      <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
         <SimulationDescriptorReference Name="PlanetSizeHuge"/>
         <SimulationDescriptorReference Name="PlanetTypeSnow"/>
@@ -1357,43 +1367,16 @@
         <SimulationDescriptorReference Name="PlanetTypeGasFrozen"/>
         <AnomalyReference Name="PlanetAnomaly45"/>
       </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeMonsoon"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
-      </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
-      </PlanetDefinition>
     </StarSystemNodeDefinition>
 
     <StarSystemNodeDefinition Name="Replacement5pNode5">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
-        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeOcean"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly42"/>
-        <CuriosityReference Name="Curiosity_Loot_Atmospheric_Era2"/>
-      </PlanetDefinition>
+      <SimulationDescriptorReference Name="StarTypeDouble"/>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
         <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeDesert"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly07"/>
-      </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeGas"/>
-        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
-        <SimulationDescriptorReference Name="PlanetTypeGasHot"/>
-        <AnomalyReference Name="PlanetAnomaly46"/>
+        <SimulationDescriptorReference Name="PlanetTypeLava"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
       </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
@@ -1406,13 +1389,28 @@
         <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
         <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeLava"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
+        <SimulationDescriptorReference Name="PlanetTypeDesert"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly07"/>
+      </PlanetDefinition>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+        <SimulationDescriptorReference Name="PlanetTypeOcean"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly42"/>
+        <CuriosityReference Name="Curiosity_Loot_Atmospheric_Era2"/>
+      </PlanetDefinition>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeGas"/>
+        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
+        <SimulationDescriptorReference Name="PlanetTypeGasHot"/>
+        <AnomalyReference Name="PlanetAnomaly46"/>
       </PlanetDefinition>
     </StarSystemNodeDefinition>
 
     <StarSystemNodeDefinition Name="Replacement5pNode6">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
+      <SimulationDescriptorReference Name="StarTypeProtostar"/>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -1430,13 +1428,6 @@
       </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeGas"/>
-        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
-        <SimulationDescriptorReference Name="PlanetTypeGasCold"/>
-        <AnomalyReference Name="PlanetAnomaly47"/>
-      </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
         <SimulationDescriptorReference Name="PlanetSizeMedium"/>
         <SimulationDescriptorReference Name="PlanetTypeBarren"/>
@@ -1449,10 +1440,17 @@
         <SimulationDescriptorReference Name="PlanetTypeBarren"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
       </PlanetDefinition>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeGas"/>
+        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
+        <SimulationDescriptorReference Name="PlanetTypeGasCold"/>
+        <AnomalyReference Name="PlanetAnomaly47"/>
+      </PlanetDefinition>
     </StarSystemNodeDefinition>
 
     <StarSystemNodeDefinition Name="Replacement5pNode7">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
+      <SimulationDescriptorReference Name="StarTypeRedDwarf"/>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -1492,7 +1490,21 @@
     </StarSystemNodeDefinition>
 
     <StarSystemNodeDefinition Name="Replacement5pNode8">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
+      <SimulationDescriptorReference Name="StarTypeBlue"/>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+        <SimulationDescriptorReference Name="PlanetTypeAsh"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
+      </PlanetDefinition>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+        <SimulationDescriptorReference Name="PlanetTypeAsh"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
+      </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -1515,30 +1527,29 @@
         <SimulationDescriptorReference Name="PlanetTypeTerran"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly08"/>
       </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeAsh"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
-      </PlanetDefinition>
+    </StarSystemNodeDefinition>
+
+    <StarSystemNodeDefinition Name="Replacement5pNode9">
+      <SimulationDescriptorReference Name="StarTypeYellow"/>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
         <SimulationDescriptorReference Name="PlanetSizeMedium"/>
         <SimulationDescriptorReference Name="PlanetTypeAsh"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
       </PlanetDefinition>
-    </StarSystemNodeDefinition>
-
-    <StarSystemNodeDefinition Name="Replacement5pNode9">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
       <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeGas"/>
         <SimulationDescriptorReference Name="PlanetSizeHuge"/>
-        <SimulationDescriptorReference Name="PlanetTypeGasFrozen"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly26"/>
+        <SimulationDescriptorReference Name="PlanetTypeGasBurning"/>
+      </PlanetDefinition>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeGas"/>
+        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
+        <SimulationDescriptorReference Name="PlanetTypeGasWarm"/>
       </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
@@ -1549,29 +1560,16 @@
         <CuriosityReference Name="Curiosity_Loot_Underground_Era2"/>
       </PlanetDefinition>
       <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeGas"/>
         <SimulationDescriptorReference Name="PlanetSizeHuge"/>
-        <SimulationDescriptorReference Name="PlanetTypeGasWarm"/>
-      </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeGas"/>
-        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
-        <SimulationDescriptorReference Name="PlanetTypeGasBurning"/>
-      </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeAsh"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
+        <SimulationDescriptorReference Name="PlanetTypeGasFrozen"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly26"/>
       </PlanetDefinition>
     </StarSystemNodeDefinition>
 
     <StarSystemNodeDefinition Name="Replacement5pNode10">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
+      <SimulationDescriptorReference Name="StarTypeRedSupergiant"/>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
@@ -1613,14 +1611,14 @@
 
     <!--4 Planet Replacement Systems-->
     <StarSystemNodeDefinition Name="Replacement4pNode1">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
+      <SimulationDescriptorReference Name="StarTypeDysonSphere"/>
       <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
         <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeBoreal"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly42"/>
-        <CuriosityReference Name="Curiosity_Loot_Underground_Era2"/>
+        <SimulationDescriptorReference Name="PlanetTypeAsh"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
       </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
@@ -1630,24 +1628,38 @@
       </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+        <SimulationDescriptorReference Name="PlanetTypeBoreal"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly42"/>
+        <CuriosityReference Name="Curiosity_Loot_Underground_Era2"/>
+      </PlanetDefinition>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
         <SimulationDescriptorReference Name="PlanetSizeMedium"/>
         <SimulationDescriptorReference Name="PlanetTypeArctic"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly09"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly18"/>
       </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeAsh"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
-      </PlanetDefinition>
     </StarSystemNodeDefinition>
 
     <StarSystemNodeDefinition Name="Replacement4pNode2">
       <SimulationDescriptorReference Name="StarTypeWhite"/>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+        <SimulationDescriptorReference Name="PlanetTypeLava"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
+      </PlanetDefinition>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
+        <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly07"/>
+      </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -1657,12 +1669,6 @@
         <CuriosityReference Name="Curiosity_Loot_Ruins_Era2"/>
       </PlanetDefinition>
       <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
-        <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly07"/>
-      </PlanetDefinition>
-      <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
         <SimulationDescriptorReference Name="PlanetSizeMedium"/>
@@ -1670,18 +1676,24 @@
         <CuriosityReference Name="Curiosity_PlanetAnomaly09"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly18"/>
       </PlanetDefinition>
+    </StarSystemNodeDefinition>
+
+    <StarSystemNodeDefinition Name="Replacement4pNode3">
+      <SimulationDescriptorReference Name="StarTypeDouble"/>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
         <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeLava"/>
+        <SimulationDescriptorReference Name="PlanetTypeDesert"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
       </PlanetDefinition>
-    </StarSystemNodeDefinition>
-
-    <StarSystemNodeDefinition Name="Replacement4pNode3">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
+        <SimulationDescriptorReference Name="PlanetTypeArid"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly07"/>
+      </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -1691,26 +1703,12 @@
         <CuriosityReference Name="Curiosity_Loot_Lifeform_Era2"/>
       </PlanetDefinition>
       <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
-        <SimulationDescriptorReference Name="PlanetTypeArid"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly07"/>
-      </PlanetDefinition>
-      <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
         <SimulationDescriptorReference Name="PlanetSizeMedium"/>
         <SimulationDescriptorReference Name="PlanetTypeIce"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly09"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly18"/>
-      </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeDesert"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
       </PlanetDefinition>
     </StarSystemNodeDefinition>
 
@@ -1725,6 +1723,13 @@
         <CuriosityReference Name="Curiosity_Loot_Signal_Era2"/>
       </PlanetDefinition>
       <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+        <SimulationDescriptorReference Name="PlanetTypeMonsoon"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
+      </PlanetDefinition>
+      <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
         <SimulationDescriptorReference Name="PlanetSizeHuge"/>
         <SimulationDescriptorReference Name="PlanetTypeSnow"/>
@@ -1737,32 +1742,10 @@
         <SimulationDescriptorReference Name="PlanetTypeGasFrozen"/>
         <AnomalyReference Name="PlanetAnomaly45"/>
       </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeMonsoon"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
-      </PlanetDefinition>
     </StarSystemNodeDefinition>
 
     <StarSystemNodeDefinition Name="Replacement4pNode5">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
-        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeOcean"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly42"/>
-        <CuriosityReference Name="Curiosity_Loot_Atmospheric_Era2"/>
-      </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeDesert"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly07"/>
-      </PlanetDefinition>
+      <SimulationDescriptorReference Name="StarTypeYellow"/>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeGas"/>
@@ -1778,10 +1761,25 @@
         <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
       </PlanetDefinition>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+        <SimulationDescriptorReference Name="PlanetTypeDesert"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly07"/>
+      </PlanetDefinition>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+        <SimulationDescriptorReference Name="PlanetTypeOcean"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly42"/>
+        <CuriosityReference Name="Curiosity_Loot_Atmospheric_Era2"/>
+      </PlanetDefinition>
     </StarSystemNodeDefinition>
 
     <StarSystemNodeDefinition Name="Replacement4pNode6">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
+      <SimulationDescriptorReference Name="StarTypeWhiteDwarf"/>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -1799,23 +1797,29 @@
       </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeGas"/>
-        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
-        <SimulationDescriptorReference Name="PlanetTypeGasCold"/>
-        <AnomalyReference Name="PlanetAnomaly47"/>
-      </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
         <SimulationDescriptorReference Name="PlanetSizeMedium"/>
         <SimulationDescriptorReference Name="PlanetTypeBarren"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
       </PlanetDefinition>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeGas"/>
+        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
+        <SimulationDescriptorReference Name="PlanetTypeGasCold"/>
+        <AnomalyReference Name="PlanetAnomaly47"/>
+      </PlanetDefinition>
     </StarSystemNodeDefinition>
 
     <StarSystemNodeDefinition Name="Replacement4pNode7">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
+      <SimulationDescriptorReference Name="StarTypeRedDwarf"/>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
+        <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly07"/>
+      </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -1823,12 +1827,6 @@
         <SimulationDescriptorReference Name="PlanetTypeBoreal"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly42"/>
         <CuriosityReference Name="Curiosity_Loot_Signal_Era2"/>
-      </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
-        <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly07"/>
       </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
@@ -1849,7 +1847,15 @@
     </StarSystemNodeDefinition>
 
     <StarSystemNodeDefinition Name="Replacement4pNode8">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
+      <SimulationDescriptorReference Name="StarTypeArtificial"/>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
+        <SimulationDescriptorReference Name="PlanetTypeAsh"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
+      </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
@@ -1872,6 +1878,10 @@
         <SimulationDescriptorReference Name="PlanetTypeTerran"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly08"/>
       </PlanetDefinition>
+    </StarSystemNodeDefinition>
+
+    <StarSystemNodeDefinition Name="Replacement4pNode9">
+      <SimulationDescriptorReference Name="StarTypeBlue"/>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
@@ -1879,24 +1889,6 @@
         <SimulationDescriptorReference Name="PlanetTypeAsh"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
         <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
-      </PlanetDefinition>
-    </StarSystemNodeDefinition>
-
-    <StarSystemNodeDefinition Name="Replacement4pNode9">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeGas"/>
-        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
-        <SimulationDescriptorReference Name="PlanetTypeGasCold"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly25"/>
-        <CuriosityReference Name="Curiosity_Loot_Underground_Era2"/>
-      </PlanetDefinition>
-      <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeGas"/>
-        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
-        <SimulationDescriptorReference Name="PlanetTypeGasWarm"/>
       </PlanetDefinition>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
@@ -1905,17 +1897,23 @@
         <SimulationDescriptorReference Name="PlanetTypeGasBurning"/>
       </PlanetDefinition>
       <PlanetDefinition>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-        <SimulationDescriptorReference Name="PlanetSizeMedium"/>
-        <SimulationDescriptorReference Name="PlanetTypeAsh"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly13"/>
-        <CuriosityReference Name="Curiosity_PlanetAnomaly21"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeGas"/>
+        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
+        <SimulationDescriptorReference Name="PlanetTypeGasWarm"/>
+      </PlanetDefinition>
+      <PlanetDefinition>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeGas"/>
+        <SimulationDescriptorReference Name="PlanetSizeHuge"/>
+        <SimulationDescriptorReference Name="PlanetTypeGasCold"/>
+        <CuriosityReference Name="Curiosity_PlanetAnomaly25"/>
+        <CuriosityReference Name="Curiosity_Loot_Underground_Era2"/>
       </PlanetDefinition>
     </StarSystemNodeDefinition>
 
     <StarSystemNodeDefinition Name="Replacement4pNode10">
-      <SimulationDescriptorReference Name="StarTypeWhite"/>
+      <SimulationDescriptorReference Name="StarTypeRedSupergiant"/>
       <PlanetDefinition>
         <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
