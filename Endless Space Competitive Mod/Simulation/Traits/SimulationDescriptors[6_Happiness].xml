@@ -373,17 +373,44 @@
     <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="1" Path="ClassPopulation"/>
   </SimulationDescriptor>
 
-  <!-- +2 HappinessOnMeager -->
+  <!-- +2 HappinessOnMeager / +30 System manpower capacity-->
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryCustomHappinessOnMeager01" Type="WithPopulationPlanet">
     <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
     <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="2" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeMeager/ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessOnMeager01" TooltipHidden="true"/>
+    <Modifier TargetProperty="BonusPopulationDefenseHissho" Operation="Addition" Value="30" Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
+    <Modifier TargetProperty="BonusPopulationDefenseHissho" Operation="Addition" Value="30" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeMeager/ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessOnMeager01" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessOnMeager01" Type="ClassPopulationPlanet">
     <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
     <BinaryModifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(PlanetIsMeager)" TooltipHidden="true"/>
+    <Modifier TargetProperty="BonusPopulationDefenseHissho" Operation="Addition" Value="30" Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
+    <BinaryModifier TargetProperty="BonusPopulationDefenseHissho" Operation="Addition" Left="30" BinaryOperation="Multiplication" Right="$(PlanetIsMeager)" TooltipHidden="true"/>
   </SimulationDescriptor>
 
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetSecondaryCustomHappinessOnMeager00" Type="ClassPopulationAssimilated">
+    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="1" Path="ClassPopulation"/>
+  </SimulationDescriptor>
+  
+  <!-- +2 HappinessOnMeager / +2 food-->
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryCustomHappinessFoodOnMeager01" Type="WithPopulationPlanet">
+    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
+    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="2" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeMeager/ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessOnMeager01" TooltipHidden="true"/>
+     <Modifier TargetProperty="BonusPopulationFoodHissho" Operation="Addition" Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
+    <Modifier TargetProperty="BonusPopulationFoodHissho" Operation="Addition" Value="2" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeMeager/ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessOnMeager01" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessFoodOnMeager01" Type="ClassPopulationPlanet">
+    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
+    <BinaryModifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(PlanetIsMeager)" TooltipHidden="true"/>
+    <Modifier TargetProperty="BonusPopulationFoodHissho" Operation="Addition" Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
+    <BinaryModifier TargetProperty="BonusPopulationFoodHissho" Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(PlanetIsMeager)" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+   <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetSecondaryCustomHappinessFoodOnMeager01" Type="ClassPopulationAssimilated">
+    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="1" Path="ClassPopulation"/>
+  </SimulationDescriptor>
+  
   <!-- +3 HappinessOnMeager -->
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryCustomHappinessOnMeager02" Type="WithPopulationPlanet">
     <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="3" Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
