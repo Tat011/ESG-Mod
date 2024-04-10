@@ -25,7 +25,7 @@
   </PopulationModifiersTrait>
 
   <!-- +2 Happiness / +1 Influence-->
-  <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryCustomHappinessPrestige00" SubCategory="Primary" ShowInCustom="true" Cost="5">
+  <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryCustomHappinessPrestige00" SubCategory="Primary" Cost="5">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
         <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryCustomHappinessPrestige00"/>
