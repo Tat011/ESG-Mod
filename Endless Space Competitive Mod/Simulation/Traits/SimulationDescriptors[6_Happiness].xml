@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
-  <!-- Primary -->
+<!-- Primary -->
 <!-- Happiness -->
-<!-- +2 Happiness -->
--<SimulationDescriptor Type="WithPopulationPlanet" Name="WithPopulationPlanetModifiersTraitPrimaryCustomHappiness00">
+<!-- +2 Happiness / +30 System manpower capacity-->
+<SimulationDescriptor Type="WithPopulationPlanet" Name="WithPopulationPlanetModifiersTraitPrimaryCustomHappiness00">
 <Modifier Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryCustomHappiness00,ClassPopulation" Value="2" Operation="Addition" TargetProperty="BonusPopulationHappiness"/>
+<Modifier Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryCustomHappiness00,ClassPopulation" Value="30" Operation="Addition" TargetProperty="BonusPopulationDefenseHissho"/>
 </SimulationDescriptor>
 
-
--<SimulationDescriptor Type="ClassPopulationPlanet" Name="ClassPopulationPlanetModifiersTraitPrimaryCustomHappiness00">
+<SimulationDescriptor Type="ClassPopulationPlanet" Name="ClassPopulationPlanetModifiersTraitPrimaryCustomHappiness00">
 <Modifier Path="ClassPopulation" Value="2" Operation="Addition" TargetProperty="BonusPopulationHappiness"/>
-<Modifier Path="ClassPopulation" Value="1" Operation="Addition" TargetProperty="BonusPopulationScienceHissho"/>
-  </SimulationDescriptor>
+<Modifier Path="ClassPopulation" Value="30" Operation="Addition" TargetProperty="BonusPopulationDefenseHissho"/>
+</SimulationDescriptor>
 
+<SimulationDescriptor Type="ClassPopulationAssimilated" Name="ClassPopulationAssimilatedPrimaryCustomHappiness00">
+<Modifier Path="ClassPopulation" Value="2" Operation="Addition" TargetProperty="BonusPopulationHappiness"/>
+</SimulationDescriptor>
 
--<SimulationDescriptor Type="ClassPopulationAssimilated" Name="ClassPopulationAssimilatedPrimaryCustomHappiness00">
+<!-- +2 Happiness / +1 Influence-->
+<SimulationDescriptor Type="WithPopulationPlanet" Name="WithPopulationPlanetModifiersTraitPrimaryCustomHappinessPrestige00">
+<Modifier Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryCustomHappiness00,ClassPopulation" Value="2" Operation="Addition" TargetProperty="BonusPopulationHappiness"/>
+<Modifier Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryCustomHappiness00,ClassPopulation" Value="1" Operation="Addition" TargetProperty="BonusPopulationPrestigeHissho"/>
+</SimulationDescriptor>
+
+<SimulationDescriptor Type="ClassPopulationPlanet" Name="ClassPopulationPlanetModifiersTraitPrimaryCustomHappinessPrestige00">
+<Modifier Path="ClassPopulation" Value="2" Operation="Addition" TargetProperty="BonusPopulationHappiness"/>
+<Modifier Path="ClassPopulation" Value="1" Operation="Addition" TargetProperty="BonusPopulationPrestigeHissho"/>
+</SimulationDescriptor>
+
+<SimulationDescriptor Type="ClassPopulationAssimilated" Name="ClassPopulationAssimilatedPrimaryCustomHappinessPrestige00">
 <Modifier Path="ClassPopulation" Value="2" Operation="Addition" TargetProperty="BonusPopulationHappiness"/>
 </SimulationDescriptor>
 
@@ -196,17 +210,19 @@
     <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="1" Path="ClassPopulation"/>
   </SimulationDescriptor>
 
-  <!-- +2 HappinessOnHot -->
+  <!-- +2 HappinessOnHot / +2 Influence on hot-->
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryCustomHappinessOnHot01" Type="WithPopulationPlanet">
     <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeHot"/>
     <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="2" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessOnHot01" TooltipHidden="true"/>
+    <Modifier TargetProperty="BonusPopulationPrestigeHissho" Operation="Addition" Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeHot"/>
+    <Modifier TargetProperty="BonusPopulationPrestigeHissho" Operation="Addition" Value="2" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessOnHot01" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessOnHot01" Type="ClassPopulationPlanet">
     <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeHot"/>
     <BinaryModifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(PlanetIsHot)" TooltipHidden="true"/>
-    <Modifier TargetProperty="BonusPopulationPrestigeHissho" Operation="Addition" Value="1" Path="FAKEFORGUI/./PlanetGameplayTypeHot"/>
-    <BinaryModifier TargetProperty="BonusPopulationPrestigeHissho" Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(PlanetIsHot)" TooltipHidden="true"/>
+    <Modifier TargetProperty="BonusPopulationPrestigeHissho" Operation="Addition" Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeHot"/>
+    <BinaryModifier TargetProperty="BonusPopulationPrestigeHissho" Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(PlanetIsHot)" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <!-- +3 HappinessOnHot -->
@@ -292,17 +308,25 @@
     <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="2" Path="ClassPopulation"/>
   </SimulationDescriptor>
 
-  <!-- +4 HappinessOnTeeming -->
+  <!-- +4 HappinessOnTeeming / +60 System manpower capacity on fertile-->
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryCustomHappinessOnTeeming03" Type="WithPopulationPlanet">
     <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="4" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming"/>
     <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="4" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeTeeming/ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessOnTeeming03" TooltipHidden="true"/>
+    <Modifier TargetProperty="BonusPopulationDefenseHissho" Operation="Addition" Value="60" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming"/>
+    <Modifier TargetProperty="BonusPopulationDefenseHissho" Operation="Addition" Value="60" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeTeeming/ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessOnTeeming03" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessOnTeeming03" Type="ClassPopulationPlanet">
     <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="4" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming"/>
     <BinaryModifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Left="4" BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)" TooltipHidden="true"/>
+    <Modifier TargetProperty="BonusPopulationDefenseHissho" Operation="Addition" Value="60" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming"/>
+    <BinaryModifier TargetProperty="BonusPopulationDefenseHissho" Operation="Addition" Left="60" BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)" TooltipHidden="true"/>
   </SimulationDescriptor>
 
+  <SimulationDescriptor Name="ClassPopulationAssimilatedSecondaryCustomHappinessOnTeeming03" Type="ClassPopulationAssimilated">
+    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="3" Path="ClassPopulation"/>
+  </SimulationDescriptor>
+  
   <!-- +5 HappinessOnTeeming -->
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryCustomHappinessOnTeeming04" Type="WithPopulationPlanet">
     <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="5" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming"/>
