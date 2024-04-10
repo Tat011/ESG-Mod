@@ -1530,7 +1530,30 @@
   </PopulationModifiersTrait>
 
   <!-- Science on Anomaly -->
-  <!-- +2 ScienceOnAnomaly -->
+  <!-- +3 ScienceOnAnomaly -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryCustomScienceOnAnomaly000" SubCategory="Secondary" ShowInCustom="true" Cost="10">
+    <Tags>PlanetAnomaly,BonusPopulationScience</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryCustomScienceOnAnomaly000"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet">
+        <!-- +3 ScienceOnAnomaly per Population-->
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryCustomScienceOnAnomaly000"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryCustomScienceOnAnomaly000"/>
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedSecondaryCustomScienceOnAnomaly000"/>
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+  
+  <!-- +5 ScienceOnAnomaly -->
   <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryCustomScienceOnAnomaly00" SubCategory="Secondary" ShowInCustom="true" Cost="10">
     <Tags>PlanetAnomaly,BonusPopulationScience</Tags>
     <Modifiers>
@@ -1538,7 +1561,7 @@
         <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryCustomScienceOnAnomaly00"/>
       </Modifier>
       <Modifier Class="ClassPopulationPlanet">
-        <!-- +2 ScienceOnAnomaly per Population-->
+        <!-- +5 ScienceOnAnomaly per Population-->
         <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryCustomScienceOnAnomaly00"/>
       </Modifier>
       <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true">
