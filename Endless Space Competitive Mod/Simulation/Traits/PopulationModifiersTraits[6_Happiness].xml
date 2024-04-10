@@ -601,7 +601,7 @@
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
 
-  <!-- +2 HappinessOnMeager -->
+  <!-- +2 HappinessOnMeager / defense-->
   <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryCustomHappinessOnMeager01" SubCategory="Secondary" ShowInCustom="true" Cost="5">
     <Tags>PlanetGameplayTypeMeager,BonusPopulationHappiness</Tags>
     <Modifiers>
@@ -619,11 +619,34 @@
 
     <AssimilatedModifiers>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessOnMeager00"/>
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetSecondaryCustomHappinessOnMeager00"/>
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
 
+  <!-- +2 HappinessOnMeager /food-->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryCustomHappinessFoodOnMeager01" SubCategory="Secondary" Cost="5">
+    <Tags>PlanetGameplayTypeMeager,BonusPopulationHappiness</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryCustomHappinessFoodOnMeager01"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet">
+        <!-- +2 HappinessOnMeager per Population-->
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessFoodOnMeager01"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessFoodOnMeager01"/>
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetSecondaryCustomHappinessFoodOnMeager00"/>
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+  
   <!-- +3 HappinessOnMeager -->
   <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryCustomHappinessOnMeager02" SubCategory="Secondary" ShowInCustom="true" Cost="10">
     <Tags>PlanetGameplayTypeMeager,BonusPopulationHappiness</Tags>
