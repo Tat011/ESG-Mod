@@ -32,6 +32,21 @@
 <Modifier Path="ClassPopulation" Value="2" Operation="Addition" TargetProperty="BonusPopulationHappiness"/>
 </SimulationDescriptor>
 
+<!-- +3 Happiness / +3 Science-->
+<SimulationDescriptor Type="WithPopulationPlanet" Name="WithPopulationPlanetModifiersTraitPrimaryCustomHappinessPrestige005">
+<Modifier Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryCustomHappiness00,ClassPopulation" Value="3" Operation="Addition" TargetProperty="BonusPopulationHappiness"/>
+<Modifier Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryCustomHappiness00,ClassPopulation" Value="3" Operation="Addition" TargetProperty="BonusPopulationScienceHissho"/>
+</SimulationDescriptor>
+
+<SimulationDescriptor Type="ClassPopulationPlanet" Name="ClassPopulationPlanetModifiersTraitPrimaryCustomHappinessPrestige005">
+<Modifier Path="ClassPopulation" Value="3" Operation="Addition" TargetProperty="BonusPopulationHappiness"/>
+<Modifier Path="ClassPopulation" Value="3" Operation="Addition" TargetProperty="BonusPopulationScienceHissho"/>
+</SimulationDescriptor>
+
+<SimulationDescriptor Type="ClassPopulationAssimilated" Name="ClassPopulationAssimilatedPrimaryCustomHappinessPrestige005">
+<Modifier Path="ClassPopulation" Value="3" Operation="Addition" TargetProperty="BonusPopulationHappiness"/>
+</SimulationDescriptor>
+
 <!-- +4 Happiness -->
 -<SimulationDescriptor Type="WithPopulationPlanet" Name="WithPopulationPlanetModifiersTraitPrimaryCustomHappiness01">
 <Modifier Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryCustomHappiness01,ClassPopulation" Value="4" Operation="Addition" TargetProperty="BonusPopulationHappiness"/>
