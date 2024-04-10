@@ -2,7 +2,7 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/PopulationModifiersTrait.xsd">
   <!-- Primary -->
   <!-- Happiness -->
-  <!-- +2 Happiness -->
+  <!-- +2 Happiness / +30 System manpower capacity-->
   <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryCustomHappiness00" SubCategory="Primary" ShowInCustom="true" Cost="5">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
@@ -24,6 +24,28 @@
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
 
+  <!-- +2 Happiness / +1 Influence-->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryCustomHappinessPrestige00" SubCategory="Primary" ShowInCustom="true" Cost="5">
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryCustomHappinessPrestige00"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet">
+        <!-- +2 Happiness per Population-->
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryCustomHappinessPrestige00"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryCustomHappinessPrestige00"/>
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPrimaryCustomHappinessPrestige00"/>
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+  
   <!-- +4 Happiness -->
   <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryCustomHappiness01" SubCategory="Primary" ShowInCustom="true" Cost="10">
     <Modifiers>
@@ -325,7 +347,7 @@
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
 
-  <!-- +2 HappinessOnHot -->
+  <!-- +2 HappinessOnHot / +2 Influence on hot-->
   <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryCustomHappinessOnHot01" SubCategory="Secondary" ShowInCustom="true" Cost="5">
     <Tags>PlanetGameplayTypeHot,BonusPopulationHappiness</Tags>
     <Modifiers>
@@ -487,7 +509,7 @@
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
 
-  <!-- +4 HappinessOnTeeming -->
+  <!-- +4 HappinessOnTeeming / +60 System manpower capacity on fertile-->
   <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryCustomHappinessOnTeeming03" SubCategory="Secondary" ShowInCustom="true" Cost="12">
     <Tags>PlanetGameplayTypeTeeming,BonusPopulationHappiness</Tags>
     <Modifiers>
@@ -499,7 +521,7 @@
         <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessOnTeeming03"/>
       </Modifier>
       <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryCustomHappinessOnTeeming03"/>
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedSecondaryCustomHappinessOnTeeming03"/>
       </Modifier>
     </Modifiers>
 
