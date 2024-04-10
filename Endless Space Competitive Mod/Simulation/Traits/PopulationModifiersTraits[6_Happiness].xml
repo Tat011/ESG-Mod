@@ -45,6 +45,28 @@
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
+
+<!-- +3 Happiness / +3 Science-->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryCustomHappinessPrestige005" SubCategory="Primary" Cost="5">
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryCustomHappinessPrestige005"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet">
+        <!-- +3 Happiness per Population-->
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryCustomHappinessPrestige005"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryCustomHappinessPrestige005"/>
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPrimaryCustomHappinessPrestige005"/>
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
   
   <!-- +4 Happiness -->
   <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryCustomHappiness01" SubCategory="Primary" ShowInCustom="true" Cost="10">
