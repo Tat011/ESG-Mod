@@ -355,7 +355,7 @@
     <SupervisorGain Name="Science" Weight="2">
     </SupervisorGain>
     <SupervisorGain Name="Military" Weight="6">
-      <Tags>PlanetHasStrategicDeposit<Tags>
+      <Tags>PlanetHasStrategicDeposit</Tags>
     </SupervisorGain>
     <DefaultPolitics>
       <Politics PoliticsReference="Politics02" BaseScore="1" BaseTrend="0"/>
@@ -389,7 +389,7 @@
 <!--Foundlings-->
   <PopulationDefinition AffinityName="AffinityVaultersScience" Standard="false">
     <SupervisorGain Name="Science" Weight="2">
-      <Tags>PlanetHasStrategicDeposit<Tags>
+      <Tags>PlanetHasStrategicDeposit</Tags>
     </SupervisorGain>
     <DefaultPolitics>
       <Politics PoliticsReference="Politics02" BaseScore="1" BaseTrend="0"/>
@@ -423,7 +423,7 @@
 <!--Bereaved-->
   <PopulationDefinition AffinityName="AffinityVaultersMilitary" Standard="false">
     <SupervisorGain Name="Military" Weight="6">
-      <Tags>PlanetHasStrategicDeposit<Tags>
+      <Tags>PlanetHasStrategicDeposit</Tags>
     </SupervisorGain>
     <DefaultPolitics>
       <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0"/>
@@ -908,7 +908,7 @@
 <!--Gnashasts-->
   <PopulationDefinition AffinityName="AffinityGnashasts" Standard="true">
     <SupervisorGain Name="Military" Weight="3">
-      <Tags>PlanetHasLuxuryDeposit<Tags>
+      <Tags>PlanetHasLuxuryDeposit</Tags>
     </SupervisorGain>
     <DefaultPolitics>
       <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0"/>
@@ -1148,7 +1148,7 @@
     </GrowthBoostLuxuryOptions>
   </PopulationDefinition>
   
-<!--Basryxo	(website lol)-->
+<!--Basryxo (website lol)-->
   <PopulationDefinition AffinityName="AffinityBasryxo" Standard="true">
     <SupervisorGain Name="Industry" Weight="2">
       <Tags>PlanetGameplayTypeMeager</Tags>
@@ -1381,7 +1381,7 @@
 <!--Galvrans (Untold Tales)-->
   <PopulationDefinition AffinityName="AffinityGalvrans" Standard="true">
     <SupervisorGain Name="Science" Weight="2">
-      <Tags>PlanetHasStrategicDeposit<Tags>
+      <Tags>PlanetHasStrategicDeposit</Tags>
     </SupervisorGain>
     <DefaultPolitics>
       <Politics PoliticsReference="Politics02" BaseScore="1" BaseTrend="0"/>
