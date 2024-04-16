@@ -496,8 +496,8 @@
      <Entry Tag="PlanetTypeSwamp"                Weight="4"/>
      <Entry Tag="PlanetTypeMonsoon"              Weight="4"/>
 
-     <Entry Tag="PlanetTypeSnow"                 Weight="1"/>
-     <Entry Tag="PlanetTypeArid"                 Weight="1"/>
+     <Entry Tag="PlanetTypeSteppes"               Weight="1"/>
+     <Entry Tag="PlanetTypeVeldt"                 Weight="1"/>
 
      <Entry Tag="PlanetTypeTundra"               Weight="2"/>
      <Entry Tag="PlanetTypeTropical"             Weight="2"/>
