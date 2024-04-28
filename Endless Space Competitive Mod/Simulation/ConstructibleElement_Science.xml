@@ -521,7 +521,6 @@
   <TechnologyDefinition Name="TechnologyDefinitionEmpireDevelopment9" TechnologyStage="TechnologyStageDefinitionEmpireDevelopment4" Category="CategoryTechnologyEmpireDevelopment" ScoreProvider="TechnologyUnlocked">
     <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage4Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantEmpireDevelopmentMultiplier)</CustomCost>
     <SimulationDescriptorReference Name="TechnologyUnlockPropaganda"  />
-    <SimulationDescriptorReference Name="TechnologyInfluenceConversion"  />
     <SimulationDescriptorReference Name="TechnologyCountEmpireDevelopmentIncreaseStage4"   />
     <SimulationDescriptorReference Name="TechnologyCounter" />
     <PopulationEvent Name="PopulationPoliticalEventReligiousTechnology"/>
@@ -734,6 +733,7 @@
     <SimulationDescriptorReference Name="TechnologyDiplomacy1"/>
     <SimulationDescriptorReference Name="TechnologyColonization12"/>
     <SimulationDescriptorReference Name="TechnologyColonization12Common"/>
+    <SimulationDescriptorReference Name="TechnologyInfluenceConversion"/>
     <SimulationDescriptorReference Name="TechnologyLinkTo5Terrans"/>
     <SimulationDescriptorReference Name="TechnologyCountEmpireDevelopmentIncreaseStage2"/>
     <SimulationDescriptorReference Name="TechnologyCounter"/>
@@ -752,6 +752,7 @@
     <SimulationDescriptorReference Name="TechnologyDiplomacy1"/>
     <SimulationDescriptorReference Name="TechnologyColonization12Unfallen"/>
     <SimulationDescriptorReference Name="TechnologyLinkTo5TerransUnfallen"/>
+    <SimulationDescriptorReference Name="TechnologyInfluenceConversion"/>
     <SimulationDescriptorReference Name="TechnologyLinkTo5Unfallen"/>
     <SimulationDescriptorReference Name="TechnologyCountEmpireDevelopmentIncreaseStage2"/>
     <SimulationDescriptorReference Name="TechnologyCounter"/>
@@ -770,6 +771,7 @@
     <SimulationDescriptorReference Name="TechnologyDiplomacy1"/>
     <SimulationDescriptorReference Name="TechnologyColonization12TimeLords"/>
     <SimulationDescriptorReference Name="TechnologyLinkTo5TerransTimeLords"/>
+    <SimulationDescriptorReference Name="TechnologyInfluenceConversion"/>
     <SimulationDescriptorReference Name="TechnologyLinkTo5TimeLords"/>
     <SimulationDescriptorReference Name="TechnologyCountEmpireDevelopmentIncreaseStage2"/>
     <SimulationDescriptorReference Name="TechnologyCounter"/>
@@ -1025,7 +1027,7 @@
     <SimulationDescriptorReference Name="TechnologyQuestUnitedEmpire10"/>
     <SimulationDescriptorReference Name="TechnologyPlayDeckQuest01"/>
   </TechnologyDefinition>
-  
+
   <!-- Galactic Security Charter -->
   <TechnologyDefinition Name="TechnologyDefinitionEconomyAndTrade12" TechnologyStage="TechnologyStageDefinitionEconomyAndTrade4" Category="CategoryTechnologyEconomyAndTrade" SubCategoryInQuests="TechnoMilitary" ScoreProvider="TechnologyUnlocked">
     <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage4Multiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/ClassResearch,TechnologyLinkEconomyAndTrade9To12'))) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantEconomyAndTradeMultiplier)</CustomCost>
