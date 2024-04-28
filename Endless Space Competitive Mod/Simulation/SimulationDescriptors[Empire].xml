@@ -1735,9 +1735,9 @@
     <!-- Apply Value -->
     <Modifier TargetProperty="DepositValue" Operation="Percent" Value="$(ActualPoliticalRelicIndustrialStrategicBoost)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics01/../ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeStrategic"/>
 
-    <BinaryModifier TargetProperty="EmpireMoney" Operation="Addition" Left="$(ActualPoliticalRelicScientistRelicDustBoost)" BinaryOperation="Multiplication" Right="$(TotalResearchRelics)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics02/../ClassEmpire"/>
-    <BinaryModifier TargetProperty="EmpireEmpirePoint" Operation="Addition" Left="$(ActualPoliticalRelicScientistRelicInfluenceBoost)" BinaryOperation="Multiplication" Right="$(TotalResearchRelics)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics02/../ClassEmpire"/>
-    <BinaryModifier TargetProperty="EmpireManpower" Operation="Addition" Left="$(ActualPoliticalRelicScientistRelicManpowerBoost)" BinaryOperation="Multiplication" Right="$(TotalResearchRelics)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics02/../ClassEmpire"/>
+    <BinaryModifier TargetProperty="EmpireMoney" Operation="Addition" Left="$(ActualPoliticalRelicScientistRelicDustBoost)" BinaryOperation="Multiplication" Right="$(ResultingResearchRelics)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics02/../ClassEmpire"/>
+    <BinaryModifier TargetProperty="EmpireEmpirePoint" Operation="Addition" Left="$(ActualPoliticalRelicScientistRelicInfluenceBoost)" BinaryOperation="Multiplication" Right="$(ResultingResearchRelics)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics02/../ClassEmpire"/>
+    <BinaryModifier TargetProperty="EmpireManpower" Operation="Addition" Left="$(ActualPoliticalRelicScientistRelicManpowerBoost)" BinaryOperation="Multiplication" Right="$(ResultingResearchRelics)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics02/../ClassEmpire"/>
 
     <Modifier TargetProperty="TradingRouteIncomeModifier" Operation="Percent" Value="$(ActualPoliticalRelicPacifistTradeValueBoost)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics03/../ClassEmpire/ClassColonizedStarSystem/ClassColonizedStarSystem,StarSystemImprovementUniqueTemplars/./ClassColonizedStarSystem"/>
     <Modifier TargetProperty="TroopHealthPerTemple" Operation="Addition" Value="$(ActualPoliticalRelicPacifistTroopHealthBoost)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics03/../ClassEmpire/ClassColonizedStarSystem/ClassColonizedStarSystem"/>
