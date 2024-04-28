@@ -16,7 +16,7 @@
   <LocalizationPair Name="%GroundBattleDestroyedImprovementCountTitle">Максимальное кол-во разрушений улучшений</LocalizationPair>
   <LocalizationPair Name="%LawEffectP03L00ESGToolTipOverride3">+100 Урона от оборонительных бомбардировок за [population]</LocalizationPair>
   <LocalizationPair Name="%LawEffectP03L00_RepublicESGToolTipOverride3">+150 Урона от оборонительных бомбардировок за [population]</LocalizationPair>
-  <LocalizationPair Name="%DepositValueScalesWithGameSpeed">(Зависит от скорости игры)</LocalizationPair>
+  <LocalizationPair Name="%DepositValueScalesWithGameSpeed">[blue-gray](Зависит от скорости игры)#REVERT#</LocalizationPair>
 	<LocalizationPair Name="%StarSystemImprovementUniqueStrategicVaultersTooltip">+0.25 [strat01titanium] и [strat02hyperium] на системах уровня 2
 +0.25 [strat03adamantian] и [strat04anti-matter] на системах уровня 3
 +0.25 [strat05orichalcix] и [strat06quadrinix] на системах уровня 4</LocalizationPair>
