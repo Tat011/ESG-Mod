@@ -994,5 +994,134 @@
     <Title>%DepletionTitle</Title>
   </GuiElement>
 
-  
+  <!-- Initial FIDSI -->
+  <ExtendedGuiElement Name="PlanetInitialFIDS">
+    <Icons>
+      <Icon Size="Small" Path="FIDSI" />
+    </Icons>
+    <SymbolString>[FIDS]</SymbolString>
+    <AltTitle>%PlanetInitialFIDSTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialFIDSI">
+    <Icons>
+      <Icon Size="Small" Path="FIDSI" />
+    </Icons>
+    <SymbolString>[FIDSI]</SymbolString>
+    <AltTitle>%PlanetInitialFIDSITitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialFood">
+    <Title>%PlanetFoodTitle</Title>
+    <Description>%PlanetFoodDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIFood" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIFoodLarge" />
+    </Icons>
+    <SymbolString>[foodColored]</SymbolString>
+    <Color Red="176" Green="198" Blue="93" Alpha="255" />
+    <AltTitle>%PlanetInitialFoodTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialIndustry">
+    <Title>%PlanetIndustryTitle</Title>
+    <Description>%PlanetIndustryDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIIndustry" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIIndustryLarge" />
+    </Icons>
+    <SymbolString>[industry]</SymbolString>
+    <Color Red="223" Green="130" Blue="105" Alpha="255" />
+    <AltTitle>%PlanetInitialIndustryTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialDust">
+    <Title>%PlanetDustTitle</Title>
+    <Description>%PlanetDustDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIDust" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIDustLarge" />
+    </Icons>
+    <SymbolString>[dust]</SymbolString>
+    <Color Red="230" Green="195" Blue="97" Alpha="255" />
+    <AltTitle>%PlanetInitialDustTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialScience">
+    <Title>%PlanetScienceTitle</Title>
+    <Description>%PlanetScienceDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIScience" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIScienceLarge" />
+    </Icons>
+    <SymbolString>[science]</SymbolString>
+    <Color Red="82" Green="201" Blue="231" Alpha="255" />
+    <AltTitle>%PlanetInitialScienceTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialPrestige">
+    <Title>%PlanetPrestigeTitle</Title>
+    <Description>%PlanetPrestigeDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIEmpire" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIEmpirePointLarge" />
+    </Icons>
+    <SymbolString>[prestige]</SymbolString>
+    <Color Red="165" Green="85" Blue="231" Alpha="255" />
+    <AltTitle>%PlanetInitialPrestigeTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <!-- Initial FIDSI per Population -->
+  <ExtendedGuiElement Name="PlanetInitialFoodPerPopulation">
+    <Title>%PlanetInitialFoodPerPopulationTitle</Title>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIFood" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIFoodLarge" />
+    </Icons>
+    <Color Red="176" Green="198" Blue="93" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialIndustryPerPopulation">
+    <Title>%PlanetInitialIndustryPerPopulationTitle</Title>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIIndustry" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIIndustryLarge" />
+    </Icons>
+    <Color Red="223" Green="130" Blue="105" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialDustPerPopulation">
+    <Title>%PlanetInitialDustPerPopulationTitle</Title>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIDust" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIDustLarge" />
+    </Icons>
+    <Color Red="230" Green="195" Blue="97" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialSciencePerPopulation">
+    <Title>%PlanetInitialSciencePerPopulationTitle</Title>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIScience" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIScienceLarge" />
+    </Icons>
+    <Color Red="82" Green="201" Blue="231" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialPrestigePerPopulation">
+    <Title>%PlanetInitialPrestigePerPopulationTitle</Title>
+    <Icons>
+      <Icon Size="Small" Path="FIDSIEmpire" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/GameVariables/FIDSIEmpirePointLarge" />
+    </Icons>
+    <Color Red="165" Green="85" Blue="231" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialFIDSPerPopulation">
+    <Title>%PlanetInitialFIDSPerPopulationTitle</Title>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="PlanetInitialFIDSIPerPopulation">
+    <Title>%PlanetInitialFIDSIPerPopulationTitle</Title>
+  </ExtendedGuiElement>
 </Datatable>
