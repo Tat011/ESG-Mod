@@ -661,11 +661,6 @@
   <LocalizationPair Name="%EmpireImprovementQuestTemplars02EffectOverride">Назначенные реликвии Империи имеют удвоенные бонусы [fidsi]</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleEffectsRepairFlatPerDamageAbsorbedByHullPlatingTitle">Восстанавливается HP за каждый поглощённый урон</LocalizationPair>
   <LocalizationPair Name="%TotalNumberOfTemplesTitle">Храм (ы) в Империи</LocalizationPair>
-  <LocalizationPair Name="%PlanetImprovementTemple1TooltipOverride">-50% [FIDS] за [Population]
-+10 [prestigeColored] за [population]
-+5 [prestigeColored] за [population] на Холодной
-+1 Слот населения
-[blue-gray](Разрешает преобразование системы, если оно еще не исследовано)#REVERT#</LocalizationPair>
   <LocalizationPair Name="%FailureRemainingNumberOfTemplesDescription">Недостаточно слотов для Реликвий Империи!
 Чтобы разблокировать этот слот для реликвий Империи, необходимо исследовать Храмов Затерянных: {0}</LocalizationPair>
   <LocalizationPair Name="%HackingSpeedMultiplierFromBackdoorTitle">[hackingSpeed] Скорость взлома на соседних узлах</LocalizationPair>

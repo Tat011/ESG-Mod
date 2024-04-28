@@ -668,11 +668,6 @@ Establece el poder de búsqueda de curiosidades en 3 (exploración de curiosidad
   <LocalizationPair Name="%EmpireImprovementQuestTemplars02EffectOverride">Las reliquias del imperio asignadas han duplicado las bonificaciones [fidsi]</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleEffectsRepairFlatPerDamageAbsorbedByHullPlatingTitle">Salud reparada por daño absorbido</LocalizationPair>
   <LocalizationPair Name="%TotalNumberOfTemplesTitle">Templo(s) en el Imperio</LocalizationPair>
-  <LocalizationPair Name="%PlanetImprovementTemple1TooltipOverride">-50% [FIDS] por [Population]
-+10 [prestigeColored] por [population]
-+5 [prestigeColored] por [population] en planeta frío
-+1 espacio de población
-[blue-gray](Permite la conversión del sistema si aún no se ha investigado)#REVERT#</LocalizationPair>
   <LocalizationPair Name="%FailureRemainingNumberOfTemplesDescription">¡No hay suficientes espacios para reliquias en el Imperio!
 Templos de los Perdidos que todavía necesitas para desbloquear este espacio de reliquia: {0}</LocalizationPair>
   <LocalizationPair Name="%HackingSpeedMultiplierFromBackdoorTitle">[hackingSpeed] Velocidad de hackeo en nodos adyacentes</LocalizationPair>

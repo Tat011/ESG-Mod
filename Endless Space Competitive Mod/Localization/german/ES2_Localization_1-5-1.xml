@@ -830,11 +830,6 @@ Legt die Kuriositäten-Expeditionsstärke auf 3 fest (erkundet seltene Kuriosit�
   <LocalizationPair Name="%EmpireImprovementQuestTemplars02EffectOverride">Verdoppelter [fidsi] Effekt für Relikte die als Imperiumsrelikte für Ressourcenproduktionsboni zugewiesen werden.</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleEffectsRepairFlatPerDamageAbsorbedByHullPlatingTitle">Erneuerte EP [health] pro absorbierten Schaden</LocalizationPair>
   <LocalizationPair Name="%TotalNumberOfTemplesTitle">Tempel im Imperium</LocalizationPair>
-  <LocalizationPair Name="%PlanetImprovementTemple1TooltipOverride">-50% [FIDS] pro [Population]
-+10 [prestigeColored] pro [population]
-+5 [prestigeColored] pro [population] auf: kalte Planeten
-+1 Bevölkerungsplatz
-[blue-gray](ermöglicht Systemkonvertierung auch ohne die Erforschung der Technologie)#REVERT#</LocalizationPair>
   <LocalizationPair Name="%FailureRemainingNumberOfTemplesDescription">Nicht genug Reliktplätze im Imperium!
 Noch erforderliche Tempel der Verlorenen, die zum Freischalten dieses Reliktplatzes erforderlich sind: {0}</LocalizationPair>
   <LocalizationPair Name="%HackingSpeedMultiplierFromBackdoorTitle">Hacking-Geschwindigkeit [hackingSpeed] an angrenzenden Knoten</LocalizationPair>
