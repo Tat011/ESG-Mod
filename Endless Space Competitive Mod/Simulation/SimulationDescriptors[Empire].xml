@@ -1705,8 +1705,8 @@
 
     <!-- Diplomacy Relics -->
     <BinaryModifier TargetProperty="InfluenceRadiusRelicBonus"    Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(DiplomacyRelicTurnsInEffect)" Path="ClassEmpire"/>
-    <BinaryModifier TargetProperty="InfluenceRadiusModifier"    Operation="Addition" Left="$(HasDiplomacyRelic)" BinaryOperation="Multiplication" Right="$(InfluenceRadiusRelicBonus)" Path="ClassEmpire"/>
-    <BinaryModifier TargetProperty="RelationPointsTrend"        Operation="Addition" Left="$(HasDiplomacyRelic)" BinaryOperation="Multiplication" Right="1" Path="ClassEmpire//ClassColonizedStarSystem"/>
+    <BinaryModifier TargetProperty="InfluenceRadiusModifier"    Operation="Addition" Left="$(HasDiplomacyRelic)" BinaryOperation="Multiplication" Right="$(InfluenceRadiusRelicBonus)" Path="ClassEmpire//ClassColonizedStarSystem"/>
+    <BinaryModifier TargetProperty="RelationPointsTrend"        Operation="Addition" Left="$(HasDiplomacyRelic)" BinaryOperation="Multiplication" Right="1" Path="ClassEmpire"/>
 
     <!-- Political Relics -->
     <BinaryModifier TargetProperty="PoliticalRelicIndustrialStrategicBoost" Operation="Addition" Left="0.5" BinaryOperation="Multiplication" Right="$(GovernmentTypeBonus)" TooltipHidden="true"/>
