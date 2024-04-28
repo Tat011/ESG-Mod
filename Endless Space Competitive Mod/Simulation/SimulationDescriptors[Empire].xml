@@ -1081,7 +1081,6 @@
     <!-- 2023 PATCH -->
     <Modifier TargetProperty="MaxChargeTime" Operation="Multiplication" Value="$(HackingBeaconChargeupTimeMultiplier)" Path="ClassEmpire//ClassHackingBeacon"/>
     <Modifier TargetProperty="OpponentRecyclingSciencePerCP" Operation="Multiplication" Value="$(ScienceScrappingBonus)" Path="ClassEmpire//ClassGroup" Priority="100"/>
-    <Modifier TargetProperty="OpponentRecyclingSciencePerCP" Operation="Multiplication" Value="$(ScienceScrappingBonus)" Path="ClassEmpire//ClassGroup" Priority="100"/>
     <Modifier TargetProperty="ResultingResearchRelics"       Operation="Force"          Value="$(ResearchRelics)"                                       Priority="-10"/>
     <Modifier TargetProperty="TotalResearchRelics"           Operation="Force"          Value="$(ResultingResearchRelics)" Path="ClassEmpire/ClassEmpire"/>
     <Modifier TargetProperty="SlumberingRuinsBonusDuration"  Operation="Force"          Value="10" />
