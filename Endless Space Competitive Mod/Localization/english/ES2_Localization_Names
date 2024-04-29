@@ -41,9 +41,9 @@
   <LocalizationPair Name="%USConstellationName4">Utah</LocalizationPair>
 
 <!--Misc-->
-  <LocalizationPair Name="%MiscConstellationName1">Gesserit</LocalizationPair> <!--Bene Gesserit, Dune faction-->
-  <LocalizationPair Name="%MiscConstellationName2">Gibson</LocalizationPair> <!--Guitar brand???-->
-  <LocalizationPair Name="%MiscConstellationName3">Card</LocalizationPair> <!--as in playing cards or what?-->
+  <LocalizationPair Name="%MiscConstellationName1">Gesserit</LocalizationPair> <!--Author-->
+  <LocalizationPair Name="%MiscConstellationName2">Gibson</LocalizationPair> <!--Author-->
+  <LocalizationPair Name="%MiscConstellationName3">Card</LocalizationPair> <!--Author-->
 
 <!-- Special Nodes -->
 <!--Misc-->
@@ -70,7 +70,7 @@
   <LocalizationPair Name="%ESGSpecialNodeName21">Patientia 451</LocalizationPair>
   <LocalizationPair Name="%ESGSpecialNodeName22">Copernicus 3</LocalizationPair>
   <LocalizationPair Name="%ESGSpecialNodeName23">GX930</LocalizationPair>
-  <LocalizationPair Name="%ESGSpecialNodeName24">Huygens Anomaly</LocalizationPair>
+  <LocalizationPair Name="%ESGSpecialNodeName24">Huygens' Anomaly</LocalizationPair>
   <LocalizationPair Name="%ESGSpecialNodeName25">Astral Lagoon</LocalizationPair>
   <LocalizationPair Name="%ESGSpecialNodeName26">Cat's Eye</LocalizationPair>
   <LocalizationPair Name="%ESGSpecialNodeName27">Stellar Veil</LocalizationPair>
