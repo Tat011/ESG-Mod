@@ -943,6 +943,21 @@
   </SimulationDescriptor>
 
   <!-- Science on Anomaly -->
+  <!-- +3 ScienceOnAnomaly -->
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryCustomScienceOnAnomaly000" Type="WithPopulationPlanet">
+    <Modifier TargetProperty="BonusPopulationScience" Operation="Addition" Value="3" Path="FAKEFORGUI/./PlanetAnomaly"/>
+    <Modifier TargetProperty="BonusPopulationScience" Operation="Addition" Value="3" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetAnomaly/ClassPopulationPlanetModifiersTraitSecondaryCustomScienceOnAnomaly00,ClassPopulation" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryCustomScienceOnAnomaly000" Type="ClassPopulationPlanet">
+    <Modifier TargetProperty="BonusPopulationScience" Operation="Addition" Value="3" Path="FAKEFORGUI/./PlanetAnomaly"/>
+    <BinaryModifier TargetProperty="BonusPopulationScience" Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(PlanetHasAnomaly)" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="ClassPopulationAssimilatedSecondaryCustomScienceOnAnomaly000" Type="ClassPopulationAssimilated">
+    <Modifier TargetProperty="BonusPopulationScience" Operation="Addition" Value="2" Path="ClassPopulation"/>
+  </SimulationDescriptor>
+  
   <!-- +5 ScienceOnAnomaly -->
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryCustomScienceOnAnomaly00" Type="WithPopulationPlanet">
     <Modifier TargetProperty="BonusPopulationScience" Operation="Addition" Value="5" Path="FAKEFORGUI/./PlanetAnomaly"/>
@@ -958,6 +973,7 @@
     <Modifier TargetProperty="BonusPopulationScience" Operation="Addition" Value="2" Path="ClassPopulation"/>
   </SimulationDescriptor>
 
+  
   <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetScienceAnomaly01" Type="ClassPopulationAssimilated">
         <Modifier       TargetProperty="BonusPopulationScience"     Operation="Addition"    Value="2" Path="ClassPopulation"/>
     </SimulationDescriptor>
