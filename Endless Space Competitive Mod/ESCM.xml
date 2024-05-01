@@ -378,7 +378,11 @@
 			</DatabasePlugin>
 
 			<!-- GUI -->
-			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+      <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiTooltipDescription, Assembly-CSharp-firstpass">
+        <FilePath>GUI/GUITooltipDescriptions.xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
 				<ExtraTypes>
 					<ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
 					<ExtraType DataType="AffinityGuiElement, Assembly-CSharp" />

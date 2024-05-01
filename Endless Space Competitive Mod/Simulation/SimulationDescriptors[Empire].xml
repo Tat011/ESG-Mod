@@ -1081,9 +1081,8 @@
     <!-- 2023 PATCH -->
     <Modifier TargetProperty="MaxChargeTime" Operation="Multiplication" Value="$(HackingBeaconChargeupTimeMultiplier)" Path="ClassEmpire//ClassHackingBeacon"/>
     <Modifier TargetProperty="OpponentRecyclingSciencePerCP" Operation="Multiplication" Value="$(ScienceScrappingBonus)" Path="ClassEmpire//ClassGroup" Priority="100"/>
-    <Modifier TargetProperty="OpponentRecyclingSciencePerCP" Operation="Multiplication" Value="$(ScienceScrappingBonus)" Path="ClassEmpire//ClassGroup" Priority="100"/>
     <Modifier TargetProperty="ResultingResearchRelics"       Operation="Force"          Value="$(ResearchRelics)"                                       Priority="-10"/>
-    <Modifier TargetProperty="TotalResearchRelics"           Operation="Force"          Value="$(ResultingResearchRelics)" Path="ClassEmpire/ClassEmpire"/>
+    <Modifier TargetProperty="TotalResearchRelics"           Operation="Force"          Value="$(ResultingResearchRelics)" Path="ClassEmpire"/>
     <Modifier TargetProperty="SlumberingRuinsBonusDuration"  Operation="Force"          Value="10" />
     <Modifier TargetProperty="SlumberingRuinsBonusDuration"  Operation="Multiplication" Value="$(GameSpeedMultiplier)" />
     <Modifier TargetProperty="ResearchRelics"                Operation="Addition"       Value="$(ResearchRelics)" Path="ClassEmpire/ClassColonizedStarSystem"/>
@@ -1706,8 +1705,8 @@
 
     <!-- Diplomacy Relics -->
     <BinaryModifier TargetProperty="InfluenceRadiusRelicBonus"    Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(DiplomacyRelicTurnsInEffect)" Path="ClassEmpire"/>
-    <BinaryModifier TargetProperty="InfluenceRadiusModifier"    Operation="Addition" Left="$(HasDiplomacyRelic)" BinaryOperation="Multiplication" Right="$(InfluenceRadiusRelicBonus)" Path="ClassEmpire"/>
-    <BinaryModifier TargetProperty="RelationPointsTrend"        Operation="Addition" Left="$(HasDiplomacyRelic)" BinaryOperation="Multiplication" Right="1" Path="ClassEmpire//ClassColonizedStarSystem"/>
+    <BinaryModifier TargetProperty="InfluenceRadiusModifier"    Operation="Addition" Left="$(HasDiplomacyRelic)" BinaryOperation="Multiplication" Right="$(InfluenceRadiusRelicBonus)" Path="ClassEmpire//ClassColonizedStarSystem"/>
+    <BinaryModifier TargetProperty="RelationPointsTrend"        Operation="Addition" Left="$(HasDiplomacyRelic)" BinaryOperation="Multiplication" Right="1" Path="ClassEmpire"/>
 
     <!-- Political Relics -->
     <BinaryModifier TargetProperty="PoliticalRelicIndustrialStrategicBoost" Operation="Addition" Left="0.5" BinaryOperation="Multiplication" Right="$(GovernmentTypeBonus)" TooltipHidden="true"/>
@@ -1736,9 +1735,9 @@
     <!-- Apply Value -->
     <Modifier TargetProperty="DepositValue" Operation="Percent" Value="$(ActualPoliticalRelicIndustrialStrategicBoost)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics01/../ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeStrategic"/>
 
-    <BinaryModifier TargetProperty="EmpireMoney" Operation="Addition" Left="$(ActualPoliticalRelicScientistRelicDustBoost)" BinaryOperation="Multiplication" Right="$(TotalResearchRelics)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics02/../ClassEmpire"/>
-    <BinaryModifier TargetProperty="EmpireEmpirePoint" Operation="Addition" Left="$(ActualPoliticalRelicScientistRelicInfluenceBoost)" BinaryOperation="Multiplication" Right="$(TotalResearchRelics)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics02/../ClassEmpire"/>
-    <BinaryModifier TargetProperty="EmpireManpower" Operation="Addition" Left="$(ActualPoliticalRelicScientistRelicManpowerBoost)" BinaryOperation="Multiplication" Right="$(TotalResearchRelics)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics02/../ClassEmpire"/>
+    <BinaryModifier TargetProperty="EmpireMoney" Operation="Addition" Left="$(ActualPoliticalRelicScientistRelicDustBoost)" BinaryOperation="Multiplication" Right="$(ResultingResearchRelics)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics02/../ClassEmpire"/>
+    <BinaryModifier TargetProperty="EmpireEmpirePoint" Operation="Addition" Left="$(ActualPoliticalRelicScientistRelicInfluenceBoost)" BinaryOperation="Multiplication" Right="$(ResultingResearchRelics)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics02/../ClassEmpire"/>
+    <BinaryModifier TargetProperty="EmpireManpower" Operation="Addition" Left="$(ActualPoliticalRelicScientistRelicManpowerBoost)" BinaryOperation="Multiplication" Right="$(ResultingResearchRelics)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics02/../ClassEmpire"/>
 
     <Modifier TargetProperty="TradingRouteIncomeModifier" Operation="Percent" Value="$(ActualPoliticalRelicPacifistTradeValueBoost)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics03/../ClassEmpire/ClassColonizedStarSystem/ClassColonizedStarSystem,StarSystemImprovementUniqueTemplars/./ClassColonizedStarSystem"/>
     <Modifier TargetProperty="TroopHealthPerTemple" Operation="Addition" Value="$(ActualPoliticalRelicPacifistTroopHealthBoost)" Path="ClassEmpire/ClassSenate/ClassSenator,Politics03/../ClassEmpire/ClassColonizedStarSystem/ClassColonizedStarSystem"/>

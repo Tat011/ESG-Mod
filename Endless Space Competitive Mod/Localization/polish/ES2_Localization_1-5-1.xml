@@ -547,11 +547,6 @@ Ustawia moc wykrywania na 3 (pozwala odkrywać rzadkie osobliwości)</Localizati
   <LocalizationPair Name="%EmpireImprovementQuestTemplars02EffectOverride">Przypisane do imperium [relicColored] relikty podwajają [fidsi] ŻPPN</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleEffectsRepairFlatPerDamageAbsorbedByHullPlatingTitle">przywróconych PZ na zaobsorbowane obrażenia</LocalizationPair>
   <LocalizationPair Name="%TotalNumberOfTemplesTitle">Ilość śwątyń w Imperium</LocalizationPair>
-  <LocalizationPair Name="%PlanetImprovementTemple1TooltipOverride">-50% [FIDS] na [Population]
-+10 [prestigeColored] na [population]
-+5 [prestigeColored] na [population] na Zimnej
-+1 miejsca na [population]
-[blue-gray](Umożliwia konwersję systemu jeśli nie została ona zbadana)#REVERT#</LocalizationPair>
   <LocalizationPair Name="%FailureRemainingNumberOfTemplesDescription">Brak miejsca na relikty! (zbuduj świątynie)
 Aby odblokować to miejce na relikt potrzeba zbudować świątynie w liczbie: {0}</LocalizationPair>
   <LocalizationPair Name="%HackingSpeedMultiplierFromBackdoorTitle">[hackingSpeed] szybkość hakowania w sąsiednich węzłach</LocalizationPair>

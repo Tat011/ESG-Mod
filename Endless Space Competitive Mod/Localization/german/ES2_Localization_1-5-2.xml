@@ -11,7 +11,7 @@
   <LocalizationPair Name="%GroundBattleBombardmentDefenderDamagesTitle">Am Verteidiger verursachter Schaden bei einer Bodenschlacht</LocalizationPair>
   <LocalizationPair Name="%LawEffectP03L00ESGToolTipOverride3">+100 am Angreifer verursachter Schaden bei einer Bodenschlacht pro [population]</LocalizationPair>
   <LocalizationPair Name="%LawEffectP03L00_RepublicESGToolTipOverride3">+150 am Angreifer verursachter Schaden bei einer Bodenschlacht pro [population]</LocalizationPair>
-  <LocalizationPair Name="%DepositValueScalesWithGameSpeed">(skaliert mit der Spielgeschwindigkeit)</LocalizationPair>
+  <LocalizationPair Name="%DepositValueScalesWithGameSpeed">[blue-gray](skaliert mit der Spielgeschwindigkeit)#REVERT#</LocalizationPair>
 	<LocalizationPair Name="%StarSystemImprovementUniqueStrategicVaultersTooltip">+1 Ressourcengenerierung auf: Vorkommen für strategische Ressourcen der Stufe 1 auf: Systemstufe 2
 +1 Ressourcengenerierung auf: Vorkommen für strategische Ressourcen der Stufe 2 auf: Systemstufe 3
 +1 Ressourcengenerierung auf: Vorkommen für strategische Ressourcen der Stufe 3 auf: Systemstufe 4

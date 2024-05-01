@@ -165,7 +165,7 @@
   </EmpireImprovementDefinition>
 
   <EmpireImprovementDefinition Name="EmpireImprovementUnconditionalPropaganda" Category="CategoryGovernment" SubCategory="SubCategoryEmpire">
-    <TechnologyPrerequisite>TechnologyInfluenceConversion</TechnologyPrerequisite>
+    <TechnologyPrerequisite>TechnologyUnlockPropaganda</TechnologyPrerequisite>
     <SimulationDescriptorReference Name="EmpireImprovementUnconditionalPropaganda"/>
   </EmpireImprovementDefinition>
 

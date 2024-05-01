@@ -526,11 +526,6 @@ Sets the Curiosity Expedition Power to 3 (Explore Rare Curiosities)</Localizatio
   <LocalizationPair Name="%EmpireImprovementQuestTemplars02EffectOverride">Assigned Empire Relics have doubled [fidsi] bonuses</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleEffectsRepairFlatPerDamageAbsorbedByHullPlatingTitle">HP Repaired per Damage Absorbed</LocalizationPair>
   <LocalizationPair Name="%TotalNumberOfTemplesTitle">Temple(s) in the Empire</LocalizationPair>
-  <LocalizationPair Name="%PlanetImprovementTemple1TooltipOverride">-50% [FIDS] per [Population]
-+10 [prestigeColored] per [population]
-+5 [prestigeColored] per [population] on Cold
-+1 Population Slot
-[blue-gray](Allows System Conversion if not already Researched)#REVERT#</LocalizationPair>
   <LocalizationPair Name="%FailureRemainingNumberOfTemplesDescription">Not enough Empire Relic Slots!
 Remaining Temples to The Lost needed to unlock this Empire Relic Slot: {0}</LocalizationPair>
   <LocalizationPair Name="%HackingSpeedMultiplierFromBackdoorTitle">[hackingSpeed] Hacking Speed on adjacent Nodes</LocalizationPair>

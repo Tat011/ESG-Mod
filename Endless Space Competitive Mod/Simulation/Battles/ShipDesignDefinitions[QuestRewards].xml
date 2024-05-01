@@ -170,4 +170,65 @@
     <SimulationDescriptorReference Name="AcademyShip"/>
   </ShipDesignDefinition>
 
+  <ShipDesignDefinition Name="ShipDesignENFERScience" Hidden="true" Editable="false">
+    <HullReference Name="HullSmall04Sophons"/>
+    <ShipRoleReference Name="ShipRoleExploration"/>
+    <!-- Core Section -->
+    <SlotBinding SlotName="CoreSection.Weapon01">
+      <ModuleReference Name="ModuleExplorationQuestSophons"/>
+    </SlotBinding>
+    <!-- North Section -->
+    <!-- North East Section -->
+    <SlotBinding SlotName="SectionNE.Support01">
+      <ModuleReference Name="ModuleSupportExploration1"/>
+    </SlotBinding>
+    <!-- East Section -->
+    <!-- South East Section -->
+    <!-- South Section -->
+    <SlotBinding SlotName="SectionS.Support01">
+      <ModuleReference Name="ModuleQuestEnferWeak"/>
+    </SlotBinding>
+    <!-- South West Section -->
+    <!-- West Section -->
+    <SlotBinding SlotName="SectionW.Weapon01">
+      <ModuleReference Name="ModuleWeaponKinetic1"/>
+    </SlotBinding>
+    <!-- North West Section -->
+    <SlotBinding SlotName="SectionNW.Support01">
+      <ModuleReference Name="ModuleSupportExploration1"/>
+    </SlotBinding>
+    <SimulationDescriptorReference Name="QuestShipENFER"/>
+  </ShipDesignDefinition>
+
+  <ShipDesignDefinition Name="ShipDesignQuestMediumCravers02" Hidden="true" Editable="false">
+    <HullReference Name="HullMedium02Cravers"/>
+    <ShipRoleReference Name="ShipRoleMediumSupport"/>
+    <!-- Core Section -->
+    <SlotBinding SlotName="CoreSection.LargeWeapon01">
+      <ModuleReference Name="ModuleWeaponKinetic1"/>
+    </SlotBinding>
+    <!-- North Section -->
+    <SlotBinding SlotName="SectionN.Support01">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionN.Support02">
+      <ModuleReference Name="ModuleSupportEngine2"/>
+    </SlotBinding>
+    <!-- North East Section -->
+    <!-- East Section -->
+    <SlotBinding SlotName="SectionE.Defense01">
+      <ModuleReference Name="ModuleDefenseHullPlating1"/>
+    </SlotBinding>
+    <!-- South East Section -->
+    <!-- South Section -->
+    <SlotBinding SlotName="SectionS.Support01">
+      <ModuleReference Name="ModuleExplorationQuestSophons"/>
+    </SlotBinding>
+    <!-- South West Section -->
+    <!-- West Section -->
+    <SlotBinding SlotName="SectionW.Defense01">
+      <ModuleReference Name="ModuleDefenseHullPlating1"/>
+    </SlotBinding>
+    <SimulationDescriptorReference Name="QuestShipCravers"/>
+  </ShipDesignDefinition>
 </Datatable>
