@@ -1,4 +1,4 @@
- <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
 <!-- ESG -->
   <LocalizationPair Name="%LoadingTip5Title">Das Blockieren eines Sternensystems wird die meisten Fraktionen daran hindern, es zu kolonisieren

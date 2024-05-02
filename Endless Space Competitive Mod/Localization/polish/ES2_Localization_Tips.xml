@@ -1,4 +1,6 @@
-  <!-- ESG -->
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
+<!-- ESG -->
   <LocalizationPair Name="%LoadingTip5Title">Flota: Blokowanie systemu gwiezdnego powstrzyma więkoszość frakcji przed jego skolonizowaniem z wyjątkiem tych łajz Lumerów i Mrocznego Chóru.</LocalizationPair>
 
   <LocalizationPair Name="%LoadingTip33Title">Zarządzanie: Upewnij się, że masz i używasz wpływów! Prawa to potężne narzędzia, które mogą odmienić los Imperium.</LocalizationPair>
@@ -97,3 +99,4 @@
   <LocalizationPair Name="%LoadingTip126Title">Ogólne: Koszty technologii zwiększają się wraz z liczbą odkrytych technologii.</LocalizationPair>
   <LocalizationPair Name="%LoadingTip127Title">Ogólne: Systemy mogą przechowywać nadmiarową produkcję przez jedną turę. Pamiętaj o tym żeby ją wykorzystać!</LocalizationPair>
   <LocalizationPair Name="%LoadingTip128Title">Ogólne: Imperium może przechowywać nadmiarową naukę przez jedną turę. Nie dotyczy to jednak nauki otrzymanej ze zniszczonych PD!</LocalizationPair>
+</Datatable>
