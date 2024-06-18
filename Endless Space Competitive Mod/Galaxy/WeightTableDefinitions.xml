@@ -241,22 +241,22 @@
   <GalaxyGeneratorWeightTable Name="MinorFactionBenthys_PlanetTypes">
         <Entry Tag="PlanetTypeSwamp"                 Weight="3"/>
         <Entry Tag="PlanetTypeMonsoon"               Weight="3"/>
-        
+
         <Entry Tag="PlanetTypeArctic"                Weight="1"/>
         <Entry Tag="PlanetTypeDesert"                Weight="1"/>
-        
+
         <Entry Tag="PlanetTypeSnow"                  Weight="2"/>
         <Entry Tag="PlanetTypeArid"                  Weight="2"/>
-        
+
         <Entry Tag="PlanetTypeSteppes"               Weight="6"/>
         <Entry Tag="PlanetTypeVeldt"                 Weight="6"/>
-        
+
         <Entry Tag="PlanetTypeTundra"                Weight="5"/>
         <Entry Tag="PlanetTypeTropical"              Weight="5"/>
-        
+
         <Entry Tag="PlanetTypeBoreal"                Weight="4"/>
         <Entry Tag="PlanetTypeJungle"                Weight="4"/>
-        
+
         <Entry Tag="PlanetTypeForest"                Weight="4"/>
         <Entry Tag="PlanetTypeOcean"                 Weight="3"/>
         <Entry Tag="PlanetTypeTerran"                Weight="4"/>
