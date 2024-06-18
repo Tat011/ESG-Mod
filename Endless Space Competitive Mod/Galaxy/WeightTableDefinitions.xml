@@ -1541,7 +1541,7 @@
     <Entry Tag="%StarNameITB7"          Weight="1"/>
 <!--Rain World-->
     <Entry Tag="%StarNameRW1"          Weight="1"/>
-           <!-- "%StarNameRW2" unassigned -->
+    <Entry Tag="%StarNameRW2"          Weight="1"/>
     <Entry Tag="%StarNameRW3"          Weight="1"/>
     <Entry Tag="%StarNameRW4"          Weight="1"/>
     <Entry Tag="%StarNameRW5"          Weight="1"/>
@@ -1666,7 +1666,7 @@
     <Entry Tag="%ActualStarName85"         Weight="1"/>
     <Entry Tag="%ActualStarName86"         Weight="1"/>
     <Entry Tag="%ActualStarName87"         Weight="1"/>
-          <!-- "%ActualStarName88" unassigned -->
+    <Entry Tag="%ActualStarName88"         Weight="1"/>
     <Entry Tag="%ActualStarName89"         Weight="1"/>
     <Entry Tag="%ActualStarName90"         Weight="1"/>
     <Entry Tag="%ActualStarName91"         Weight="1"/>
@@ -1819,7 +1819,7 @@
     <Entry Tag="%ActualStarName238"        Weight="1"/>
     <Entry Tag="%ActualStarName239"        Weight="1"/>
     <Entry Tag="%ActualStarName240"        Weight="1"/>
-          <!-- "%ActualStarName241" unassigned -->
+    <Entry Tag="%ActualStarName241"        Weight="1"/>
     <Entry Tag="%ActualStarName242"        Weight="1"/>
     <Entry Tag="%ActualStarName243"        Weight="1"/>
     <Entry Tag="%ActualStarName244"        Weight="1"/>
@@ -1912,7 +1912,7 @@
     <Entry Tag="%ActualStarName331"        Weight="1"/>
     <Entry Tag="%ActualStarName332"        Weight="1"/>
     <Entry Tag="%ActualStarName333"        Weight="1"/>
-          <!-- "%ActualStarName334" unassigned -->
+    <Entry Tag="%ActualStarName334"        Weight="1"/>
     <Entry Tag="%ActualStarName335"        Weight="1"/>
     <Entry Tag="%ActualStarName336"        Weight="1"/>
     <Entry Tag="%ActualStarName337"        Weight="1"/>
@@ -1963,10 +1963,10 @@
     <Entry Tag="%ActualStarName382"        Weight="1"/>
     <Entry Tag="%ActualStarName383"        Weight="1"/>
     <Entry Tag="%ActualStarName384"        Weight="1"/>
-          <!-- "%ActualStarName385" unassigned -->
-          <!-- "%ActualStarName386" unassigned -->
-          <!-- "%ActualStarName387" unassigned -->
-          <!-- "%ActualStarName388" unassigned -->
+    <Entry Tag="%ActualStarName385"        Weight="1"/>
+    <Entry Tag="%ActualStarName386"        Weight="1"/>
+    <Entry Tag="%ActualStarName387"        Weight="1"/>
+    <Entry Tag="%ActualStarName388"        Weight="1"/>
     <Entry Tag="%ActualStarName389"        Weight="1"/>
     <Entry Tag="%ActualStarName390"        Weight="1"/>
     <Entry Tag="%ActualStarName391"        Weight="1"/>
@@ -1997,7 +1997,7 @@
     <Entry Tag="%ActualStarName416"        Weight="1"/>
     <Entry Tag="%ActualStarName417"        Weight="1"/>
     <Entry Tag="%ActualStarName418"        Weight="1"/>
-          <!-- "%ActualStarName419" unassigned -->
+    <Entry Tag="%ActualStarName419"        Weight="1"/>
     <Entry Tag="%ActualStarName420"        Weight="1"/>
     <Entry Tag="%ActualStarName421"        Weight="1"/>
     <Entry Tag="%ActualStarName422"        Weight="1"/>
@@ -2018,7 +2018,7 @@
     <Entry Tag="%ConstellationName5"          Weight="1"/>
     <Entry Tag="%ConstellationName6"          Weight="1"/>
     <Entry Tag="%ConstellationName7"          Weight="1"/>
-          <!-- "%ConstellationName8" unassigned -->
+    <Entry Tag="%ConstellationName8"          Weight="1"/>
     <Entry Tag="%ConstellationName9"          Weight="1"/>
     <Entry Tag="%ConstellationName10"         Weight="1"/>
     <Entry Tag="%ConstellationName11"         Weight="1"/>
@@ -2306,6 +2306,7 @@
     <Entry Tag="Curiosity_PlanetAnomaly46"         Weight="10"/>
     <Entry Tag="Curiosity_PlanetAnomaly47"         Weight="10"/>
     <Entry Tag="Curiosity_PlanetAnomaly48"         Weight="10"/>
+    <Entry Tag="Curiosity_PlanetAnomaly49"         Weight="10"/>
 <!--UPDATE5-->
     <Entry Tag="Curiosity_PlanetAnomaly50"         Weight="30"/>
     <Entry Tag="Curiosity_PlanetAnomaly51"         Weight="30"/>
@@ -2317,7 +2318,7 @@
 
   <GalaxyGeneratorWeightTable Name="AnomalyVisibleGeneration_Default">
     <Entry Tag="PlanetAnomaly02"         Weight="10"/>
-          <!-- "PlanetAnomaly03" unassigned -->
+    <Entry Tag="PlanetAnomaly03"         Weight="10"/>
     <Entry Tag="PlanetAnomaly04"         Weight="10"/>
     <Entry Tag="PlanetAnomaly05"         Weight="10"/>
     <Entry Tag="PlanetAnomaly06"         Weight="10"/>
