@@ -1539,6 +1539,7 @@
      <Entry Tag="%StarNameITB7"          Weight="1"/>
 <!--Rain World-->
      <Entry Tag="%StarNameRW1"          Weight="1"/>
+     <Entry Tag="%StarNameRW2"          Weight="1"/>
      <Entry Tag="%StarNameRW3"          Weight="1"/>
      <Entry Tag="%StarNameRW4"          Weight="1"/>
      <Entry Tag="%StarNameRW5"          Weight="1"/>
@@ -2326,6 +2327,7 @@
 
   <GalaxyGeneratorWeightTable Name="AnomalyVisibleGeneration_Default">
     <Entry Tag="PlanetAnomaly02"        Weight="10"/>
+    <Entry Tag="PlanetAnomaly03"        Weight="10"/>
     <Entry Tag="PlanetAnomaly04"        Weight="10"/>
     <Entry Tag="PlanetAnomaly05"        Weight="10"/>
     <Entry Tag="PlanetAnomaly06"        Weight="10"/>
