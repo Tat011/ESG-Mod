@@ -382,6 +382,7 @@
 
 <!--Rain World-->
   <LocalizationPair Name="%StarNameRW1">Pebbles</LocalizationPair>
+  <LocalizationPair Name="%StarNameRW2">Grey Wind</LocalizationPair>
   <LocalizationPair Name="%StarNameRW3">Miros</LocalizationPair>
   <LocalizationPair Name="%StarNameRW4">Hazer</LocalizationPair>
   <LocalizationPair Name="%StarNameRW5">Underhang</LocalizationPair>
