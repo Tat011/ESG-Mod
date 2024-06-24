@@ -340,9 +340,9 @@
     <!-- Tooltip -->
     <Modifier TargetProperty="UselessForTooltip" Operation="Addition" Value="1" Path="../ClassEmpire,FactionTraitEnableMinorLaws" TooltipOverride="%PopulationCollectionBonusSistersOfMercy3_TooltipEffect" TooltipHiddenIfPathInvalid="true"/>
     <!--  Effect -->
-    <Modifier TargetProperty="InfantryMaxHealth" Operation="Addition" Value="0.25" Path="../ClassEmpire,FactionTraitDisableMinorLaws/ClassEmpire" TooltipOverride="%PopulationCollectionBonusSistersOfMercy3_TraitEffect"/>
-    <Modifier TargetProperty="TankMaxHealth" Operation="Addition" Value="0.25" Path="../ClassEmpire,FactionTraitDisableMinorLaws/ClassEmpire" TooltipOverride="%PopulationCollectionBonusSistersOfMercy3_TraitEffect"/>
-    <Modifier TargetProperty="PlaneMaxHealth" Operation="Addition" Value="0.25" Path="../ClassEmpire,FactionTraitDisableMinorLaws/ClassEmpire" TooltipOverride="%PopulationCollectionBonusSistersOfMercy3_TraitEffect"/>
+    <Modifier TargetProperty="InfantryMaxHealth" Operation="Addition" Value="0.25" Path="../ClassEmpire,FactionTraitDisableMinorLaws/ClassEmpire"/>
+    <Modifier TargetProperty="TankMaxHealth" Operation="Addition" Value="0.25" Path="../ClassEmpire,FactionTraitDisableMinorLaws/ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="PlaneMaxHealth" Operation="Addition" Value="0.25" Path="../ClassEmpire,FactionTraitDisableMinorLaws/ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 
 <!--Sowers pop collection bonus 3-->
