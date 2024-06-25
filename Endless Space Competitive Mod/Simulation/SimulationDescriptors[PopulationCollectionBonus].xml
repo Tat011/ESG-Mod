@@ -332,7 +332,7 @@
 
 <!--Sisters of Mercy pop collection bonus 2-->
   <SimulationDescriptor Name="PopulationCollectionBonusSistersOfMercy2" Type="PopulationCollectionBonus">
-        <Modifier TargetProperty="HappinessBonusFromCollection" Operation="Addition" Value="15" Path="../ClassEmpire,EmpireTypeMajor/ClassStarSystem/ClassPopulationStarSystemAffinitySistersOfMercy" SearchValueFromPath="true"/>
+        <Modifier TargetProperty="HappinessBonusFromCollection" Operation="Addition" Value="10" Path="../ClassEmpire,EmpireTypeMajor/ClassStarSystem/ClassPopulationStarSystemAffinitySistersOfMercy" SearchValueFromPath="true"/>
   </SimulationDescriptor>
 
 <!--Sisters of Mercy pop collection bonus 3-->
