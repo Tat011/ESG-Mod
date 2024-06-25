@@ -782,6 +782,6 @@
   </SimulationDescriptor>
 
   <!-- Quest Ship -->
-  <SimulationDescriptor Name="QuestShipENFER"/>
-  <SimulationDescriptor Name="QuestShipCravers"/>
+  <SimulationDescriptor Name="QuestShipENFER" Type="QuestShip"/>
+  <SimulationDescriptor Name="QuestShipCravers" Type="QuestShip"/>
 </Datatable>
