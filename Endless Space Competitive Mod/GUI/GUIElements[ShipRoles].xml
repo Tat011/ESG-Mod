@@ -14,7 +14,7 @@
         <SymbolString>[colonizer]</SymbolString>
         <Color Red="255" Green="255" Blue="255" Alpha="255" />
     </ExtendedGuiElement>
- 
+
 	<!-- Explorer -->
     <ExtendedGuiElement Name="ShipRoleExploration">
         <Title>%ShipRoleExplorationTitle</Title>
@@ -28,7 +28,7 @@
         <SymbolString>[explorer]</SymbolString>
         <Color Red="255" Green="255" Blue="255" Alpha="255" />
     </ExtendedGuiElement>
-  
+
 	<!-- Leecher -->
     <ExtendedGuiElement Name="ShipRoleLeecher">
       <Title>%ShipRoleLeecherTitle</Title>
@@ -155,4 +155,10 @@
         <Color Red="255" Green="255" Blue="255" Alpha="255" />
     </ExtendedGuiElement>
 
+  <GuiElement Name="QuestShipENFER">
+    <Title>%FAKE</Title>
+  </GuiElement>
+  <GuiElement Name="QuestShipCravers">
+    <Title>%FAKE</Title>
+  </GuiElement>
 </Datatable>
