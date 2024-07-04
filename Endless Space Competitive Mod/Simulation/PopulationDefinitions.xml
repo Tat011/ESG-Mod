@@ -1411,7 +1411,7 @@
       <Luxury>Luxury8</Luxury>
     </GrowthBoostLuxuryOptions>
   </PopulationDefinition>
-  
+
 <!--Sisters Of Mercy (Vaulters)-->
   <PopulationDefinition AffinityName="AffinitySistersOfMercy" Standard="true">
     <SupervisorGain Name="Military" Weight="1">
@@ -1430,8 +1430,10 @@
 
 <!--+2 Happiness / +30 System manpower capacity-->
     <Trait Name="PopulationModifiersTraitPrimaryCustomHappiness00"/>
-<!-- +25 Ground battle bombardment damage to attacker-->
+<!--+25 Ground battle bombardment damage to attacker-->
     <Trait Name="PopulationModifiersTraitPrimaryCustomGroundBattleBombardmentAttackerDamages00"/>
+<!--+2 Food on Sterile-->
+    <Trait Name="PopulationModifiersTraitSecondaryCustomFoodOnMeager01"/>
 
     <Trait Name="PopulationCollectionBonusTraitSistersOfMercy" />
     <AffinityMapping Name="AffinityMappingSistersOfMercy"/>
