@@ -1868,7 +1868,7 @@
 
      <Entry Tag="%ActualStarName230"         Weight="1"/>
      <Entry Tag="%ActualStarName231"         Weight="1"/>
-     <Entry Tag="%ActualStarName232"         Weight="1"/>>
+     <Entry Tag="%ActualStarName232"         Weight="1"/>
      <Entry Tag="%ActualStarName233"         Weight="1"/>
      <Entry Tag="%ActualStarName234"         Weight="1"/>
      <Entry Tag="%ActualStarName235"         Weight="1"/>
@@ -2161,7 +2161,7 @@
 <!--Famous people-->
     <Entry Tag="%PeopleConstellationName1"         Weight="1"/>
     <Entry Tag="%PeopleConstellationName2"         Weight="1"/>
-    <Entry Tag="%PeopleConstellationName3"         Weight="1"/>>
+    <Entry Tag="%PeopleConstellationName3"         Weight="1"/>
     <Entry Tag="%PeopleConstellationName4"         Weight="1"/>
     <Entry Tag="%PeopleConstellationName5"         Weight="1"/>
     <Entry Tag="%PeopleConstellationName6"         Weight="1"/>
@@ -2188,7 +2188,7 @@
     <Entry Tag="%USConstellationName1"         Weight="1"/>
     <Entry Tag="%USConstellationName2"         Weight="1"/>
     <Entry Tag="%USConstellationName3"         Weight="1"/>
-    <Entry Tag="%USConstellationName4"         Weight="1"/>>
+    <Entry Tag="%USConstellationName4"         Weight="1"/>
 <!--Misc-->
     <Entry Tag="%MiscConstellationName1"         Weight="1"/>
     <Entry Tag="%MiscConstellationName2"         Weight="1"/>
