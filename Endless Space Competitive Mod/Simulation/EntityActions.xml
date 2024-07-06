@@ -105,7 +105,7 @@
   </ColonizeFleetAction>-->
 
   <!--  Colonize as Vaulters Option A: Nobody is Guarding -->
-  <SuperColonizeFleetAction Name="SuperColonizeFleetAction" FeedbackDuration="1.5" DelayAfterFeedback="1" PropertyToReset="TurnsSinceSuperColonization">
+  <SuperColonizeFleetAction Name="SuperColonizeFleetAction" FeedbackDuration="1.5" DelayAfterFeedback="1" PropertyToReset="TurnsSinceSuperColonization" InitialPopulation="1">
     <EntityPrerequisites Location="Self">
       <PathPrerequisite Flags="Prerequisite,Discard">ClassGarrisonFleet/ClassShip,ShipRoleSuperColonizer</PathPrerequisite>
       <InterpreterPrerequisite Flags="CannotColonizeUnderEnemyInfluence">not(Path(Context, @'FleetInfluenceStateHostile')) or Path(Context, @'./ClassEmpire/ClassSenate/LawP05L05Effect')</InterpreterPrerequisite>
@@ -128,7 +128,7 @@
   </SuperColonizeFleetAction>
 
   <!--  Colonize as Vaulters B: You are Guarding -->
-  <!--<SuperColonizeFleetAction Name="SuperColonizeFleetAction2" FeedbackDuration="1.5" DelayAfterFeedback="1" PropertyToReset="TurnsSinceSuperColonization">
+  <!--<SuperColonizeFleetAction Name="SuperColonizeFleetAction2" FeedbackDuration="1.5" DelayAfterFeedback="1" PropertyToReset="TurnsSinceSuperColonization" InitialPopulation="1">
     <EntityPrerequisites Location="Self">
       <PathPrerequisite Flags="SystemIsBeingBlockaded,Discard" Inverted="true">../ClassEmpire,FactionTraitBlockadeBreakers</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,SystemIsBeingBlockaded,Discard">ClassGarrisonFleet,FleetActionGuarding</PathPrerequisite>
@@ -149,7 +149,7 @@
   </SuperColonizeFleetAction>-->
 
   <!--  Colonize as Vaulters C: Blockade Breaker -->
-  <!--<SuperColonizeFleetAction Name="SuperColonizeFleetAction3" FeedbackDuration="1.5" DelayAfterFeedback="1" PropertyToReset="TurnsSinceSuperColonization">
+  <!--<SuperColonizeFleetAction Name="SuperColonizeFleetAction3" FeedbackDuration="1.5" DelayAfterFeedback="1" PropertyToReset="TurnsSinceSuperColonization" InitialPopulation="1">
     <EntityPrerequisites Location="Self">
       <PathPrerequisite Flags="Prerequisite,SystemIsBeingBlockaded,Discard">../ClassEmpire,FactionTraitBlockadeBreakers</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard">ClassGarrisonFleet/ClassShip,ShipRoleSuperColonizer</PathPrerequisite>

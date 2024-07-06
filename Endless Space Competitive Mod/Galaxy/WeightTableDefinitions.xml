@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GalaxyGeneratorWeightTableDefinition.xsd">
 
-<!-- RESOURCES ABUNDANCE -->
+<!--RESOURCES ABUNDANCE-->
   <GalaxyGeneratorWeightTable Name="ResourceDeposit_Rare">
     <Entry Tag="DepositSizePoor"            Weight="15"/>
     <Entry Tag="DepositSizeAverage"         Weight="5"/>
@@ -20,7 +20,56 @@
     <Entry Tag="DepositSizeAbundant"        Weight="10"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- GALAXY AGE -->
+<!--Planet sizes-->
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasFrozen_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+        <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasCold_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+      <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasTemperate_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+       <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasWarm_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+       <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasHot_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+        <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasBurning_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+        <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+  
+<!--GALAXY AGE-->
   <GalaxyGeneratorWeightTable Name="StarTypes_Normal">
     <Entry Tag="StarTypeBlue"           Weight="30"/>
     <Entry Tag="StarTypeWhite"          Weight="20"/>
@@ -66,7 +115,7 @@
     <Entry Tag="StarTypeTemplars"       Weight="1"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- STAR TYPE FOR HOME SYSTEMS -->
+<!--STAR TYPE FOR HOME SYSTEMS-->
   <GalaxyGeneratorWeightTable Name="HomeSystem_PlanetTypes">
     <Entry Tag="PlanetTypeBarren"           Weight="20"/>
     <Entry Tag="PlanetTypeArctic"           Weight="10"/>
@@ -88,12 +137,12 @@
     <Entry Tag="PlanetTypeGasBurning"       Weight="2"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- Academy Star -->
+<!--Academy Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeAcademy_PlanetQuantity">
-    <Entry Tag="PlanetQuantityTwo"          Weight="0"/>
-    <Entry Tag="PlanetQuantityThree"        Weight="0"/>
-    <Entry Tag="PlanetQuantityFour"         Weight="0"/>
-    <Entry Tag="PlanetQuantityFive"         Weight="50"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="-1"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="-1"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="-1"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="999999"/>
   </GalaxyGeneratorWeightTable>
 
   <GalaxyGeneratorWeightTable Name="StarTypeAcademy_PlanetTypes">
@@ -126,7 +175,7 @@
     <Entry Tag="PlanetTypeGasBurning"       Weight="0"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- Blue Star -->
+<!--Blue Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeBlue_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
     <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
@@ -135,7 +184,7 @@
     <Entry Tag="PlanetQuantityFive"         Weight="20"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- White Star -->
+<!--White Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeWhite_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
     <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
@@ -144,7 +193,7 @@
     <Entry Tag="PlanetQuantityFive"         Weight="20"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- Binary Star -->
+<!--Binary Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeDouble_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
     <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
@@ -153,7 +202,7 @@
     <Entry Tag="PlanetQuantityFive"         Weight="20"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- Yellow Star -->
+<!--Yellow Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeYellow_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
     <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
@@ -162,7 +211,7 @@
     <Entry Tag="PlanetQuantityFive"         Weight="20"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- Red Supergiant Star -->
+<!--Red Supergiant Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeRedSupergiant_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
     <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
@@ -171,7 +220,7 @@
     <Entry Tag="PlanetQuantityFive"         Weight="20"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- Dyson Sphere Star -->
+<!--Dyson Sphere Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeDysonSphere_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
     <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
@@ -180,7 +229,7 @@
     <Entry Tag="PlanetQuantityFive"         Weight="20"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- Red Dwarf Star -->
+<!--Red Dwarf Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeRedDwarf_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
     <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
@@ -189,7 +238,7 @@
     <Entry Tag="PlanetQuantityFive"         Weight="20"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- White Dwarf Star -->
+<!--White Dwarf Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeWhiteDwarf_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
     <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
@@ -198,7 +247,7 @@
     <Entry Tag="PlanetQuantityFive"         Weight="20"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- Artificial Star -->
+<!--Artificial Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeArtificial_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
     <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
@@ -207,7 +256,7 @@
     <Entry Tag="PlanetQuantityFive"         Weight="20"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- Protostar Star -->
+<!--Protostar-->
   <GalaxyGeneratorWeightTable Name="StarTypeProtostar_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
     <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
@@ -216,7 +265,7 @@
     <Entry Tag="PlanetQuantityFive"         Weight="20"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- None Star -->
+<!--No Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeNone_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
     <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
@@ -237,7 +286,7 @@
         <Entry Tag="PlanetTypeIce"              Weight="10"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- MINOR HOME SYSTEM -->
+<!--MINOR HOME SYSTEM-->
   <GalaxyGeneratorWeightTable Name="MinorFactionBenthys_PlanetTypes">
         <Entry Tag="PlanetTypeSwamp"                 Weight="3"/>
         <Entry Tag="PlanetTypeMonsoon"               Weight="3"/>
@@ -1022,7 +1071,7 @@
         <Entry Tag="StarTypeArtificial"          Weight="6"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- Star names -->
+<!--Star names-->
   <GalaxyGeneratorWeightTable Name="StarSystemNames">
 <!--Vanilla-->
     <Entry Tag="%StarName1"           Weight="1"/>
@@ -1395,8 +1444,7 @@
     <Entry Tag="%StarNameGreek7"          Weight="1"/>
     <Entry Tag="%StarNameGreek8"          Weight="1"/>
     <Entry Tag="%StarNameGreek9"          Weight="1"/>
-<!--Starsector-->
-<!--Stars-->
+<!--Starsector Stars-->
     <Entry Tag="%StarNameStarsectorStar1"          Weight="1"/>
     <Entry Tag="%StarNameStarsectorStar2"          Weight="1"/>
     <Entry Tag="%StarNameStarsectorStar3"          Weight="1"/>
@@ -1413,7 +1461,7 @@
     <Entry Tag="%StarNameStarsectorStar14"         Weight="1"/>
     <Entry Tag="%StarNameStarsectorStar15"         Weight="1"/>
     <Entry Tag="%StarNameStarsectorStar16"         Weight="1"/>
-<!--Planets-->
+<!--Starsector Planets-->
     <Entry Tag="%StarNameStarsectorPlanet1"          Weight="1"/>
     <Entry Tag="%StarNameStarsectorPlanet2"          Weight="1"/>
     <Entry Tag="%StarNameStarsectorPlanet3"          Weight="1"/>
@@ -1507,7 +1555,7 @@
     <Entry Tag="%StarNameStarsectorPlanet91"         Weight="1"/>
     <Entry Tag="%StarNameStarsectorPlanet92"         Weight="1"/>
     <Entry Tag="%StarNameStarsectorPlanet93"         Weight="1"/>
-<!--Ships-->
+<!--Starsector Ships-->
     <Entry Tag="%StarNameStarsectorShip1"          Weight="1"/>
     <Entry Tag="%StarNameStarsectorShip2"          Weight="1"/>
     <Entry Tag="%StarNameStarsectorShip3"          Weight="1"/>
@@ -1527,7 +1575,7 @@
     <Entry Tag="%StarNameStarsectorShip17"         Weight="1"/>
     <Entry Tag="%StarNameStarsectorShip18"         Weight="1"/>
     <Entry Tag="%StarNameStarsectorShip19"         Weight="1"/>
-<!--NPCs-->
+<!--Starsector NPCs-->
     <Entry Tag="%StarNameStarsectorNPC1"          Weight="1"/>
     <Entry Tag="%StarNameStarsectorNPC2"          Weight="1"/>
     <Entry Tag="%StarNameStarsectorNPC3"          Weight="1"/>
@@ -2098,15 +2146,15 @@
     <Entry Tag="%CharacterConstellationName2"          Weight="1"/>
     <Entry Tag="%CharacterConstellationName3"          Weight="1"/>
 <!--Famous people-->
-    <Entry Tag="%PeopleConstellationName1"          Weight="1"/>
-    <Entry Tag="%PeopleConstellationName2"          Weight="1"/>
-    <Entry Tag="%PeopleConstellationName3"          Weight="1"/>
-    <Entry Tag="%PeopleConstellationName4"          Weight="1"/>
-    <Entry Tag="%PeopleConstellationName5"          Weight="1"/>
-    <Entry Tag="%PeopleConstellationName6"          Weight="1"/>
-    <Entry Tag="%PeopleConstellationName7"          Weight="1"/>
-    <Entry Tag="%PeopleConstellationName8"          Weight="1"/>
-    <Entry Tag="%PeopleConstellationName9"          Weight="1"/>
+    <Entry Tag="%PeopleConstellationName1"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName2"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName3"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName4"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName5"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName6"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName7"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName8"         Weight="1"/>
+    <Entry Tag="%PeopleConstellationName9"         Weight="1"/>
     <Entry Tag="%PeopleConstellationName10"         Weight="1"/>
     <Entry Tag="%PeopleConstellationName11"         Weight="1"/>
 <!--irl constelations-->
@@ -2241,8 +2289,8 @@
     <Entry Tag="%SpecialNodeStarsector4"          Weight="1"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- Anomalies -->
-<!-- Wonders -->
+<!--Anomalies-->
+<!--Wonders-->
   <GalaxyGeneratorWeightTable Name="AnomalyGenerationUnique_Default">
     <Entry Tag="PlanetAnomalyNaturalWonder1"          Weight="10"/>
     <Entry Tag="PlanetAnomalyNaturalWonder2"          Weight="10"/>
@@ -2250,11 +2298,11 @@
     <Entry Tag="PlanetAnomalyNaturalWonder4"          Weight="10"/>
     <Entry Tag="PlanetAnomalyNaturalWonder5"          Weight="10"/>
     <Entry Tag="PlanetAnomalyNaturalWonder6"          Weight="10"/>
-<!-- Garden of Eden -->
+<!--Garden of Eden-->
     <Entry Tag="Curiosity_PlanetAnomaly01"            Weight="10"/>
   </GalaxyGeneratorWeightTable>
 
-<!-- Common -->
+<!--Common-->
   <GalaxyGeneratorWeightTable Name="AnomalyGeneration_Default">
     <Entry Tag="Curiosity_PlanetAnomaly02"         Weight="10"/>
     <Entry Tag="Curiosity_PlanetAnomaly03"         Weight="10"/>
@@ -2367,6 +2415,7 @@
     <Entry Tag="PlanetAnomaly46"         Weight="10"/>
     <Entry Tag="PlanetAnomaly47"         Weight="10"/>
     <Entry Tag="PlanetAnomaly48"         Weight="10"/>
+    <Entry Tag="PlanetAnomaly49"         Weight="10"/>
 <!--UPDATE5-->
     <Entry Tag="PlanetAnomaly50"         Weight="10"/>
     <Entry Tag="PlanetAnomaly51"         Weight="10"/>
