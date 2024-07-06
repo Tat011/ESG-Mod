@@ -1041,4 +1041,17 @@ Faction Pact: -1% Hero Unlock Threshold per [turn] (Max: -30%)</LocalizationPair
   <LocalizationPair Name="%EmpireImprovementExpansionDisapproval1TerransTooltipOverride">+2 Overcolonization Threshold on Empire if Federation</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementGovernmentTerransTooltipOverride">+1 Overcolonization Threshold on Empire if Federation</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementExpansionDisapproval2TooltipOverride">+2 Overcolonization Threshold on Empire if Federation</LocalizationPair>
+
+  <!-- Galaxy Age -->
+  <LocalizationPair Name="%SettingGalaxyAgeDescription">The age of the galaxy determines the probability of each sun type. A younger galaxy will provide habitable planets less often than an old one.</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeNormalDescription">The galaxy will be a mix of hotter and cooler stars.</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeNormalTitle">Normal</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeOldDescription">The galaxy will have more older, cooler stars.</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeOldTitle">Old</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeRandomDescription">The age of the galaxy will be chosen randomly</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeRandomTitle">Random</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeTitle">Age</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeYoungDescription">The galaxy will have more younger, hotter stars.</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeYoungTitle">Young</LocalizationPair>
+
 </Datatable>

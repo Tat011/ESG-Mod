@@ -3,7 +3,7 @@
   <GuiElement Name="AdvancedSettingsESGSettings">
     <Title>%AdvancedSettingsESGTitle</Title>
     <Icons>
-      <Icon Size="Large" Path="Bitmaps/Dynamic/Settings/SettingsGameplayNarrationLarge" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Settings/SettingsGameplayNarrationLarge"/>
     </Icons>
   </GuiElement>
 
@@ -703,6 +703,28 @@
   <GuiElement Name="SettingBalancedHomesFalse">
     <Title>%SettingBalancedHomesFalseTitle</Title>
     <Description>%SettingBalancedHomesFalseDescription</Description>
+  </GuiElement>
+
+  <!--  Galaxy Age  -->
+  <GuiElement Name="SettingGalaxyAge">
+    <Title>%SettingGalaxyAgeTitle</Title>
+    <Description>%SettingGalaxyAgeDescription</Description>
+  </GuiElement>
+  <GuiElement Name="SettingGalaxyAgeYoung">
+    <Title>%SettingGalaxyAgeYoungTitle</Title>
+    <Description>%SettingGalaxyAgeYoungDescription</Description>
+  </GuiElement>
+  <GuiElement Name="SettingGalaxyAgeNormal">
+    <Title>%SettingGalaxyAgeNormalTitle</Title>
+    <Description>%SettingGalaxyAgeNormalDescription</Description>
+  </GuiElement>
+  <GuiElement Name="SettingGalaxyAgeOld">
+    <Title>%SettingGalaxyAgeOldTitle</Title>
+    <Description>%SettingGalaxyAgeOldDescription</Description>
+  </GuiElement>
+  <GuiElement Name="SettingGalaxyAgeRandom">
+    <Title>%SettingGalaxyAgeRandomTitle</Title>
+    <Description>%SettingGalaxyAgeRandomDescription</Description>
   </GuiElement>
 
   <!-- Law Rework -->
