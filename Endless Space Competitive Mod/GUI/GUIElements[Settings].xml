@@ -705,28 +705,6 @@
     <Description>%SettingBalancedHomesFalseDescription</Description>
   </GuiElement>
 
-  <!--  Galaxy Age  -->
-  <GuiElement Name="SettingGalaxyAge">
-    <Title>%SettingGalaxyAgeTitle</Title>
-    <Description>%SettingGalaxyAgeDescription</Description>
-  </GuiElement>
-  <GuiElement Name="SettingGalaxyAgeYoung">
-    <Title>%SettingGalaxyAgeYoungTitle</Title>
-    <Description>%SettingGalaxyAgeYoungDescription</Description>
-  </GuiElement>
-  <GuiElement Name="SettingGalaxyAgeNormal">
-    <Title>%SettingGalaxyAgeNormalTitle</Title>
-    <Description>%SettingGalaxyAgeNormalDescription</Description>
-  </GuiElement>
-  <GuiElement Name="SettingGalaxyAgeOld">
-    <Title>%SettingGalaxyAgeOldTitle</Title>
-    <Description>%SettingGalaxyAgeOldDescription</Description>
-  </GuiElement>
-  <GuiElement Name="SettingGalaxyAgeRandom">
-    <Title>%SettingGalaxyAgeRandomTitle</Title>
-    <Description>%SettingGalaxyAgeRandomDescription</Description>
-  </GuiElement>
-
   <!-- Law Rework -->
   <GuiElement Name="SettingLawRework">
     <Title>%SettingLawReworkTitle</Title>

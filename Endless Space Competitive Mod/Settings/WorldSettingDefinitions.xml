@@ -492,22 +492,4 @@
     <ItemDefinition Name="Endless"/>
   </WorldSettingDefinition>
 
-  <WorldSettingDefinition Name="GalaxyAge" Default="Normal">
-    <ItemDefinition Name="Young">
-      <KeyValuePair Key="GalaxyAgeYoung">1</KeyValuePair>
-      <KeyValuePair Key="GalaxyAgeNormal">0</KeyValuePair>
-      <KeyValuePair Key="GalaxyAgeOld">0</KeyValuePair>
-    </ItemDefinition>
-    <ItemDefinition Name="Normal">
-      <KeyValuePair Key="GalaxyAgeYoung">0</KeyValuePair>
-      <KeyValuePair Key="GalaxyAgeNormal">1</KeyValuePair>
-      <KeyValuePair Key="GalaxyAgeOld">0</KeyValuePair>
-    </ItemDefinition>
-    <ItemDefinition Name="Old">
-      <KeyValuePair Key="GalaxyAgeYoung">0</KeyValuePair>
-      <KeyValuePair Key="GalaxyAgeNormal">0</KeyValuePair>
-      <KeyValuePair Key="GalaxyAgeOld">1</KeyValuePair>
-    </ItemDefinition>
-    <ItemDefinition Name="Random"/>
-  </WorldSettingDefinition>
 </Datatable>
