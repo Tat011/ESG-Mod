@@ -1041,4 +1041,17 @@ Faction Pact: -1% Hero Unlock Threshold per [turn] (Max: -30%)</LocalizationPair
   <LocalizationPair Name="%EmpireImprovementExpansionDisapproval1TerransTooltipOverride">+2 Overcolonization Threshold on Empire if Federation</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementGovernmentTerransTooltipOverride">+1 Overcolonization Threshold on Empire if Federation</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementExpansionDisapproval2TooltipOverride">+2 Overcolonization Threshold on Empire if Federation</LocalizationPair>
+
+  <!-- Galaxy Planets per System -->
+  <LocalizationPair Name="%SettingGalaxyAgeTitle">Planets per System</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeDescription">The rough distribution of planets per system in the galaxy</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeYoungTitle">Normal</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeYoungDescription">The galaxy will have a typical number of planets per system.</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeNormalTitle">More</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeNormalDescription">The galaxy will have more planets per system.</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeOldTitle">Way More</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeOldDescription">The galaxy will have significantly more planets per system.</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeRandomTitle">Random</LocalizationPair>
+  <LocalizationPair Name="%SettingGalaxyAgeRandomDescription">The galaxy will have a random number of planets per system.</LocalizationPair>
+
 </Datatable>
