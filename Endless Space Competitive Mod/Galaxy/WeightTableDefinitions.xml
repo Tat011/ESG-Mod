@@ -69,49 +69,61 @@
         <Entry Tag="PlanetSizeHuge"         Weight="100"/>
     </GalaxyGeneratorWeightTable>
   
-<!--GALAXY AGE-->
-  <GalaxyGeneratorWeightTable Name="StarTypes_Normal">
-    <Entry Tag="StarTypeBlue"           Weight="30"/>
+  <!--GALAXY PLANETS PER SYSTEM-->
+  <GalaxyGeneratorWeightTable Name="StarTypes_Young">
+    <Entry Tag="StarTypeBlue"           Weight="20"/>
     <Entry Tag="StarTypeWhite"          Weight="20"/>
+
     <Entry Tag="StarTypeDouble"         Weight="20"/>
     <Entry Tag="StarTypeYellow"         Weight="20"/>
     <Entry Tag="StarTypeRedSupergiant"  Weight="20"/>
-    <Entry Tag="StarTypeDysonSphere"    Weight="2"/>
+
+    <Entry Tag="StarTypeDysonSphere"    Weight="10"/>
     <Entry Tag="StarTypeRedDwarf"       Weight="10"/>
     <Entry Tag="StarTypeWhiteDwarf"     Weight="10"/>
+
     <Entry Tag="StarTypeArtificial"     Weight="6"/>
-    <Entry Tag="StarTypeProtostar"      Weight="30"/>
+    <Entry Tag="StarTypeProtostar"      Weight="6"/>
     <Entry Tag="StarTypeNone"           Weight="6"/>
+
+    <Entry Tag="StarTypeTemplars"       Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="StarTypes_Normal">
+    <Entry Tag="StarTypeBlue"           Weight="30"/>
+    <Entry Tag="StarTypeWhite"          Weight="30"/>
+
+    <Entry Tag="StarTypeDouble"         Weight="20"/>
+    <Entry Tag="StarTypeYellow"         Weight="20"/>
+    <Entry Tag="StarTypeRedSupergiant"  Weight="20"/>
+
+    <Entry Tag="StarTypeDysonSphere"    Weight="10"/>
+    <Entry Tag="StarTypeRedDwarf"       Weight="10"/>
+    <Entry Tag="StarTypeWhiteDwarf"     Weight="10"/>
+
+    <Entry Tag="StarTypeArtificial"     Weight="2"/>
+    <Entry Tag="StarTypeProtostar"      Weight="2"/>
+    <Entry Tag="StarTypeNone"           Weight="2"/>
+
     <Entry Tag="StarTypeTemplars"       Weight="1"/>
   </GalaxyGeneratorWeightTable>
 
   <GalaxyGeneratorWeightTable Name="StarTypes_Old">
-    <Entry Tag="StarTypeBlue"           Weight="20"/>
-    <Entry Tag="StarTypeWhite"          Weight="15"/>
-    <Entry Tag="StarTypeDouble"         Weight="15"/>
-    <Entry Tag="StarTypeYellow"         Weight="15"/>
-    <Entry Tag="StarTypeRedSupergiant"  Weight="15"/>
-    <Entry Tag="StarTypeDysonSphere"    Weight="3"/>
-    <Entry Tag="StarTypeRedDwarf"       Weight="15"/>
-    <Entry Tag="StarTypeWhiteDwarf"     Weight="5"/>
-    <Entry Tag="StarTypeArtificial"     Weight="9"/>
-    <Entry Tag="StarTypeProtostar"      Weight="40"/>
-    <Entry Tag="StarTypeNone"           Weight="3"/>
-    <Entry Tag="StarTypeTemplars"       Weight="1"/>
-  </GalaxyGeneratorWeightTable>
+    <Entry Tag="StarTypeBlue"           Weight="50"/>
+    <Entry Tag="StarTypeWhite"          Weight="50"/>
 
-  <GalaxyGeneratorWeightTable Name="StarTypes_Young">
-    <Entry Tag="StarTypeBlue"           Weight="40"/>
-    <Entry Tag="StarTypeWhite"          Weight="25"/>
-    <Entry Tag="StarTypeDouble"         Weight="25"/>
-    <Entry Tag="StarTypeYellow"         Weight="25"/>
-    <Entry Tag="StarTypeRedSupergiant"  Weight="10"/>
-    <Entry Tag="StarTypeDysonSphere"    Weight="1"/>
+    <Entry Tag="StarTypeDouble"         Weight="30"/>
+    <Entry Tag="StarTypeYellow"         Weight="30"/>
+    <Entry Tag="StarTypeRedSupergiant"  Weight="30"/>
+
+    <Entry Tag="StarTypeDysonSphere"    Weight="5"/>
     <Entry Tag="StarTypeRedDwarf"       Weight="5"/>
-    <Entry Tag="StarTypeWhiteDwarf"     Weight="15"/>
-    <Entry Tag="StarTypeArtificial"     Weight="3"/>
-    <Entry Tag="StarTypeProtostar"      Weight="20"/>
-    <Entry Tag="StarTypeNone"           Weight="9"/>
+    <Entry Tag="StarTypeWhiteDwarf"     Weight="5"/>
+
+    <Entry Tag="StarTypeArtificial"     Weight="1"/>
+    <Entry Tag="StarTypeProtostar"      Weight="1"/>
+    <Entry Tag="StarTypeNone"           Weight="1"/>
+
     <Entry Tag="StarTypeTemplars"       Weight="1"/>
   </GalaxyGeneratorWeightTable>
 
@@ -175,105 +187,122 @@
     <Entry Tag="PlanetTypeGasBurning"       Weight="0"/>
   </GalaxyGeneratorWeightTable>
 
+  <!-- ########################################## -->
+  <!-- ############## TIER 1 STARS ############## -->
+  <!-- ########################################## -->
+
 <!--Blue Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeBlue_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
-    <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
-    <Entry Tag="PlanetQuantityThree"        Weight="40"/>
-    <Entry Tag="PlanetQuantityFour"         Weight="30"/>
-    <Entry Tag="PlanetQuantityFive"         Weight="20"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="3"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="3"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="50"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="30"/>
   </GalaxyGeneratorWeightTable>
 
-<!--White Star-->
+  <!--White Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeWhite_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
-    <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
-    <Entry Tag="PlanetQuantityThree"        Weight="40"/>
-    <Entry Tag="PlanetQuantityFour"         Weight="30"/>
-    <Entry Tag="PlanetQuantityFive"         Weight="20"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="3"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="3"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="50"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="30"/>
   </GalaxyGeneratorWeightTable>
 
-<!--Binary Star-->
+  <!-- ########################################## -->
+  <!-- ############## TIER 2 STARS ############## -->
+  <!-- ########################################## -->
+
+  <!--Binary Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeDouble_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
-    <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
-    <Entry Tag="PlanetQuantityThree"        Weight="40"/>
-    <Entry Tag="PlanetQuantityFour"         Weight="30"/>
-    <Entry Tag="PlanetQuantityFive"         Weight="20"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="3"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="10"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="40"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="15"/>
   </GalaxyGeneratorWeightTable>
 
-<!--Yellow Star-->
+  <!--Yellow Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeYellow_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
-    <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
-    <Entry Tag="PlanetQuantityThree"        Weight="40"/>
-    <Entry Tag="PlanetQuantityFour"         Weight="30"/>
-    <Entry Tag="PlanetQuantityFive"         Weight="20"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="3"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="10"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="40"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="15"/>
   </GalaxyGeneratorWeightTable>
 
-<!--Red Supergiant Star-->
+  <!--Red Supergiant Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeRedSupergiant_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
-    <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
-    <Entry Tag="PlanetQuantityThree"        Weight="40"/>
-    <Entry Tag="PlanetQuantityFour"         Weight="30"/>
-    <Entry Tag="PlanetQuantityFive"         Weight="20"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="3"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="10"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="40"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="15"/>
   </GalaxyGeneratorWeightTable>
 
-<!--Dyson Sphere Star-->
+  <!-- ########################################## -->
+  <!-- ############## TIER 3 STARS ############## -->
+  <!-- ########################################## -->
+
+  <!--Dyson Sphere Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeDysonSphere_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
-    <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
-    <Entry Tag="PlanetQuantityThree"        Weight="40"/>
-    <Entry Tag="PlanetQuantityFour"         Weight="30"/>
-    <Entry Tag="PlanetQuantityFive"         Weight="20"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="10"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="30"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="20"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="10"/>
   </GalaxyGeneratorWeightTable>
 
-<!--Red Dwarf Star-->
+  <!--Red Dwarf Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeRedDwarf_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
-    <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
-    <Entry Tag="PlanetQuantityThree"        Weight="40"/>
-    <Entry Tag="PlanetQuantityFour"         Weight="30"/>
-    <Entry Tag="PlanetQuantityFive"         Weight="20"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="10"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="30"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="20"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="10"/>
   </GalaxyGeneratorWeightTable>
 
-<!--White Dwarf Star-->
+  <!--White Dwarf Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeWhiteDwarf_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
-    <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
-    <Entry Tag="PlanetQuantityThree"        Weight="40"/>
-    <Entry Tag="PlanetQuantityFour"         Weight="30"/>
-    <Entry Tag="PlanetQuantityFive"         Weight="20"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="10"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="30"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="20"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="10"/>
   </GalaxyGeneratorWeightTable>
+
+  <!-- ########################################## -->
+  <!-- ############## TIER 4 STARS ############## -->
+  <!-- ########################################## -->
 
 <!--Artificial Star-->
-  <GalaxyGeneratorWeightTable Name="StarTypeArtificial_PlanetQuantity">
+<GalaxyGeneratorWeightTable Name="StarTypeArtificial_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
-    <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
-    <Entry Tag="PlanetQuantityThree"        Weight="40"/>
-    <Entry Tag="PlanetQuantityFour"         Weight="30"/>
-    <Entry Tag="PlanetQuantityFive"         Weight="20"/>
-  </GalaxyGeneratorWeightTable>
+    <Entry Tag="PlanetQuantityTwo"          Weight="10"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="20"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="10"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="3"/>
+</GalaxyGeneratorWeightTable>
 
-<!--Protostar-->
+  <!--Protostar-->
   <GalaxyGeneratorWeightTable Name="StarTypeProtostar_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
-    <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
-    <Entry Tag="PlanetQuantityThree"        Weight="40"/>
-    <Entry Tag="PlanetQuantityFour"         Weight="30"/>
-    <Entry Tag="PlanetQuantityFive"         Weight="20"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="10"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="20"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="10"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="3"/>
   </GalaxyGeneratorWeightTable>
 
-<!--No Star-->
+  <!--None-->
   <GalaxyGeneratorWeightTable Name="StarTypeNone_PlanetQuantity">
     <Entry Tag="PlanetQuantityOne"          Weight="3"/>
-    <Entry Tag="PlanetQuantityTwo"          Weight="15"/>
-    <Entry Tag="PlanetQuantityThree"        Weight="40"/>
-    <Entry Tag="PlanetQuantityFour"         Weight="30"/>
-    <Entry Tag="PlanetQuantityFive"         Weight="20"/>
+    <Entry Tag="PlanetQuantityTwo"          Weight="10"/>
+    <Entry Tag="PlanetQuantityThree"        Weight="20"/>
+    <Entry Tag="PlanetQuantityFour"         Weight="10"/>
+    <Entry Tag="PlanetQuantityFive"         Weight="3"/>
   </GalaxyGeneratorWeightTable>
 
+  <!--Planet Types for No Star-->
   <GalaxyGeneratorWeightTable Name="StarTypeNone_PlanetTypes">
         <Entry Tag="PlanetTypeGasFrozen"        Weight="20"/>
         <Entry Tag="PlanetTypeGasCold"          Weight="15"/>
@@ -1626,434 +1655,451 @@
     <Entry Tag="%StarNameOW7"          Weight="1"/>
     <Entry Tag="%StarNameOW8"          Weight="1"/>
     <Entry Tag="%StarNameOW9"          Weight="1"/>
-<!--Actual stars-->
-    <Entry Tag="%ActualStarName1"          Weight="1"/>
-    <Entry Tag="%ActualStarName2"          Weight="1"/>
-    <Entry Tag="%ActualStarName3"          Weight="1"/>
-    <Entry Tag="%ActualStarName4"          Weight="1"/>
-    <Entry Tag="%ActualStarName5"          Weight="1"/>
-    <Entry Tag="%ActualStarName6"          Weight="1"/>
-    <Entry Tag="%ActualStarName7"          Weight="1"/>
-    <Entry Tag="%ActualStarName8"          Weight="1"/>
-    <Entry Tag="%ActualStarName9"          Weight="1"/>
-    <Entry Tag="%ActualStarName10"         Weight="1"/>
-    <Entry Tag="%ActualStarName11"         Weight="1"/>
-    <Entry Tag="%ActualStarName12"         Weight="1"/>
-    <Entry Tag="%ActualStarName13"         Weight="1"/>
-    <Entry Tag="%ActualStarName14"         Weight="1"/>
-    <Entry Tag="%ActualStarName15"         Weight="1"/>
-    <Entry Tag="%ActualStarName16"         Weight="1"/>
-    <Entry Tag="%ActualStarName17"         Weight="1"/>
-    <Entry Tag="%ActualStarName18"         Weight="1"/>
-    <Entry Tag="%ActualStarName19"         Weight="1"/>
-    <Entry Tag="%ActualStarName20"         Weight="1"/>
-    <Entry Tag="%ActualStarName21"         Weight="1"/>
-    <Entry Tag="%ActualStarName22"         Weight="1"/>
-    <Entry Tag="%ActualStarName23"         Weight="1"/>
-    <Entry Tag="%ActualStarName24"         Weight="1"/>
-    <Entry Tag="%ActualStarName25"         Weight="1"/>
-    <Entry Tag="%ActualStarName26"         Weight="1"/>
-    <Entry Tag="%ActualStarName27"         Weight="1"/>
-    <Entry Tag="%ActualStarName28"         Weight="1"/>
-    <Entry Tag="%ActualStarName29"         Weight="1"/>
-    <Entry Tag="%ActualStarName30"         Weight="1"/>
-    <Entry Tag="%ActualStarName31"         Weight="1"/>
-    <Entry Tag="%ActualStarName32"         Weight="1"/>
-    <Entry Tag="%ActualStarName33"         Weight="1"/>
-    <Entry Tag="%ActualStarName34"         Weight="1"/>
-    <Entry Tag="%ActualStarName35"         Weight="1"/>
-    <Entry Tag="%ActualStarName36"         Weight="1"/>
-    <Entry Tag="%ActualStarName37"         Weight="1"/>
-    <Entry Tag="%ActualStarName38"         Weight="1"/>
-    <Entry Tag="%ActualStarName39"         Weight="1"/>
-    <Entry Tag="%ActualStarName40"         Weight="1"/>
-    <Entry Tag="%ActualStarName41"         Weight="1"/>
-    <Entry Tag="%ActualStarName42"         Weight="1"/>
-    <Entry Tag="%ActualStarName43"         Weight="1"/>
-    <Entry Tag="%ActualStarName44"         Weight="1"/>
-    <Entry Tag="%ActualStarName45"         Weight="1"/>
-    <Entry Tag="%ActualStarName46"         Weight="1"/>
-    <Entry Tag="%ActualStarName47"         Weight="1"/>
-    <Entry Tag="%ActualStarName48"         Weight="1"/>
-    <Entry Tag="%ActualStarName49"         Weight="1"/>
-    <Entry Tag="%ActualStarName50"         Weight="1"/>
-    <Entry Tag="%ActualStarName51"         Weight="1"/>
-    <Entry Tag="%ActualStarName52"         Weight="1"/>
-    <Entry Tag="%ActualStarName53"         Weight="1"/>
-    <Entry Tag="%ActualStarName54"         Weight="1"/>
-    <Entry Tag="%ActualStarName55"         Weight="1"/>
-    <Entry Tag="%ActualStarName56"         Weight="1"/>
-    <Entry Tag="%ActualStarName57"         Weight="1"/>
-    <Entry Tag="%ActualStarName58"         Weight="1"/>
-    <Entry Tag="%ActualStarName59"         Weight="1"/>
-    <Entry Tag="%ActualStarName60"         Weight="1"/>
-    <Entry Tag="%ActualStarName61"         Weight="1"/>
-    <Entry Tag="%ActualStarName62"         Weight="1"/>
-    <Entry Tag="%ActualStarName63"         Weight="1"/>
-    <Entry Tag="%ActualStarName64"         Weight="1"/>
-    <Entry Tag="%ActualStarName65"         Weight="1"/>
-    <Entry Tag="%ActualStarName66"         Weight="1"/>
-    <Entry Tag="%ActualStarName67"         Weight="1"/>
-    <Entry Tag="%ActualStarName68"         Weight="1"/>
-    <Entry Tag="%ActualStarName69"         Weight="1"/>
-    <Entry Tag="%ActualStarName70"         Weight="1"/>
-    <Entry Tag="%ActualStarName71"         Weight="1"/>
-    <Entry Tag="%ActualStarName72"         Weight="1"/>
-    <Entry Tag="%ActualStarName73"         Weight="1"/>
-    <Entry Tag="%ActualStarName74"         Weight="1"/>
-    <Entry Tag="%ActualStarName75"         Weight="1"/>
-    <Entry Tag="%ActualStarName76"         Weight="1"/>
-    <Entry Tag="%ActualStarName77"         Weight="1"/>
-    <Entry Tag="%ActualStarName78"         Weight="1"/>
-    <Entry Tag="%ActualStarName79"         Weight="1"/>
-    <Entry Tag="%ActualStarName80"         Weight="1"/>
-    <Entry Tag="%ActualStarName81"         Weight="1"/>
-    <Entry Tag="%ActualStarName82"         Weight="1"/>
-    <Entry Tag="%ActualStarName83"         Weight="1"/>
-    <Entry Tag="%ActualStarName84"         Weight="1"/>
-    <Entry Tag="%ActualStarName85"         Weight="1"/>
-    <Entry Tag="%ActualStarName86"         Weight="1"/>
-    <Entry Tag="%ActualStarName87"         Weight="1"/>
-    <Entry Tag="%ActualStarName88"         Weight="1"/>
-    <Entry Tag="%ActualStarName89"         Weight="1"/>
-    <Entry Tag="%ActualStarName90"         Weight="1"/>
-    <Entry Tag="%ActualStarName91"         Weight="1"/>
-    <Entry Tag="%ActualStarName92"         Weight="1"/>
-    <Entry Tag="%ActualStarName93"         Weight="1"/>
-    <Entry Tag="%ActualStarName94"         Weight="1"/>
-    <Entry Tag="%ActualStarName95"         Weight="1"/>
-    <Entry Tag="%ActualStarName96"         Weight="1"/>
-    <Entry Tag="%ActualStarName97"         Weight="1"/>
-    <Entry Tag="%ActualStarName98"         Weight="1"/>
-    <Entry Tag="%ActualStarName99"         Weight="1"/>
-    <Entry Tag="%ActualStarName100"        Weight="1"/>
-    <Entry Tag="%ActualStarName101"        Weight="1"/>
-    <Entry Tag="%ActualStarName102"        Weight="1"/>
-    <Entry Tag="%ActualStarName103"        Weight="1"/>
-    <Entry Tag="%ActualStarName104"        Weight="1"/>
-    <Entry Tag="%ActualStarName105"        Weight="1"/>
-    <Entry Tag="%ActualStarName106"        Weight="1"/>
-    <Entry Tag="%ActualStarName107"        Weight="1"/>
-    <Entry Tag="%ActualStarName108"        Weight="1"/>
-    <Entry Tag="%ActualStarName109"        Weight="1"/>
-    <Entry Tag="%ActualStarName110"        Weight="1"/>
-    <Entry Tag="%ActualStarName111"        Weight="1"/>
-    <Entry Tag="%ActualStarName112"        Weight="1"/>
-    <Entry Tag="%ActualStarName113"        Weight="1"/>
-    <Entry Tag="%ActualStarName114"        Weight="1"/>
-    <Entry Tag="%ActualStarName115"        Weight="1"/>
-    <Entry Tag="%ActualStarName116"        Weight="1"/>
-    <Entry Tag="%ActualStarName117"        Weight="1"/>
-    <Entry Tag="%ActualStarName118"        Weight="1"/>
-    <Entry Tag="%ActualStarName119"        Weight="1"/>
-    <Entry Tag="%ActualStarName120"        Weight="1"/>
-    <Entry Tag="%ActualStarName121"        Weight="1"/>
-    <Entry Tag="%ActualStarName122"        Weight="1"/>
-    <Entry Tag="%ActualStarName123"        Weight="1"/>
-    <Entry Tag="%ActualStarName124"        Weight="1"/>
-    <Entry Tag="%ActualStarName125"        Weight="1"/>
-    <Entry Tag="%ActualStarName126"        Weight="1"/>
-    <Entry Tag="%ActualStarName127"        Weight="1"/>
-    <Entry Tag="%ActualStarName128"        Weight="1"/>
-    <Entry Tag="%ActualStarName129"        Weight="1"/>
-    <Entry Tag="%ActualStarName130"        Weight="1"/>
-    <Entry Tag="%ActualStarName131"        Weight="1"/>
-    <Entry Tag="%ActualStarName132"        Weight="1"/>
-    <Entry Tag="%ActualStarName133"        Weight="1"/>
-    <Entry Tag="%ActualStarName134"        Weight="1"/>
-    <Entry Tag="%ActualStarName135"        Weight="1"/>
-    <Entry Tag="%ActualStarName136"        Weight="1"/>
-    <Entry Tag="%ActualStarName137"        Weight="1"/>
-    <Entry Tag="%ActualStarName138"        Weight="1"/>
-    <Entry Tag="%ActualStarName139"        Weight="1"/>
-    <Entry Tag="%ActualStarName140"        Weight="1"/>
-    <Entry Tag="%ActualStarName141"        Weight="1"/>
-    <Entry Tag="%ActualStarName142"        Weight="1"/>
-    <Entry Tag="%ActualStarName143"        Weight="1"/>
-    <Entry Tag="%ActualStarName144"        Weight="1"/>
-    <Entry Tag="%ActualStarName145"        Weight="1"/>
-    <Entry Tag="%ActualStarName146"        Weight="1"/>
-    <Entry Tag="%ActualStarName147"        Weight="1"/>
-    <Entry Tag="%ActualStarName148"        Weight="1"/>
-    <Entry Tag="%ActualStarName149"        Weight="1"/>
-    <Entry Tag="%ActualStarName150"        Weight="1"/>
-    <Entry Tag="%ActualStarName151"        Weight="1"/>
-    <Entry Tag="%ActualStarName152"        Weight="1"/>
-    <Entry Tag="%ActualStarName153"        Weight="1"/>
-    <Entry Tag="%ActualStarName154"        Weight="1"/>
-    <Entry Tag="%ActualStarName155"        Weight="1"/>
-    <Entry Tag="%ActualStarName156"        Weight="1"/>
-    <Entry Tag="%ActualStarName157"        Weight="1"/>
-    <Entry Tag="%ActualStarName158"        Weight="1"/>
-    <Entry Tag="%ActualStarName159"        Weight="1"/>
-    <Entry Tag="%ActualStarName160"        Weight="1"/>
-    <Entry Tag="%ActualStarName161"        Weight="1"/>
-    <Entry Tag="%ActualStarName162"        Weight="1"/>
-    <Entry Tag="%ActualStarName163"        Weight="1"/>
-    <Entry Tag="%ActualStarName164"        Weight="1"/>
-    <Entry Tag="%ActualStarName165"        Weight="1"/>
-    <Entry Tag="%ActualStarName166"        Weight="1"/>
-    <Entry Tag="%ActualStarName167"        Weight="1"/>
-    <Entry Tag="%ActualStarName168"        Weight="1"/>
-    <Entry Tag="%ActualStarName169"        Weight="1"/>
-    <Entry Tag="%ActualStarName170"        Weight="1"/>
-    <Entry Tag="%ActualStarName171"        Weight="1"/>
-    <Entry Tag="%ActualStarName172"        Weight="1"/>
-    <Entry Tag="%ActualStarName173"        Weight="1"/>
-    <Entry Tag="%ActualStarName174"        Weight="1"/>
-    <Entry Tag="%ActualStarName175"        Weight="1"/>
-    <Entry Tag="%ActualStarName176"        Weight="1"/>
-    <Entry Tag="%ActualStarName177"        Weight="1"/>
-    <Entry Tag="%ActualStarName178"        Weight="1"/>
-    <Entry Tag="%ActualStarName179"        Weight="1"/>
-    <Entry Tag="%ActualStarName180"        Weight="1"/>
-    <Entry Tag="%ActualStarName181"        Weight="1"/>
-    <Entry Tag="%ActualStarName182"        Weight="1"/>
-    <Entry Tag="%ActualStarName183"        Weight="1"/>
-    <Entry Tag="%ActualStarName184"        Weight="1"/>
-    <Entry Tag="%ActualStarName185"        Weight="1"/>
-    <Entry Tag="%ActualStarName186"        Weight="1"/>
-    <Entry Tag="%ActualStarName187"        Weight="1"/>
-    <Entry Tag="%ActualStarName188"        Weight="1"/>
-    <Entry Tag="%ActualStarName189"        Weight="1"/>
-    <Entry Tag="%ActualStarName190"        Weight="1"/>
-    <Entry Tag="%ActualStarName191"        Weight="1"/>
-    <Entry Tag="%ActualStarName192"        Weight="1"/>
-    <Entry Tag="%ActualStarName193"        Weight="1"/>
-    <Entry Tag="%ActualStarName194"        Weight="1"/>
-    <Entry Tag="%ActualStarName195"        Weight="1"/>
-    <Entry Tag="%ActualStarName196"        Weight="1"/>
-    <Entry Tag="%ActualStarName197"        Weight="1"/>
-    <Entry Tag="%ActualStarName198"        Weight="1"/>
-    <Entry Tag="%ActualStarName199"        Weight="1"/>
-    <Entry Tag="%ActualStarName200"        Weight="1"/>
-    <Entry Tag="%ActualStarName201"        Weight="1"/>
-    <Entry Tag="%ActualStarName202"        Weight="1"/>
-    <Entry Tag="%ActualStarName203"        Weight="1"/>
-    <Entry Tag="%ActualStarName204"        Weight="1"/>
-    <Entry Tag="%ActualStarName205"        Weight="1"/>
-    <Entry Tag="%ActualStarName206"        Weight="1"/>
-    <Entry Tag="%ActualStarName207"        Weight="1"/>
-    <Entry Tag="%ActualStarName208"        Weight="1"/>
-    <Entry Tag="%ActualStarName209"        Weight="1"/>
-    <Entry Tag="%ActualStarName210"        Weight="1"/>
-    <Entry Tag="%ActualStarName211"        Weight="1"/>
-    <Entry Tag="%ActualStarName212"        Weight="1"/>
-    <Entry Tag="%ActualStarName213"        Weight="1"/>
-    <Entry Tag="%ActualStarName214"        Weight="1"/>
-    <Entry Tag="%ActualStarName215"        Weight="1"/>
-    <Entry Tag="%ActualStarName216"        Weight="1"/>
-    <Entry Tag="%ActualStarName217"        Weight="1"/>
-    <Entry Tag="%ActualStarName218"        Weight="1"/>
-    <Entry Tag="%ActualStarName219"        Weight="1"/>
-    <Entry Tag="%ActualStarName220"        Weight="1"/>
-    <Entry Tag="%ActualStarName221"        Weight="1"/>
-    <Entry Tag="%ActualStarName222"        Weight="1"/>
-    <Entry Tag="%ActualStarName223"        Weight="1"/>
-    <Entry Tag="%ActualStarName224"        Weight="1"/>
-    <Entry Tag="%ActualStarName225"        Weight="1"/>
-    <Entry Tag="%ActualStarName226"        Weight="1"/>
-    <Entry Tag="%ActualStarName227"        Weight="1"/>
-    <Entry Tag="%ActualStarName228"        Weight="1"/>
-    <Entry Tag="%ActualStarName229"        Weight="1"/>
-    <Entry Tag="%ActualStarName230"        Weight="1"/>
-    <Entry Tag="%ActualStarName231"        Weight="1"/>
-    <Entry Tag="%ActualStarName232"        Weight="1"/>
-    <Entry Tag="%ActualStarName233"        Weight="1"/>
-    <Entry Tag="%ActualStarName234"        Weight="1"/>
-    <Entry Tag="%ActualStarName235"        Weight="1"/>
-    <Entry Tag="%ActualStarName236"        Weight="1"/>
-    <Entry Tag="%ActualStarName237"        Weight="1"/>
-    <Entry Tag="%ActualStarName238"        Weight="1"/>
-    <Entry Tag="%ActualStarName239"        Weight="1"/>
-    <Entry Tag="%ActualStarName240"        Weight="1"/>
-    <Entry Tag="%ActualStarName241"        Weight="1"/>
-    <Entry Tag="%ActualStarName242"        Weight="1"/>
-    <Entry Tag="%ActualStarName243"        Weight="1"/>
-    <Entry Tag="%ActualStarName244"        Weight="1"/>
-    <Entry Tag="%ActualStarName245"        Weight="1"/>
-    <Entry Tag="%ActualStarName246"        Weight="1"/>
-    <Entry Tag="%ActualStarName247"        Weight="1"/>
-    <Entry Tag="%ActualStarName248"        Weight="1"/>
-    <Entry Tag="%ActualStarName249"        Weight="1"/>
-    <Entry Tag="%ActualStarName250"        Weight="1"/>
-    <Entry Tag="%ActualStarName251"        Weight="1"/>
-    <Entry Tag="%ActualStarName252"        Weight="1"/>
-    <Entry Tag="%ActualStarName253"        Weight="1"/>
-    <Entry Tag="%ActualStarName254"        Weight="1"/>
-    <Entry Tag="%ActualStarName255"        Weight="1"/>
-    <Entry Tag="%ActualStarName256"        Weight="1"/>
-    <Entry Tag="%ActualStarName257"        Weight="1"/>
-    <Entry Tag="%ActualStarName258"        Weight="1"/>
-    <Entry Tag="%ActualStarName259"        Weight="1"/>
-    <Entry Tag="%ActualStarName260"        Weight="1"/>
-    <Entry Tag="%ActualStarName261"        Weight="1"/>
-    <Entry Tag="%ActualStarName262"        Weight="1"/>
-    <Entry Tag="%ActualStarName263"        Weight="1"/>
-    <Entry Tag="%ActualStarName264"        Weight="1"/>
-    <Entry Tag="%ActualStarName265"        Weight="1"/>
-    <Entry Tag="%ActualStarName266"        Weight="1"/>
-    <Entry Tag="%ActualStarName267"        Weight="1"/>
-    <Entry Tag="%ActualStarName268"        Weight="1"/>
-    <Entry Tag="%ActualStarName269"        Weight="1"/>
-    <Entry Tag="%ActualStarName270"        Weight="1"/>
-    <Entry Tag="%ActualStarName271"        Weight="1"/>
-    <Entry Tag="%ActualStarName272"        Weight="1"/>
-    <Entry Tag="%ActualStarName273"        Weight="1"/>
-    <Entry Tag="%ActualStarName274"        Weight="1"/>
-    <Entry Tag="%ActualStarName275"        Weight="1"/>
-    <Entry Tag="%ActualStarName276"        Weight="1"/>
-    <Entry Tag="%ActualStarName277"        Weight="1"/>
-    <Entry Tag="%ActualStarName278"        Weight="1"/>
-    <Entry Tag="%ActualStarName279"        Weight="1"/>
-    <Entry Tag="%ActualStarName280"        Weight="1"/>
-    <Entry Tag="%ActualStarName281"        Weight="1"/>
-    <Entry Tag="%ActualStarName282"        Weight="1"/>
-    <Entry Tag="%ActualStarName283"        Weight="1"/>
-    <Entry Tag="%ActualStarName284"        Weight="1"/>
-    <Entry Tag="%ActualStarName285"        Weight="1"/>
-    <Entry Tag="%ActualStarName286"        Weight="1"/>
-    <Entry Tag="%ActualStarName287"        Weight="1"/>
-    <Entry Tag="%ActualStarName288"        Weight="1"/>
-    <Entry Tag="%ActualStarName289"        Weight="1"/>
-    <Entry Tag="%ActualStarName290"        Weight="1"/>
-    <Entry Tag="%ActualStarName291"        Weight="1"/>
-    <Entry Tag="%ActualStarName292"        Weight="1"/>
-    <Entry Tag="%ActualStarName293"        Weight="1"/>
-    <Entry Tag="%ActualStarName294"        Weight="1"/>
-    <Entry Tag="%ActualStarName295"        Weight="1"/>
-    <Entry Tag="%ActualStarName296"        Weight="1"/>
-    <Entry Tag="%ActualStarName297"        Weight="1"/>
-    <Entry Tag="%ActualStarName298"        Weight="1"/>
-    <Entry Tag="%ActualStarName299"        Weight="1"/>
-    <Entry Tag="%ActualStarName300"        Weight="1"/>
-    <Entry Tag="%ActualStarName301"        Weight="1"/>
-    <Entry Tag="%ActualStarName302"        Weight="1"/>
-    <Entry Tag="%ActualStarName303"        Weight="1"/>
-    <Entry Tag="%ActualStarName304"        Weight="1"/>
-    <Entry Tag="%ActualStarName305"        Weight="1"/>
-    <Entry Tag="%ActualStarName306"        Weight="1"/>
-    <Entry Tag="%ActualStarName307"        Weight="1"/>
-    <Entry Tag="%ActualStarName308"        Weight="1"/>
-    <Entry Tag="%ActualStarName309"        Weight="1"/>
-    <Entry Tag="%ActualStarName310"        Weight="1"/>
-    <Entry Tag="%ActualStarName311"        Weight="1"/>
-    <Entry Tag="%ActualStarName312"        Weight="1"/>
-    <Entry Tag="%ActualStarName313"        Weight="1"/>
-    <Entry Tag="%ActualStarName314"        Weight="1"/>
-    <Entry Tag="%ActualStarName315"        Weight="1"/>
-    <Entry Tag="%ActualStarName316"        Weight="1"/>
-    <Entry Tag="%ActualStarName317"        Weight="1"/>
-    <Entry Tag="%ActualStarName318"        Weight="1"/>
-    <Entry Tag="%ActualStarName319"        Weight="1"/>
-    <Entry Tag="%ActualStarName320"        Weight="1"/>
-    <Entry Tag="%ActualStarName321"        Weight="1"/>
-    <Entry Tag="%ActualStarName322"        Weight="1"/>
-    <Entry Tag="%ActualStarName323"        Weight="1"/>
-    <Entry Tag="%ActualStarName324"        Weight="1"/>
-    <Entry Tag="%ActualStarName325"        Weight="1"/>
-    <Entry Tag="%ActualStarName326"        Weight="1"/>
-    <Entry Tag="%ActualStarName327"        Weight="1"/>
-    <Entry Tag="%ActualStarName328"        Weight="1"/>
-    <Entry Tag="%ActualStarName329"        Weight="1"/>
-    <Entry Tag="%ActualStarName330"        Weight="1"/>
-    <Entry Tag="%ActualStarName331"        Weight="1"/>
-    <Entry Tag="%ActualStarName332"        Weight="1"/>
-    <Entry Tag="%ActualStarName333"        Weight="1"/>
-    <Entry Tag="%ActualStarName334"        Weight="1"/>
-    <Entry Tag="%ActualStarName335"        Weight="1"/>
-    <Entry Tag="%ActualStarName336"        Weight="1"/>
-    <Entry Tag="%ActualStarName337"        Weight="1"/>
-    <Entry Tag="%ActualStarName338"        Weight="1"/>
-    <Entry Tag="%ActualStarName339"        Weight="1"/>
-    <Entry Tag="%ActualStarName340"        Weight="1"/>
-    <Entry Tag="%ActualStarName341"        Weight="1"/>
-    <Entry Tag="%ActualStarName342"        Weight="1"/>
-    <Entry Tag="%ActualStarName343"        Weight="1"/>
-    <Entry Tag="%ActualStarName344"        Weight="1"/>
-    <Entry Tag="%ActualStarName345"        Weight="1"/>
-    <Entry Tag="%ActualStarName346"        Weight="1"/>
-    <Entry Tag="%ActualStarName347"        Weight="1"/>
-    <Entry Tag="%ActualStarName348"        Weight="1"/>
-    <Entry Tag="%ActualStarName349"        Weight="1"/>
-    <Entry Tag="%ActualStarName350"        Weight="1"/>
-    <Entry Tag="%ActualStarName351"        Weight="1"/>
-    <Entry Tag="%ActualStarName352"        Weight="1"/>
-    <Entry Tag="%ActualStarName353"        Weight="1"/>
-    <Entry Tag="%ActualStarName354"        Weight="1"/>
-    <Entry Tag="%ActualStarName355"        Weight="1"/>
-    <Entry Tag="%ActualStarName356"        Weight="1"/>
-    <Entry Tag="%ActualStarName357"        Weight="1"/>
-    <Entry Tag="%ActualStarName358"        Weight="1"/>
-    <Entry Tag="%ActualStarName359"        Weight="1"/>
-    <Entry Tag="%ActualStarName360"        Weight="1"/>
-    <Entry Tag="%ActualStarName361"        Weight="1"/>
-    <Entry Tag="%ActualStarName362"        Weight="1"/>
-    <Entry Tag="%ActualStarName363"        Weight="1"/>
-    <Entry Tag="%ActualStarName364"        Weight="1"/>
-    <Entry Tag="%ActualStarName365"        Weight="1"/>
-    <Entry Tag="%ActualStarName366"        Weight="1"/>
-    <Entry Tag="%ActualStarName367"        Weight="1"/>
-    <Entry Tag="%ActualStarName368"        Weight="1"/>
-    <Entry Tag="%ActualStarName369"        Weight="1"/>
-    <Entry Tag="%ActualStarName370"        Weight="1"/>
-    <Entry Tag="%ActualStarName371"        Weight="1"/>
-    <Entry Tag="%ActualStarName372"        Weight="1"/>
-    <Entry Tag="%ActualStarName373"        Weight="1"/>
-    <Entry Tag="%ActualStarName374"        Weight="1"/>
-    <Entry Tag="%ActualStarName375"        Weight="1"/>
-    <Entry Tag="%ActualStarName376"        Weight="1"/>
-    <Entry Tag="%ActualStarName377"        Weight="1"/>
-    <Entry Tag="%ActualStarName378"        Weight="1"/>
-    <Entry Tag="%ActualStarName379"        Weight="1"/>
-    <Entry Tag="%ActualStarName380"        Weight="1"/>
-    <Entry Tag="%ActualStarName381"        Weight="1"/>
-    <Entry Tag="%ActualStarName382"        Weight="1"/>
-    <Entry Tag="%ActualStarName383"        Weight="1"/>
-    <Entry Tag="%ActualStarName384"        Weight="1"/>
-    <Entry Tag="%ActualStarName385"        Weight="1"/>
-    <Entry Tag="%ActualStarName386"        Weight="1"/>
-    <Entry Tag="%ActualStarName387"        Weight="1"/>
-    <Entry Tag="%ActualStarName388"        Weight="1"/>
-    <Entry Tag="%ActualStarName389"        Weight="1"/>
-    <Entry Tag="%ActualStarName390"        Weight="1"/>
-    <Entry Tag="%ActualStarName391"        Weight="1"/>
-    <Entry Tag="%ActualStarName392"        Weight="1"/>
-    <Entry Tag="%ActualStarName393"        Weight="1"/>
-    <Entry Tag="%ActualStarName394"        Weight="1"/>
-    <Entry Tag="%ActualStarName395"        Weight="1"/>
-    <Entry Tag="%ActualStarName396"        Weight="1"/>
-    <Entry Tag="%ActualStarName397"        Weight="1"/>
-    <Entry Tag="%ActualStarName398"        Weight="1"/>
-    <Entry Tag="%ActualStarName399"        Weight="1"/>
-    <Entry Tag="%ActualStarName400"        Weight="1"/>
-    <Entry Tag="%ActualStarName401"        Weight="1"/>
-    <Entry Tag="%ActualStarName402"        Weight="1"/>
-    <Entry Tag="%ActualStarName403"        Weight="1"/>
-    <Entry Tag="%ActualStarName404"        Weight="1"/>
-    <Entry Tag="%ActualStarName405"        Weight="1"/>
-    <Entry Tag="%ActualStarName406"        Weight="1"/>
-    <Entry Tag="%ActualStarName407"        Weight="1"/>
-    <Entry Tag="%ActualStarName408"        Weight="1"/>
-    <Entry Tag="%ActualStarName409"        Weight="1"/>
-    <Entry Tag="%ActualStarName410"        Weight="1"/>
-    <Entry Tag="%ActualStarName411"        Weight="1"/>
-    <Entry Tag="%ActualStarName412"        Weight="1"/>
-    <Entry Tag="%ActualStarName413"        Weight="1"/>
-    <Entry Tag="%ActualStarName414"        Weight="1"/>
-    <Entry Tag="%ActualStarName415"        Weight="1"/>
-    <Entry Tag="%ActualStarName416"        Weight="1"/>
-    <Entry Tag="%ActualStarName417"        Weight="1"/>
-    <Entry Tag="%ActualStarName418"        Weight="1"/>
-    <Entry Tag="%ActualStarName419"        Weight="1"/>
-    <Entry Tag="%ActualStarName420"        Weight="1"/>
-    <Entry Tag="%ActualStarName421"        Weight="1"/>
-    <Entry Tag="%ActualStarName422"        Weight="1"/>
-    <Entry Tag="%ActualStarName423"        Weight="1"/>
-    <Entry Tag="%ActualStarName424"        Weight="1"/>
-    <Entry Tag="%ActualStarName425"        Weight="1"/>
-    <Entry Tag="%ActualStarName426"        Weight="1"/>
-    <Entry Tag="%ActualStarName427"        Weight="1"/>
+
+    <!--Actual stars-->
+     <Entry Tag="%ActualStarName1"          Weight="1"/>
+     <Entry Tag="%ActualStarName2"          Weight="1"/>
+     <Entry Tag="%ActualStarName3"          Weight="1"/>
+     <Entry Tag="%ActualStarName4"          Weight="1"/>
+     <Entry Tag="%ActualStarName5"          Weight="1"/>
+     <Entry Tag="%ActualStarName6"          Weight="1"/>
+     <Entry Tag="%ActualStarName7"          Weight="1"/>
+     <Entry Tag="%ActualStarName8"          Weight="1"/>
+     <Entry Tag="%ActualStarName9"          Weight="1"/>
+     <Entry Tag="%ActualStarName10"          Weight="1"/>
+     <Entry Tag="%ActualStarName11"          Weight="1"/>
+     <Entry Tag="%ActualStarName12"          Weight="1"/>
+     <Entry Tag="%ActualStarName13"          Weight="1"/>
+     <Entry Tag="%ActualStarName14"          Weight="1"/>
+     <Entry Tag="%ActualStarName15"          Weight="1"/>
+     <Entry Tag="%ActualStarName16"          Weight="1"/>
+     <Entry Tag="%ActualStarName17"          Weight="1"/>
+     <Entry Tag="%ActualStarName18"          Weight="1"/>
+     <Entry Tag="%ActualStarName19"          Weight="1"/>
+     <Entry Tag="%ActualStarName20"          Weight="1"/>
+     <Entry Tag="%ActualStarName21"          Weight="1"/>
+     <Entry Tag="%ActualStarName22"          Weight="1"/>
+     <Entry Tag="%ActualStarName23"          Weight="1"/>
+     <Entry Tag="%ActualStarName24"          Weight="1"/>
+     <Entry Tag="%ActualStarName25"          Weight="1"/>
+     <Entry Tag="%ActualStarName26"          Weight="1"/>
+     <Entry Tag="%ActualStarName27"          Weight="1"/>
+     <Entry Tag="%ActualStarName28"          Weight="1"/>
+     <Entry Tag="%ActualStarName29"          Weight="1"/>
+     <Entry Tag="%ActualStarName30"          Weight="1"/>
+     <Entry Tag="%ActualStarName31"          Weight="1"/>
+     <Entry Tag="%ActualStarName32"          Weight="1"/>
+     <Entry Tag="%ActualStarName33"          Weight="1"/>
+     <Entry Tag="%ActualStarName34"          Weight="1"/>
+     <Entry Tag="%ActualStarName35"          Weight="1"/>
+     <Entry Tag="%ActualStarName36"          Weight="1"/>
+     <Entry Tag="%ActualStarName37"          Weight="1"/>
+     <Entry Tag="%ActualStarName38"          Weight="1"/>
+     <Entry Tag="%ActualStarName39"          Weight="1"/>
+     <Entry Tag="%ActualStarName40"          Weight="1"/>
+     <Entry Tag="%ActualStarName41"          Weight="1"/>
+     <Entry Tag="%ActualStarName42"          Weight="1"/>
+     <Entry Tag="%ActualStarName43"          Weight="1"/>
+     <Entry Tag="%ActualStarName44"          Weight="1"/>
+     <Entry Tag="%ActualStarName45"          Weight="1"/>
+     <Entry Tag="%ActualStarName46"          Weight="1"/>
+     <Entry Tag="%ActualStarName47"          Weight="1"/>
+     <Entry Tag="%ActualStarName48"          Weight="1"/>
+     <Entry Tag="%ActualStarName49"          Weight="1"/>
+     <Entry Tag="%ActualStarName50"          Weight="1"/>
+     <Entry Tag="%ActualStarName51"          Weight="1"/>
+     <Entry Tag="%ActualStarName52"          Weight="1"/>
+     <Entry Tag="%ActualStarName53"          Weight="1"/>
+     <Entry Tag="%ActualStarName54"          Weight="1"/>
+     <Entry Tag="%ActualStarName55"          Weight="1"/>
+     <Entry Tag="%ActualStarName56"          Weight="1"/>
+     <Entry Tag="%ActualStarName57"          Weight="1"/>
+     <Entry Tag="%ActualStarName58"          Weight="1"/>
+     <Entry Tag="%ActualStarName59"          Weight="1"/>
+     <Entry Tag="%ActualStarName60"          Weight="1"/>
+     <Entry Tag="%ActualStarName61"          Weight="1"/>
+     <Entry Tag="%ActualStarName62"          Weight="1"/>
+     <Entry Tag="%ActualStarName63"          Weight="1"/>
+     <Entry Tag="%ActualStarName64"          Weight="1"/>
+     <Entry Tag="%ActualStarName65"          Weight="1"/>
+     <Entry Tag="%ActualStarName66"          Weight="1"/>
+     <Entry Tag="%ActualStarName67"          Weight="1"/>
+     <Entry Tag="%ActualStarName68"          Weight="1"/>
+     <Entry Tag="%ActualStarName69"          Weight="1"/>
+     <Entry Tag="%ActualStarName70"          Weight="1"/>
+     <Entry Tag="%ActualStarName71"          Weight="1"/>
+     <Entry Tag="%ActualStarName72"          Weight="1"/>
+     <Entry Tag="%ActualStarName73"          Weight="1"/>
+     <Entry Tag="%ActualStarName74"          Weight="1"/>
+     <Entry Tag="%ActualStarName75"          Weight="1"/>
+     <Entry Tag="%ActualStarName76"          Weight="1"/>
+     <Entry Tag="%ActualStarName77"          Weight="1"/>
+     <Entry Tag="%ActualStarName78"          Weight="1"/>
+     <Entry Tag="%ActualStarName79"          Weight="1"/>
+     <Entry Tag="%ActualStarName80"          Weight="1"/>
+     <Entry Tag="%ActualStarName81"          Weight="1"/>
+     <Entry Tag="%ActualStarName82"          Weight="1"/>
+     <Entry Tag="%ActualStarName83"          Weight="1"/>
+     <Entry Tag="%ActualStarName84"          Weight="1"/>
+     <Entry Tag="%ActualStarName85"          Weight="1"/>
+     <Entry Tag="%ActualStarName86"          Weight="1"/>
+     <Entry Tag="%ActualStarName87"          Weight="1"/>
+     <Entry Tag="%ActualStarName89"          Weight="1"/>
+     <Entry Tag="%ActualStarName90"          Weight="1"/>
+
+     <Entry Tag="%ActualStarName91"          Weight="1"/>
+     <Entry Tag="%ActualStarName92"          Weight="1"/>
+     <Entry Tag="%ActualStarName93"          Weight="1"/>
+     <Entry Tag="%ActualStarName94"          Weight="1"/>
+     <Entry Tag="%ActualStarName95"          Weight="1"/>
+     <Entry Tag="%ActualStarName96"          Weight="1"/>
+     <Entry Tag="%ActualStarName97"          Weight="1"/>
+     <Entry Tag="%ActualStarName98"          Weight="1"/>
+     <Entry Tag="%ActualStarName99"          Weight="1"/>
+     <Entry Tag="%ActualStarName100"         Weight="1"/>
+     <Entry Tag="%ActualStarName101"         Weight="1"/>
+     <Entry Tag="%ActualStarName102"         Weight="1"/>
+     <Entry Tag="%ActualStarName103"         Weight="1"/>
+     <Entry Tag="%ActualStarName104"         Weight="1"/>
+     <Entry Tag="%ActualStarName105"         Weight="1"/>
+     <Entry Tag="%ActualStarName106"         Weight="1"/>
+     <Entry Tag="%ActualStarName107"         Weight="1"/>
+     <Entry Tag="%ActualStarName108"         Weight="1"/>
+     <Entry Tag="%ActualStarName109"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName110"         Weight="1"/>
+     <Entry Tag="%ActualStarName111"         Weight="1"/>
+     <Entry Tag="%ActualStarName112"         Weight="1"/>
+     <Entry Tag="%ActualStarName113"         Weight="1"/>
+     <Entry Tag="%ActualStarName114"         Weight="1"/>
+     <Entry Tag="%ActualStarName115"         Weight="1"/>
+     <Entry Tag="%ActualStarName116"         Weight="1"/>
+     <Entry Tag="%ActualStarName117"         Weight="1"/>
+     <Entry Tag="%ActualStarName118"         Weight="1"/>
+     <Entry Tag="%ActualStarName119"         Weight="1"/>
+     <Entry Tag="%ActualStarName120"         Weight="1"/>
+     <Entry Tag="%ActualStarName121"         Weight="1"/>
+     <Entry Tag="%ActualStarName122"         Weight="1"/>
+     <Entry Tag="%ActualStarName123"         Weight="1"/>
+     <Entry Tag="%ActualStarName124"         Weight="1"/>
+     <Entry Tag="%ActualStarName125"         Weight="1"/>
+     <Entry Tag="%ActualStarName126"         Weight="1"/>
+     <Entry Tag="%ActualStarName127"         Weight="1"/>
+     <Entry Tag="%ActualStarName128"         Weight="1"/>
+     <Entry Tag="%ActualStarName129"         Weight="1"/>
+     <Entry Tag="%ActualStarName130"         Weight="1"/>
+     <Entry Tag="%ActualStarName131"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName132"         Weight="1"/>
+     <Entry Tag="%ActualStarName133"         Weight="1"/>
+     <Entry Tag="%ActualStarName134"         Weight="1"/>
+     <Entry Tag="%ActualStarName135"         Weight="1"/>
+     <Entry Tag="%ActualStarName136"          Weight="1"/>
+     <Entry Tag="%ActualStarName137"         Weight="1"/>
+     <Entry Tag="%ActualStarName138"         Weight="1"/>
+     <Entry Tag="%ActualStarName139"         Weight="1"/>
+     <Entry Tag="%ActualStarName140"         Weight="1"/>
+     <Entry Tag="%ActualStarName141"         Weight="1"/>
+     <Entry Tag="%ActualStarName142"         Weight="1"/>
+     <Entry Tag="%ActualStarName143"         Weight="1"/>
+     <Entry Tag="%ActualStarName144"         Weight="1"/>
+     <Entry Tag="%ActualStarName145"         Weight="1"/>
+     <Entry Tag="%ActualStarName146"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName147"         Weight="1"/>
+     <Entry Tag="%ActualStarName148"         Weight="1"/>
+     <Entry Tag="%ActualStarName149"         Weight="1"/>
+     <Entry Tag="%ActualStarName150"         Weight="1"/>
+     <Entry Tag="%ActualStarName151"         Weight="1"/>
+     <Entry Tag="%ActualStarName152"         Weight="1"/>
+     <Entry Tag="%ActualStarName153"         Weight="1"/>
+     <Entry Tag="%ActualStarName154"         Weight="1"/>
+     <Entry Tag="%ActualStarName155"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName156"         Weight="1"/>
+     <Entry Tag="%ActualStarName157"         Weight="1"/>
+     <Entry Tag="%ActualStarName158"         Weight="1"/>
+     <Entry Tag="%ActualStarName159"         Weight="1"/>
+     <Entry Tag="%ActualStarName160"         Weight="1"/>
+     <Entry Tag="%ActualStarName161"         Weight="1"/>
+     <Entry Tag="%ActualStarName162"         Weight="1"/>
+     <Entry Tag="%ActualStarName163"         Weight="1"/>
+     <Entry Tag="%ActualStarName164"         Weight="1"/>
+     <Entry Tag="%ActualStarName165"         Weight="1"/>
+     <Entry Tag="%ActualStarName166"         Weight="1"/>
+     <Entry Tag="%ActualStarName167"         Weight="1"/>
+     <Entry Tag="%ActualStarName168"         Weight="1"/>
+     <Entry Tag="%ActualStarName169"         Weight="1"/>
+     <Entry Tag="%ActualStarName170"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName171"         Weight="1"/>
+     <Entry Tag="%ActualStarName172"         Weight="1"/>
+     <Entry Tag="%ActualStarName173"         Weight="1"/>
+     <Entry Tag="%ActualStarName174"         Weight="1"/>
+     <Entry Tag="%ActualStarName175"         Weight="1"/>
+     <Entry Tag="%ActualStarName176"         Weight="1"/>
+     <Entry Tag="%ActualStarName177"         Weight="1"/>
+     <Entry Tag="%ActualStarName178"         Weight="1"/>
+     <Entry Tag="%ActualStarName179"         Weight="1"/>
+     <Entry Tag="%ActualStarName180"         Weight="1"/>
+     <Entry Tag="%ActualStarName181"         Weight="1"/>
+     <Entry Tag="%ActualStarName182"         Weight="1"/>
+     <Entry Tag="%ActualStarName183"         Weight="1"/>
+     <Entry Tag="%ActualStarName184"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName185"         Weight="1"/>
+     <Entry Tag="%ActualStarName186"         Weight="1"/>
+     <Entry Tag="%ActualStarName187"         Weight="1"/>
+     <Entry Tag="%ActualStarName188"         Weight="1"/>
+     <Entry Tag="%ActualStarName189"         Weight="1"/>
+     <Entry Tag="%ActualStarName190"         Weight="1"/>
+     <Entry Tag="%ActualStarName191"         Weight="1"/>
+     <Entry Tag="%ActualStarName192"         Weight="1"/>
+     <Entry Tag="%ActualStarName193"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName194"         Weight="1"/>
+     <Entry Tag="%ActualStarName195"         Weight="1"/>
+     <Entry Tag="%ActualStarName196"         Weight="1"/>
+     <Entry Tag="%ActualStarName197"         Weight="1"/>
+     <Entry Tag="%ActualStarName198"         Weight="1"/>
+     <Entry Tag="%ActualStarName199"         Weight="1"/>
+     <Entry Tag="%ActualStarName200"         Weight="1"/>
+     <Entry Tag="%ActualStarName201"         Weight="1"/>
+     <Entry Tag="%ActualStarName202"          Weight="1"/>
+
+     <Entry Tag="%ActualStarName203"         Weight="1"/>
+     <Entry Tag="%ActualStarName204"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName205"         Weight="1"/>
+     <Entry Tag="%ActualStarName206"         Weight="1"/>
+     <Entry Tag="%ActualStarName207"         Weight="1"/>
+     <Entry Tag="%ActualStarName208"         Weight="1"/>
+     <Entry Tag="%ActualStarName209"         Weight="1"/>
+     <Entry Tag="%ActualStarName210"         Weight="1"/>
+     <Entry Tag="%ActualStarName211"         Weight="1"/>
+     <Entry Tag="%ActualStarName212"         Weight="1"/>
+     <Entry Tag="%ActualStarName213"         Weight="1"/>
+     <Entry Tag="%ActualStarName214"         Weight="1"/>
+     <Entry Tag="%ActualStarName215"         Weight="1"/>
+     <Entry Tag="%ActualStarName216"         Weight="1"/>
+     <Entry Tag="%ActualStarName217"         Weight="1"/>
+     <Entry Tag="%ActualStarName218"         Weight="1"/>
+     <Entry Tag="%ActualStarName119"         Weight="1"/>
+     <Entry Tag="%ActualStarName120"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName221"          Weight="1"/>
+     <Entry Tag="%ActualStarName222"         Weight="1"/>
+     <Entry Tag="%ActualStarName223"         Weight="1"/>
+     <Entry Tag="%ActualStarName224"         Weight="1"/>
+     <Entry Tag="%ActualStarName225"         Weight="1"/>
+     <Entry Tag="%ActualStarName226"         Weight="1"/>
+     <Entry Tag="%ActualStarName227"         Weight="1"/>
+     <Entry Tag="%ActualStarName228"         Weight="1"/>
+     <Entry Tag="%ActualStarName229"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName230"         Weight="1"/>
+     <Entry Tag="%ActualStarName231"         Weight="1"/>
+     <Entry Tag="%ActualStarName232"         Weight="1"/>
+     <Entry Tag="%ActualStarName233"         Weight="1"/>
+     <Entry Tag="%ActualStarName234"         Weight="1"/>
+     <Entry Tag="%ActualStarName235"         Weight="1"/>
+     <Entry Tag="%ActualStarName236"         Weight="1"/>
+     <Entry Tag="%ActualStarName237"         Weight="1"/>
+     <Entry Tag="%ActualStarName238"         Weight="1"/>
+     <Entry Tag="%ActualStarName239"         Weight="1"/>
+     <Entry Tag="%ActualStarName240"         Weight="1"/>
+     <Entry Tag="%ActualStarName242"         Weight="1"/>
+     <Entry Tag="%ActualStarName243"         Weight="1"/>
+     <Entry Tag="%ActualStarName244"         Weight="1"/>
+     <Entry Tag="%ActualStarName245"         Weight="1"/>
+     <Entry Tag="%ActualStarName246"         Weight="1"/>
+     <Entry Tag="%ActualStarName247"         Weight="1"/>
+     <Entry Tag="%ActualStarName248"         Weight="1"/>
+     <Entry Tag="%ActualStarName249"         Weight="1"/>
+     <Entry Tag="%ActualStarName250"         Weight="1"/>
+     <Entry Tag="%ActualStarName251"         Weight="1"/>
+     <Entry Tag="%ActualStarName252"         Weight="1"/>
+     <Entry Tag="%ActualStarName253"         Weight="1"/>
+     <Entry Tag="%ActualStarName254"         Weight="1"/>
+     <Entry Tag="%ActualStarName255"         Weight="1"/>
+     <Entry Tag="%ActualStarName256"         Weight="1"/>
+     <Entry Tag="%ActualStarName257"         Weight="1"/>
+     <Entry Tag="%ActualStarName258"         Weight="1"/>
+     <Entry Tag="%ActualStarName259"         Weight="1"/>
+     <Entry Tag="%ActualStarName260"         Weight="1"/>
+     <Entry Tag="%ActualStarName261"         Weight="1"/>
+     <Entry Tag="%ActualStarName262"         Weight="1"/>
+     <Entry Tag="%ActualStarName263"         Weight="1"/>
+     <Entry Tag="%ActualStarName264"         Weight="1"/>
+     <Entry Tag="%ActualStarName265"         Weight="1"/>
+     <Entry Tag="%ActualStarName266"         Weight="1"/>
+     <Entry Tag="%ActualStarName267"         Weight="1"/>
+     <Entry Tag="%ActualStarName268"         Weight="1"/>
+     <Entry Tag="%ActualStarName269"         Weight="1"/>
+     <Entry Tag="%ActualStarName270"         Weight="1"/>
+     <Entry Tag="%ActualStarName271"         Weight="1"/>
+     <Entry Tag="%ActualStarName272"         Weight="1"/>
+     <Entry Tag="%ActualStarName273"         Weight="1"/>
+     <Entry Tag="%ActualStarName274"         Weight="1"/>
+     <Entry Tag="%ActualStarName275"         Weight="1"/>
+     <Entry Tag="%ActualStarName276"         Weight="1"/>
+     <Entry Tag="%ActualStarName277"         Weight="1"/>
+     <Entry Tag="%ActualStarName278"         Weight="1"/>
+     <Entry Tag="%ActualStarName279"         Weight="1"/>
+     <Entry Tag="%ActualStarName280"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName281"         Weight="1"/>
+     <Entry Tag="%ActualStarName282"         Weight="1"/>
+     <Entry Tag="%ActualStarName283"         Weight="1"/>
+     <Entry Tag="%ActualStarName284"         Weight="1"/>
+     <Entry Tag="%ActualStarName285"         Weight="1"/>
+     <Entry Tag="%ActualStarName286"         Weight="1"/>
+     <Entry Tag="%ActualStarName287"         Weight="1"/>
+     <Entry Tag="%ActualStarName288"         Weight="1"/>
+     <Entry Tag="%ActualStarName289"         Weight="1"/>
+     <Entry Tag="%ActualStarName290"         Weight="1"/>
+     <Entry Tag="%ActualStarName291"         Weight="1"/>
+     <Entry Tag="%ActualStarName292"         Weight="1"/>
+     <Entry Tag="%ActualStarName293"         Weight="1"/>
+     <Entry Tag="%ActualStarName294"         Weight="1"/>
+     <Entry Tag="%ActualStarName295"         Weight="1"/>
+     <Entry Tag="%ActualStarName296"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName297"         Weight="1"/>
+     <Entry Tag="%ActualStarName298"         Weight="1"/>
+     <Entry Tag="%ActualStarName299"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName300"         Weight="1"/>
+     <Entry Tag="%ActualStarName301"         Weight="1"/>
+     <Entry Tag="%ActualStarName302"         Weight="1"/>
+     <Entry Tag="%ActualStarName303"         Weight="1"/>
+     <Entry Tag="%ActualStarName304"         Weight="1"/>
+     <Entry Tag="%ActualStarName305"         Weight="1"/>
+     <Entry Tag="%ActualStarName306"         Weight="1"/>
+     <Entry Tag="%ActualStarName307"         Weight="1"/>
+     <Entry Tag="%ActualStarName308"         Weight="1"/>
+     <Entry Tag="%ActualStarName309"         Weight="1"/>
+     <Entry Tag="%ActualStarName310"         Weight="1"/>
+     <Entry Tag="%ActualStarName311"         Weight="1"/>
+     <Entry Tag="%ActualStarName312"         Weight="1"/>
+     <Entry Tag="%ActualStarName313"         Weight="1"/>
+     <Entry Tag="%ActualStarName314"         Weight="1"/>
+     <Entry Tag="%ActualStarName315"         Weight="1"/>
+     <Entry Tag="%ActualStarName316"         Weight="1"/>
+     <Entry Tag="%ActualStarName317"         Weight="1"/>
+     <Entry Tag="%ActualStarName318"         Weight="1"/>
+     <Entry Tag="%ActualStarName319"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName320"         Weight="1"/>
+     <Entry Tag="%ActualStarName321"         Weight="1"/>
+     <Entry Tag="%ActualStarName322"         Weight="1"/>
+     <Entry Tag="%ActualStarName323"         Weight="1"/>
+     <Entry Tag="%ActualStarName324"         Weight="1"/>
+     <Entry Tag="%ActualStarName325"         Weight="1"/>
+     <Entry Tag="%ActualStarName326"         Weight="1"/>
+     <Entry Tag="%ActualStarName327"         Weight="1"/>
+     <Entry Tag="%ActualStarName328"         Weight="1"/>
+     <Entry Tag="%ActualStarName329"         Weight="1"/>
+     <Entry Tag="%ActualStarName330"         Weight="1"/>
+     <Entry Tag="%ActualStarName331"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName332"         Weight="1"/>
+     <Entry Tag="%ActualStarName333"         Weight="1"/>
+     <Entry Tag="%ActualStarName335"         Weight="1"/>
+     <Entry Tag="%ActualStarName336"         Weight="1"/>
+     <Entry Tag="%ActualStarName337"         Weight="1"/>
+     <Entry Tag="%ActualStarName338"         Weight="1"/>
+     <Entry Tag="%ActualStarName339"         Weight="1"/>
+     <Entry Tag="%ActualStarName340"         Weight="1"/>
+     <Entry Tag="%ActualStarName341"         Weight="1"/>
+     <Entry Tag="%ActualStarName342"         Weight="1"/>
+     <Entry Tag="%ActualStarName343"         Weight="1"/>
+     <Entry Tag="%ActualStarName344"         Weight="1"/>
+     <Entry Tag="%ActualStarName345"         Weight="1"/>
+     <Entry Tag="%ActualStarName346"         Weight="1"/>
+     <Entry Tag="%ActualStarName347"         Weight="1"/>
+     <Entry Tag="%ActualStarName348"         Weight="1"/>
+     <Entry Tag="%ActualStarName349"         Weight="1"/>
+     <Entry Tag="%ActualStarName350"         Weight="1"/>
+     <Entry Tag="%ActualStarName351"         Weight="1"/>
+     <Entry Tag="%ActualStarName352"         Weight="1"/>
+     <Entry Tag="%ActualStarName353"         Weight="1"/>
+     <Entry Tag="%ActualStarName354"         Weight="1"/>
+     <Entry Tag="%ActualStarName355"         Weight="1"/>
+     <Entry Tag="%ActualStarName356"         Weight="1"/>
+     <Entry Tag="%ActualStarName357"         Weight="1"/>
+     <Entry Tag="%ActualStarName358"         Weight="1"/>
+     <Entry Tag="%ActualStarName359"         Weight="1"/>
+     <Entry Tag="%ActualStarName360"         Weight="1"/>
+     <Entry Tag="%ActualStarName361"         Weight="1"/>
+     <Entry Tag="%ActualStarName362"         Weight="1"/>
+     <Entry Tag="%ActualStarName363"         Weight="1"/>
+     <Entry Tag="%ActualStarName364"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName365"         Weight="1"/>
+     <Entry Tag="%ActualStarName366"         Weight="1"/>
+     <Entry Tag="%ActualStarName367"         Weight="1"/>
+     <Entry Tag="%ActualStarName368"         Weight="1"/>
+     <Entry Tag="%ActualStarName369"         Weight="1"/>
+     <Entry Tag="%ActualStarName370"         Weight="1"/>
+     <Entry Tag="%ActualStarName371"         Weight="1"/>
+     <Entry Tag="%ActualStarName372"         Weight="1"/>
+     <Entry Tag="%ActualStarName373"         Weight="1"/>
+     <Entry Tag="%ActualStarName374"         Weight="1"/>
+     <Entry Tag="%ActualStarName375"         Weight="1"/>
+     <Entry Tag="%ActualStarName376"         Weight="1"/>
+     <Entry Tag="%ActualStarName377"         Weight="1"/>
+     <Entry Tag="%ActualStarName378"         Weight="1"/>
+     <Entry Tag="%ActualStarName379"         Weight="1"/>
+     <Entry Tag="%ActualStarName380"         Weight="1"/>
+     <Entry Tag="%ActualStarName381"         Weight="1"/>
+     <Entry Tag="%ActualStarName382"         Weight="1"/>
+     <Entry Tag="%ActualStarName383"         Weight="1"/>
+     <Entry Tag="%ActualStarName384"         Weight="1"/>
+     <Entry Tag="%ActualStarName389"         Weight="1"/>
+     <Entry Tag="%ActualStarName390"         Weight="1"/>
+     <Entry Tag="%ActualStarName391"         Weight="1"/>
+     <Entry Tag="%ActualStarName392"         Weight="1"/>
+     <Entry Tag="%ActualStarName393"         Weight="1"/>
+     <Entry Tag="%ActualStarName394"         Weight="1"/>
+     <Entry Tag="%ActualStarName395"         Weight="1"/>
+     <Entry Tag="%ActualStarName396"         Weight="1"/>
+     <Entry Tag="%ActualStarName397"         Weight="1"/>
+     <Entry Tag="%ActualStarName398"         Weight="1"/>
+     <Entry Tag="%ActualStarName399"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName400"         Weight="1"/>
+     <Entry Tag="%ActualStarName401"         Weight="1"/>
+     <Entry Tag="%ActualStarName402"         Weight="1"/>
+     <Entry Tag="%ActualStarName403"         Weight="1"/>
+     <Entry Tag="%ActualStarName404"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName405"         Weight="1"/>
+     <Entry Tag="%ActualStarName406"         Weight="1"/>
+     <Entry Tag="%ActualStarName407"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName408"         Weight="1"/>
+     <Entry Tag="%ActualStarName409"         Weight="1"/>
+     <Entry Tag="%ActualStarName410"         Weight="1"/>
+     <Entry Tag="%ActualStarName411"         Weight="1"/>
+     <Entry Tag="%ActualStarName412"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName413"         Weight="1"/>
+     <Entry Tag="%ActualStarName414"         Weight="1"/>
+     <Entry Tag="%ActualStarName415"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName416"         Weight="1"/>
+     <Entry Tag="%ActualStarName417"         Weight="1"/>
+
+     <Entry Tag="%ActualStarName418"         Weight="1"/>
+     <Entry Tag="%ActualStarName420"         Weight="1"/>
+     <Entry Tag="%ActualStarName421"         Weight="1"/>
+     <Entry Tag="%ActualStarName422"         Weight="1"/>
+     <Entry Tag="%ActualStarName423"         Weight="1"/>
+     <Entry Tag="%ActualStarName424"         Weight="1"/>
+     <Entry Tag="%ActualStarName425"         Weight="1"/>
+     <Entry Tag="%ActualStarName426"         Weight="1"/>
+     <Entry Tag="%ActualStarName427"         Weight="1"/>
   </GalaxyGeneratorWeightTable>
 
 <!--Constellations-->
@@ -2172,10 +2218,11 @@
     <Entry Tag="%ConstellationConstellationName12"         Weight="1"/>
     <Entry Tag="%ConstellationConstellationName13"         Weight="1"/>
 <!--US States (you asked for this)-->
-    <Entry Tag="%USConstellationName1"          Weight="1"/>
-    <Entry Tag="%USConstellationName2"          Weight="1"/>
-    <Entry Tag="%USConstellationName3"          Weight="1"/>
-    <Entry Tag="%USConstellationName4"          Weight="1"/>
+    <Entry Tag="%USConstellationName1"         Weight="1"/>
+    <Entry Tag="%USConstellationName2"         Weight="1"/>
+    <Entry Tag="%USConstellationName3"         Weight="1"/>
+    <Entry Tag="%USConstellationName4"         Weight="1"/>
+
 <!--Misc-->
     <Entry Tag="%MiscConstellationName1"          Weight="1"/>
     <Entry Tag="%MiscConstellationName2"          Weight="1"/>
