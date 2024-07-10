@@ -685,7 +685,7 @@ CONFUSED: Craver researchers are intelligent. This was beneficial to you. Why?</
   <LocalizationPair Name="%MaximumSystemProductionStockDynamicTitle">Maximum System Production Stock percentage bonus</LocalizationPair>
 
   <LocalizationPair Name="%MaximumSystemProductionStockTitle">Maximum System [industrycolored] Industry Stock</LocalizationPair>
-  <LocalizationPair Name="%BonusFromOrbitalPlatformsTitle">[FIDS] from Orbital Platforms</LocalizationPair>
+  <LocalizationPair Name="%BonusFromOrbitalPlatformsTitle">[FIDS] from Orbital Platforms (Max 20%)</LocalizationPair>
 
   <!-- Bugfixes -->
   <LocalizationPair Name="%EmpireTypeMajorTitle">Major Faction</LocalizationPair>
