@@ -491,4 +491,5 @@
     <ItemDefinition Name="Impossible"/>
     <ItemDefinition Name="Endless"/>
   </WorldSettingDefinition>
+
 </Datatable>

@@ -3,7 +3,7 @@
   <GuiElement Name="AdvancedSettingsESGSettings">
     <Title>%AdvancedSettingsESGTitle</Title>
     <Icons>
-      <Icon Size="Large" Path="Bitmaps/Dynamic/Settings/SettingsGameplayNarrationLarge" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Settings/SettingsGameplayNarrationLarge"/>
     </Icons>
   </GuiElement>
 
