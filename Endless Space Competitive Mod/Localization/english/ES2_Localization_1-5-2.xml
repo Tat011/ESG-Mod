@@ -1054,4 +1054,18 @@ Faction Pact: -1% Hero Unlock Threshold per [turn] (Max: -30%)</LocalizationPair
   <LocalizationPair Name="%SettingGalaxyAgeRandomTitle">Random</LocalizationPair>
   <LocalizationPair Name="%SettingGalaxyAgeRandomDescription">The galaxy will have a random number of planets per system.</LocalizationPair>
 
+  <!-- Balanced Resource Gen -->
+  <LocalizationPair Name="%StrategicResourceGenerationQuest-Title">Strategic Resource Generation</LocalizationPair>
+  <LocalizationPair Name="%StrategicResourceGenerationQuest-Description">ESG Setting is enabled for balanced galaxy generation</LocalizationPair>
+  <LocalizationPair Name="%StrategicResourceGenerationQuest-ObjectiveTooltip">Strategic resources successfully generated!</LocalizationPair>
+  <LocalizationPair Name="%StrategicResourceGenerationQuest-Completed">Strategic resources successfully generated!</LocalizationPair>
+  <LocalizationPair Name="%StrategicResourceGenerationQuest-Failed">Strategic resource generation FAILED</LocalizationPair>
+  <LocalizationPair Name="%StrategicResourceGenerationQuest-Objective">Strategic resources generation</LocalizationPair>
+  <LocalizationPair Name="%LuxuryResourceGenerationQuest-Title">Luxury Resource Generation</LocalizationPair>
+  <LocalizationPair Name="%LuxuryResourceGenerationQuest-Description">ESG Setting is enabled for balanced galaxy generation</LocalizationPair>
+  <LocalizationPair Name="%LuxuryResourceGenerationQuest-ObjectiveTooltip">Luxury resources successfully generated!</LocalizationPair>
+  <LocalizationPair Name="%LuxuryResourceGenerationQuest-Completed">Luxury resources successfully generated!</LocalizationPair>
+  <LocalizationPair Name="%LuxuryResourceGenerationQuest-Failed">Luxury resource generation FAILED</LocalizationPair>
+  <LocalizationPair Name="%LuxuryResourceGenerationQuest-Objective">Luxury resources generation</LocalizationPair>
+
 </Datatable>
