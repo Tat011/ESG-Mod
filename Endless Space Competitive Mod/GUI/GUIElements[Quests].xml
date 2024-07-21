@@ -296,5 +296,48 @@
       </Step>
     </Steps>
   </QuestGuiElement>
+  
+	<!-- Resource Gen -->
+  <QuestGuiElement Name="StrategicResourceGenerationQuest">
+    <Title>%StrategicResourceGenerationQuest-Title</Title>
+    <Description>%StrategicResourceGenerationQuest-Description</Description>
+    <Icons>
+      <Icon Path="Bitmaps/Dynamic/Deeds/DeedWonder1Quest" Size="Quest"/>
+      <Icon Path="Bitmaps/Dynamic/Deeds/DeedWonder1Medium" Size="Medium"/>
+      <Icon Path="Bitmaps/Dynamic/Deeds/DeedWonder1MediumInverted" Size="MediumInverted"/>
+      <Icon Path="Bitmaps/Dynamic/Deeds/DeedWonder1Large" Size="Large"/>
+    </Icons>
+    <Steps>
+      <Step Name="Step1">
+        <ObjectiveSet>
+          <TooltipDescription>%StrategicResourceGenerationQuest-ObjectiveTooltip</TooltipDescription>
+          <OutcomeCompleted>%StrategicResourceGenerationQuest-Completed</OutcomeCompleted>
+          <OutcomeFailed>%StrategicResourceGenerationQuest-Failed</OutcomeFailed>
+          <Objective Name="Step1_Objective1">%StrategicResourceGenerationQuest-Objective</Objective>
+        </ObjectiveSet>
+      </Step>
+    </Steps>
+  </QuestGuiElement>
+  <QuestGuiElement Name="LuxuryResourceGenerationQuest">
+    <Title>%LuxuryResourceGenerationQuest-Title</Title>
+    <Description>%LuxuryResourceGenerationQuest-Description</Description>
+    <Icons>
+      <Icon Path="Bitmaps/Dynamic/Deeds/DeedWonder1Quest" Size="Quest"/>
+      <Icon Path="Bitmaps/Dynamic/Deeds/DeedWonder1Medium" Size="Medium"/>
+      <Icon Path="Bitmaps/Dynamic/Deeds/DeedWonder1MediumInverted" Size="MediumInverted"/>
+      <Icon Path="Bitmaps/Dynamic/Deeds/DeedWonder1Large" Size="Large"/>
+    </Icons>
+    <Steps>
+      <Step Name="Step1">
+        <ObjectiveSet>
+          <TooltipDescription>%LuxuryResourceGenerationQuest-ObjectiveTooltip</TooltipDescription>
+          <OutcomeCompleted>%LuxuryResourceGenerationQuest-Completed</OutcomeCompleted>
+          <OutcomeFailed>%LuxuryResourceGenerationQuest-Failed</OutcomeFailed>
+          <Objective Name="Step1_Objective1">%LuxuryResourceGenerationQuest-Objective</Objective>
+        </ObjectiveSet>
+      </Step>
+    </Steps>
+  </QuestGuiElement>
+
 
 </Datatable>

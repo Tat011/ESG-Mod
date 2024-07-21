@@ -189,6 +189,69 @@
 
   </FireIonWaveFleetAction>
 
+  <!-- Behemoth Specializations -->
+  <SpecializeJuggernautRetrofitShipAction Name="JuggernautSpecializationObliterator" ShipDesignName="Juggernauts_Obliterator" RequestedTurnsCount="2">
+    <EntityPrerequisites Location="Self">
+      <PathPrerequisite Flags="Discard">ShipRoleJuggernaut</PathPrerequisite>
+      <PathPrerequisite Inverted="true" Flags="EncounterInProgress">../FleetActionAttack</PathPrerequisite>
+      <PathPrerequisite Inverted="true" Flags="FleetIsBusy">../FleetActionGroundBattle</PathPrerequisite>
+      <PathPrerequisite Inverted="true" Flags="SpecializationInProgress">ShipActionSpecializing</PathPrerequisite>
+      <PathPrerequisite Inverted="true" Flags="IsCollectingRelics">FleetActionCollectingRelics</PathPrerequisite>
+    </EntityPrerequisites>
+    <EntityModifiers Location="Self">
+      <SimulationAlteration DescriptorReference="ShipStateLockedInGarrison"/>
+      <SimulationAlteration DescriptorReference="ShipActionSpecializing"/>
+    </EntityModifiers>
+    <CustomCost Instant="true" ResourceName="EmpireMoney">1600 * Pow(Property(Context, @'../ClassEmpire', DustInflation),0.33) * Property(Context, @'../ClassEmpire', ObliteratorConstructionCostMultiplier)</CustomCost>
+    <CustomCost Instant="true" ResourceName="Strategic1">50 * Property(Context, @'../ClassEmpire', ObliteratorConstructionCostMultiplier)</CustomCost>
+    <CustomCost Instant="true" ResourceName="Strategic2">50 * Property(Context, @'../ClassEmpire', ObliteratorConstructionCostMultiplier)</CustomCost>
+    <CustomCost Instant="true" ResourceName="Strategic3">50 * Property(Context, @'../ClassEmpire', ObliteratorConstructionCostMultiplier)</CustomCost>
+    <CustomCost Instant="true" ResourceName="Strategic4">50 * Property(Context, @'../ClassEmpire', ObliteratorConstructionCostMultiplier)</CustomCost>
+    <GameSettingPrerequisite Flags="Prerequisite,Discard,NoSuperWeaponsAllowed">AllowSuperWeapons,True</GameSettingPrerequisite>
+    <TechnologyPrerequisite Flags="Prerequisite,Technology">TechnologyJuggernautObliteratorSpecialization</TechnologyPrerequisite>
+    <SystemInterpreterPrerequisite Flags="RequiresSpaceport">Property(Context,SystemLevel) ge 2</SystemInterpreterPrerequisite>
+  </SpecializeJuggernautRetrofitShipAction>
+  <SpecializeJuggernautRetrofitShipAction Name="JuggernautSpecializationBattleship" ShipDesignName="Juggernauts_Battleship" RequestedTurnsCount="2">
+    <EntityPrerequisites Location="Self">
+      <PathPrerequisite Flags="Discard">ShipRoleJuggernaut</PathPrerequisite>
+      <PathPrerequisite Inverted="true" Flags="EncounterInProgress">../FleetActionAttack</PathPrerequisite>
+      <PathPrerequisite Inverted="true" Flags="FleetIsBusy">../FleetActionGroundBattle</PathPrerequisite>
+      <PathPrerequisite Inverted="true" Flags="SpecializationInProgress">ShipActionSpecializing</PathPrerequisite>
+      <PathPrerequisite Inverted="true" Flags="IsCollectingRelics">FleetActionCollectingRelics</PathPrerequisite>
+    </EntityPrerequisites>
+    <EntityModifiers Location="Self">
+      <SimulationAlteration DescriptorReference="ShipStateLockedInGarrison"/>
+      <SimulationAlteration DescriptorReference="ShipActionSpecializing"/>
+    </EntityModifiers>
+    <CustomCost Instant="true" ResourceName="EmpireMoney">1200 * Pow(Property(Context, @'../ClassEmpire', DustInflation),0.33)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic1">15</Cost>
+    <Cost Instant="true" ResourceName="Strategic2">15</Cost>
+    <TechnologyPrerequisite Flags="Prerequisite,Technology">TechnologyJuggernautBattleshipSpecialization</TechnologyPrerequisite>
+    <SystemInterpreterPrerequisite Flags="RequiresSpaceport">Property(Context,SystemLevel) ge 2</SystemInterpreterPrerequisite>
+  </SpecializeJuggernautRetrofitShipAction>
+  <SpecializeJuggernautCitadelShipAction Name="JuggernautSpecializationCitadel" RequestedTurnsCount="2" SilentRecovery="true" CitadelDefinitionName="Citadel1">
+    <EntityPrerequisites Location="Self">
+      <PathPrerequisite Flags="Discard">ShipRoleJuggernaut</PathPrerequisite>
+      <PathPrerequisite Inverted="true" Flags="EncounterInProgress">../FleetActionAttack</PathPrerequisite>
+      <PathPrerequisite Inverted="true" Flags="FleetIsBusy">../FleetActionGroundBattle</PathPrerequisite>
+      <PathPrerequisite Inverted="true" Flags="SpecializationInProgress">ShipActionSpecializing</PathPrerequisite>
+      <PathPrerequisite Inverted="true" Flags="IsCollectingRelics">FleetActionCollectingRelics</PathPrerequisite>
+    </EntityPrerequisites>
+    <EntityModifiers Location="Self">
+      <SimulationAlteration DescriptorReference="ShipStateLockedInGarrison"/>
+      <SimulationAlteration DescriptorReference="ShipActionSpecializing"/>
+      <SimulationAlteration DescriptorReference="ShipActionSpecializingCitadel"/>
+    </EntityModifiers>
+    <CustomCost Instant="true" ResourceName="EmpireMoney">800 * Pow(Property(Context, @'../ClassEmpire', DustInflation),0.33)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic1">30</Cost>
+    <Cost Instant="true" ResourceName="Strategic2">30</Cost>
+    <Cost Instant="true" ResourceName="EmpireManpower">600</Cost>
+    <TechnologyPrerequisite Flags="Prerequisite,Technology">TechnologyJuggernautCitadelSpecialization</TechnologyPrerequisite>
+    <SystemInterpreterPrerequisite Flags="RequiresSpaceport">Property(Context,SystemLevel) ge 2</SystemInterpreterPrerequisite>
+    <SystemPathPrerequisite Flags="AlreadyHasACitadel" Inverted="true">ClassColonizedStarSystem/ClassCitadel</SystemPathPrerequisite>
+    <SystemPathPrerequisite Flags="AlreadyHasACitadel" Inverted="true">ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipActionSpecializingCitadel</SystemPathPrerequisite>
+  </SpecializeJuggernautCitadelShipAction>
+
   <!-- Cloaking -->
   <InvisibilityFleetAction Name="InvisibilityFleetAction">
     <EntityPrerequisites Location="Self">
@@ -454,7 +517,7 @@
     <MinorEmpireInterpreterPrerequisite Flags="NoPopulationOnSystem">Property(Context, @'ClassEmpire/ClassColonizedStarSystem,MinorHomeSystem',Population,true) gt 1</MinorEmpireInterpreterPrerequisite>
     <PopulationEventOnSelf>PopulationPoliticalEventMinorMigrationAction</PopulationEventOnSelf>
   </EmpireDiplomaticMigrationAction>
-    
+
   <!--Manpower-->
   <EmpireDiplomacyGiveResourcesAction Name="EmpireDiplomaticManpowerAction" PopulationToDestroyCount="1">
     <PathPrerequisite Flags="Prerequisite,Discard">ClassEmpire,!AffinityVampirilis</PathPrerequisite>
@@ -531,7 +594,7 @@
     <PopulationEventOnSelf>PopulationPoliticalEventMinorWarDeclared</PopulationEventOnSelf>
     <ScoreProviderEventOnSelf>MinorEmpireWarDeclared</ScoreProviderEventOnSelf>
   </EmpireDiplomaticAction>
-  
+
   <!-- Diplomacy -->
   <!-- DEPRECATED DONT DELETE -->
   <!-- Sophon Quest Bribe -->
