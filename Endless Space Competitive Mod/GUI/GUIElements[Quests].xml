@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
 
+<!--Hero xp vs approval quest-->
+    <QuestGuiElement Name="EventRandom08Bis">
+        <Title>%EventRandom08Title</Title>
+        <Description>%EventRandom08Description</Description>
+        <Icons>
+            <Icon Path="Bitmaps/Dynamic/NarrativeEvents/EventRandom08Large" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Name="Step2_1" Politics="Politics04">
+                    <Title>%EventRandom08Choice01Title</Title>
+                    <Description>%EventRandom08Choice01Description</Description>
+                    <Objective Name="Step1_Objective1">%TestChoiceEvent-Step2_1_Objective</Objective>
+                </ObjectiveSet>
+                <ObjectiveSet Name="Step2_2" Politics="Politics06">
+                    <Title>%EventRandom08Choice02Title</Title>
+                    <Description>%EventRandom08Choice02Description</Description>
+                    <Objective Name="Step2_Objective1">%TestChoiceEvent-Step2_1_Objective</Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
   <!--SOPHON QUEST CHAPTER 2.1 - Military -->
   <!--GUI elements fixed for Sophons 2.1-2.2.2-3 are fixed by changing the quest step localization elements. Issue #249-->
-  
   <QuestGuiElement Name="SophonsQuest-Chapter2.1-Military">
     <Title>%SophonsQuest-Chapter2.1-Military-Title</Title>
     <Description>%SophonsQuest-Chapter2.1-Military-Description</Description>
