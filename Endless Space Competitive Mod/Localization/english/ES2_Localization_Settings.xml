@@ -239,6 +239,8 @@
   <LocalizationPair Name="%SettingGalaxyDensity1.4Description">Sets the number of Systems to be 40% higher then default</LocalizationPair>
  
 <!--Wormhole Ammount-->
+  <LocalizationPair Name="%WormholeAmmountTitle">Wormhole Ammount</LocalizationPair>
+  <LocalizationPair Name="%WormholeAmmountDescription">Sets the maximum ammount of wormholes that spawns between individual constelations</LocalizationPair>
   <LocalizationPair Name="%SettingWormholeAmmountNoneTitle">None</LocalizationPair>
   <LocalizationPair Name="%SettingWormholeAmmountNoneDescription">There won't be any wormholes</LocalizationPair>
   <LocalizationPair Name="%SettingWormholeAmmount1Title">1</LocalizationPair>
