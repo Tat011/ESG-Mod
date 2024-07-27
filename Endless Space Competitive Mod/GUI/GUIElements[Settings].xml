@@ -7,6 +7,12 @@
     </Icons>
   </GuiElement>
 
+<!--Wormhole Ammount-->
+      <GuiElement Name="WormholeAmmount">
+        <Title>%WormholeAmmountTitle</Title>
+        <Description>%WormholeAmmountDescription</Description>
+    </GuiElement>
+
   <!--Random events rarity-->
       <GuiElement Name="SettingRandomEventsRarity0.25">
         <Title>%SettingRandomEventsRarity0.25Title</Title>
