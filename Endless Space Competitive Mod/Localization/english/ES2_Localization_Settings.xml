@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/LocalizationPair.xsd">
+  <!--Random events rarity-->
+  <LocalizationPair Name="%SettingRandomEventsRarity0.25Title">25%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity0.25Description">Events will be 75% rarer</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity0.5Title">50%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity0.5Description">Events will be 50% rarer</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity0.75Title">75%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity0.75Description">Events will be 25% rarer</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity1Title">100%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity1Description">Events will be the default rarity</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity1.25Title">125%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity1.25Description">Events will be 125% more common</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity1.5Title">150%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity1.5Description">Events will be 150% more common</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity1.75Title">125%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity1.75Description">Events will be 125% more common</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity2Title">100%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity2Description">Events will be 200% more common</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity2.25Title">225%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity2.25Description">Events will be 225% more common</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity2.5Title">250%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity2.5Description">Events will be 250% more common</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity2.75Title">275%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity2.75Description">Events will be 275% more common</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity3Title">300%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity3Description">Events will be 300% more common</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity3.25Title">325%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity3.25Description">Events will be 325% more common</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity3.5Title">350%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity3.5Description">Events will be 350% more common</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity3.75Title">375%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity3.75Description">Events will be 275% more common</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity4Title">400%</LocalizationPair>
+  <LocalizationPair Name="%SettingRandomEventsRarity4Description">Events will be 400% more common</LocalizationPair>
 
 <!--Luxury Type Quantities-->
   <LocalizationPair Name="%SettingLuxuryTypesTitle">Luxury Type Quantity</LocalizationPair>
