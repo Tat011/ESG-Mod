@@ -242,6 +242,8 @@
   <LocalizationPair Name="%SettingMinorFactionsQuantity2.75Description">The game will try to generate 275% of the Normal number of minor factions.</LocalizationPair>
   <LocalizationPair Name="%SettingMinorFactionsQuantity3.25Title">3.25x</LocalizationPair>
   <LocalizationPair Name="%SettingMinorFactionsQuantity3.25Description">The game will try to generate 325% of the Normal number of minor factions.</LocalizationPair>
+  <LocalizationPair Name="%SettingMinorFactionsQuantity3.5Title">3.5x</LocalizationPair>
+  <LocalizationPair Name="%SettingMinorFactionsQuantity3.5Description">The game will try to generate 350% of the Normal number of minor factions.</LocalizationPair>
   <LocalizationPair Name="%SettingMinorFactionsQuantity3.75Title">3.75x</LocalizationPair>
   <LocalizationPair Name="%SettingMinorFactionsQuantity3.75Description">The game will try to generate 325% of the Normal number of minor factions.</LocalizationPair>
   <LocalizationPair Name="%SettingMinorFactionsQuantity4Title">4x</LocalizationPair>
