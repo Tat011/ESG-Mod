@@ -64,8 +64,8 @@
     </GuiElement>
 
     <GuiElement Name="SettingRandomEventsRarity3">
-        <Title>%SettingRandomEventsRarity2Title</Title>
-        <Description>%SettingRandomEventsRarity2Description</Description>
+        <Title>%SettingRandomEventsRarity3Title</Title>
+        <Description>%SettingRandomEventsRarity3Description</Description>
     </GuiElement>
 
       <GuiElement Name="SettingRandomEventsRarity3.25">
