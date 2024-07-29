@@ -2,7 +2,6 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PaletteChroma.xsd">
 <PaletteChroma Name="Standard">
 <!--Vanilla palettes Standard-->
-  <ColorReference Name="MarineBlue">
 		<ColorReference Name="MarineBlue">
 			<Color Red="30" Green="110" Blue="200" Alpha="255"/>
 		</ColorReference>
